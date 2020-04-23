@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,40 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/myscript.js"></script>
 </head>
+
 <body>
 
-    <main>
-        <header> <h1>Kathy Clark Craig</h1>
+
+    <header>
         <img src="images/KCCprofilepic.jpg" alt="profile photo">
-        </header>
-        <section id=midSection">
+        <h1>Kathy Clark Craig</h1>
+
+    </header>
+    <main>
+        <section>
             <div class="midSection">
-            <h2>WDD 230: Assignment Portal</h2>
-            <hr>
-            <nav>
-                <ul>
-                    <ul>Lesson 02: <a href="#">Assignment Link</a></ul>
-                    <ul>Lesson 03: <a href="#">Assignment Link</a></ul>
-                    <ul>Lesson 04: <a href="#">Link</a>|<a href="#">Link</a></ul>
-                </ul>
-            </nav>
-        </div>
-    </section>
+                <h2>WDD 230: Assignment Portal</h2>
+
+                <nav>
+                    <ul>
+                        <ul>Lesson 02: <a href="#">Assignment Link</a></ul>
+                        <ul>Lesson 03: <a href="#">Assignment Link</a></ul>
+                        <ul>Lesson 04: <a href="#">Link</a>|<a href="#">Link</a></ul>
+                    </ul>
+                </nav>
+            </div>
+        </section>
     </main>
     <footer>
 
-        <p>&copy;Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-       <script> 
-       function lastmod() {
-       var x = document.lastModified;
-       document.getElementById("updatebox").innerHTML = x;
-       }
-    </script>
-        <div>Last Updated: <span id="updatebox"></span></div>
-
-        <p>&copy 2020 | Kathleen Clark Craig | South Carolina | <a href="https://www.byui.edu/online">BYUI Online
+        <p>&copy;Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
                 Learning</a></p>
-        <p>Last Updated: <script src="lastupdate()"></script</p>
-
-        <p>&copy;Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-       
-        <div>Last Updated: <span id="updateBox"></span></div>
+        <div>Last Updated: <span id="updatebox"></span></div>
+        <script>
+            document.getElementById("updatebox").textContent = document.lastModified;
+        </script>
 
     </footer>
 </body>
+
 </html>
