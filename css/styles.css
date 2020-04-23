@@ -1,13 +1,13 @@
-
-
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:#f2f1b6;
+    background-color: #f2f1b6;
 
 
 }
 
-header,main,footer {
+header,
+main,
+footer {
     margin: 0 auto;
     max-width: 920px;
 }
@@ -21,20 +21,24 @@ header {
     font-family: 'Pacifico', cursive;
 
 }
+
 h1 {
     font-size: 3em;
 }
+
 h2 {
     border-bottom: 5px solid #373F9E;
 
 }
+
 header img {
     float: right;
     margin: 10px;
 
 }
+
 .midSection {
-background-color: #f2f1b6;
+    background-color: #f2f1b6;
     margin-left: 10px;
     margin-right: 5px;
     color: #373F9E;
