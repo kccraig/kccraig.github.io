@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(221, 221, 213, 0.489);
-    
-  
+    font-family: 'Poppins', sans-serif;
+    background-color:#f2f1b6;
+
+
 }
-header, main, footer {
+
+header,main,footer {
     margin: 0 auto;
     max-width: 920px;
 }
+
 header {
     background-color: #373F9E;
     color: #FFFFFF;
@@ -17,21 +19,27 @@ header {
     padding: 10px;
     border-radius: 15px;
     font-family: 'Pacifico', cursive;
-    
+
+}
+h1 {
+    font-size: 3em;
 }
 h2 {
-    border-bottom: 1px solid #000000;
+    border-bottom: 5px solid #373F9E;
+
 }
 header img {
-     float: right;
-     margin: 10px;
-    
+    float: right;
+    margin: 10px;
+
 }
 .midSection {
-    font-family: "Lucida Console", Monaco, monospace;
+background-color: #f2f1b6;
     margin-left: 10px;
     margin-right: 5px;
+    color: #373F9E;
 }
+
 footer {
     background-color: #373F9E;
     color: #FFFFFF;
@@ -40,6 +48,7 @@ footer {
     border-radius: 15px;
 
 }
+
 footer a {
     color: white;
 }
