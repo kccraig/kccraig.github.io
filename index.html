@@ -9,11 +9,11 @@
         <title>Assignment Portal</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
-        <script src="js/myscript.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
-    <body>
+    <body onload="lastupdate()">
         <header>
-            <img src="images/KCCprofilepic.jpg" alt="profile photo">
+            <img src="images/kccpic.jpg" alt="profile photo">
             <h1>Kathy Clark Craig</h1>
         </header>
         <main>
@@ -36,9 +36,6 @@
             <p>&copy;Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
                     Learning</a><br>
             <span id="yellow">Last Updated: <span id="updatebox"></span></span></p>
-            <script>
-                document.getElementById("updatebox").textContent = document.lastModified;
-            </script>
         </footer>
     </body>
 
