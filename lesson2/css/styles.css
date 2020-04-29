@@ -3,6 +3,9 @@ body {
 }
 .gridbox {
     border: 2px solid white;
+   width: 1fr;
+}
+.gridcontainer {
     display: grid;
-   width: 1fr; 
+    width: 90%;
 }
