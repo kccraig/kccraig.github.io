@@ -1,6 +1,11 @@
 body {
     background-color: red;
 }
+@media only screen and 
+(min-width: 500px) {
+
+
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -13,4 +18,5 @@ main section {
     text-align: center;
     padding: 5px;
 
+}
 }
