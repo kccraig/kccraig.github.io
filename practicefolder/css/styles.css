@@ -1,4 +1,16 @@
 body {
     background-color: red;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: thistle;
+}
+main section {
+    background: yellow;
+    border: 2px solid white;
+   margin: 5px;
+    text-align: center;
+    padding: 5px;
 
+}
