@@ -4,4 +4,8 @@ color: #ffffff;
 }
 .gridcontainer {
     background-color: yellow;
+    display: grid;
+}
+.gridbox {
+grid-template-columns: 1fr 1fr 1fr;
 }
