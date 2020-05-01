@@ -24,3 +24,8 @@ footer {
 img {
     width: 75%;
 }
+.parasettings {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 1.5em;
+}
