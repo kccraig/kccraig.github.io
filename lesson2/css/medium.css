@@ -1,8 +1,15 @@
 
-@media (mind-width: 32.5em {
+@media (min-width: 32.5em) {
 
 body {
     background-color: yellowgreen;
 }
+
+.gridcontainer {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
 
 }
