@@ -1,11 +1,3 @@
-
-@media (max-width: 
-
-h1 {
-background-color: #3e8733;
-color: #ffffff;
-}
-.gridcontainer {
+body {
 background-color: thistle;
-}
 }
