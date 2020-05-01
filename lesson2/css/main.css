@@ -1,12 +1,15 @@
 body {
-    background-color: #e6e3cc;
+    background-color: #967051;
     font-family: 'Cabin', sans-serif;  
+    color: white;
     
 }
 header {
     text-align: center;
-    background-color:#e6cccc;
+   
+    background-color: #db7782;
     padding: 5px;
+    color: white;
 }
 header h2 {
     font-family: 'Abril Fatface', cursive;
@@ -17,13 +20,14 @@ header h2 {
 } 
 .gridbox {
     text-align: center;
-    background-color: palevioletred;
+    
+    background-color:#3a6658    ;
     margin: 5px;
     padding: 5px;
 }
 footer {
     text-align: center;
-    background-color:#e6cccc;
+    background-color:#db7782;
     color: #ffffff;
     padding: 10px;
 }
@@ -34,6 +38,7 @@ img {
     background-color: #ffffff;
     padding: 10px;
     font-size: 1.5em;
+    color: #2d5147;
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
