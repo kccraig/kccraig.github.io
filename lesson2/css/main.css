@@ -2,12 +2,19 @@ body {
     background-color: palegoldenrod;
     font-family: 'Josefin Sans', sans-serif;      
 }
+header {
+    text-align: center;
+}
+
 .gridcontainer {
 
 } 
 .gridbox {
     text-align: center;
     background-color: palevioletred;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
+}
+footer {
+    text-align: center;
 }
