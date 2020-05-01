@@ -1,9 +1,12 @@
 body {
-    background-color: palegoldenrod;
-    font-family: 'Josefin Sans', sans-serif;      
+    background-color: #e6e3cc;
+    font-family: 'Josefin Sans', sans-serif;  
+    
 }
 header {
     text-align: center;
+    background-color:#e6cccc;
+    padding: 5px;
 }
 
 .gridcontainer {
