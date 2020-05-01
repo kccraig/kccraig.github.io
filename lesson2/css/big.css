@@ -3,6 +3,11 @@
     body {
         background-color: yellow;
     }
-
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+        
+        }
 
 }

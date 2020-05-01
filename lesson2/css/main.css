@@ -24,6 +24,7 @@ header h2 {
     background-color:#3a6658    ;
     margin: 5px;
     padding: 5px;
+    border-radius: 25px;
 }
 footer {
     text-align: center;
