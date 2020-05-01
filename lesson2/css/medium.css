@@ -1,0 +1,8 @@
+/* medium ipad size*/
+@media (min-width: 32.5em) {
+.gridcontainer {
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
