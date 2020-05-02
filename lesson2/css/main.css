@@ -23,6 +23,7 @@ header h2 {
     font-family: 'Abril Fatface', cursive;
 }
 
+
 .gridbox {
     text-align: center;
     background-color:#E7E5D9;
@@ -63,8 +64,6 @@ a:link {
 }
 a:hover {
 color: #D68A7D;
-
-
 }
 
 
