@@ -7,7 +7,7 @@ green #2d5147
 
 body {
     background-color: #FFFEFC;
-    font-family: 'Cabin', sans-serif;  
+    font-family: 'Poppins', sans-serif;  
     color: #859399;
     
 }
@@ -55,7 +55,7 @@ h1 {
 
 }
 h2 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a:link {
     color:blue;
