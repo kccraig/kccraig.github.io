@@ -1,6 +1,7 @@
 /*
 grey #859399
-
+pink #972255
+green #2d5147
 */
 
 
@@ -13,7 +14,7 @@ body {
 header {
     text-align: center;
     letter-spacing: 3px;
-    background-color: #2d5147;
+    background-color: #972255;
     padding: 5px;
     color: white;
     border-radius: 10px;
@@ -29,11 +30,11 @@ header h2 {
     padding: 5px;
     border-radius: 10px;
     border: 1px solid #972255;
-    color: #972255;
+    color: #2d5147;
 }
 footer {
     text-align: center;
-    background-color:#2d5147;
+    background-color:#972255;
     color: white;
     padding: 10px;
     border-radius: 10px;
