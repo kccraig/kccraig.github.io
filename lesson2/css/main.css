@@ -1,5 +1,5 @@
 body {
-    background-color: #967051;
+    background-color: #FFFA56;
     font-family: 'Cabin', sans-serif;  
     color: white;
     
@@ -7,9 +7,9 @@ body {
 header {
     text-align: center;
     letter-spacing: 3px;
-    background-color: #db7782;
+    background-color: #B31B2A;
     padding: 5px;
-    color: #3a6658;
+    color: white;
     border-radius: 10px;
 }
 header h2 {
