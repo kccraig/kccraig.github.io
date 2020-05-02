@@ -8,7 +8,7 @@ green #2d5147
 body {
     background-color: #FFFEFC;
     font-family: 'Poppins', sans-serif;  
-    color: #859399;
+   
     
 }
 header {
@@ -67,8 +67,9 @@ color: #aa1e32;
 }
 .notop {
 margin: 0px;
-background-color: yellow;
+background-color:#2d5147;
 padding: 10px;
+color: white;
 }
 
 

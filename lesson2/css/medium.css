@@ -1,9 +1,7 @@
 
 @media (min-width: 32.5em) {
 
-body {
-    background-color: yellowgreen;
-}
+
 
 .gridcontainer {
 display: grid;
