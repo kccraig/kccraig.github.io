@@ -7,3 +7,8 @@ function getyear() {
     var y = x.getFullYear();
     document.getElementById("yearbox").innerHTML = y;
 }
+function getyear() {
+        var x = new Date();
+        var y = d.getFullYear();
+        document.getElementById("yearbox").innerHTML = x;
+}
