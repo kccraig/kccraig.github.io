@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/styles.css" type="text/css">
         <script src="js/scripts.js"></script>
     </head>
-    <body onload="lastupdate()">
+    <body onload="wrapper()">
         <header>
             <img src="images/kccpic.jpg" alt="author profile photo">
             <h1>Kathy Clark Craig</h1>
@@ -33,7 +33,7 @@
             </section>
         </main>
         <footer>
-            <p>&copy;Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+            <p>&copy;<span id="currentyear"></span>Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
                     Learning</a><br></p>
                     <p id="yellow">Last Updated: <span id="updatebox"></span></p>
         </footer>
