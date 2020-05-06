@@ -1,3 +1,19 @@
+/*Decorative for titles
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+*/
+/* Serif for the wording
+Quando is nice, try that first
+font-family: 'Taviraj', serif;
+font-family: 'Neuton', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Vollkorn', serif;
+font-family: 'Quando', serif;
+*/
+
+
 body {
 background-color: #70b3e6;
 }
@@ -8,5 +24,5 @@ nav li {
     background-color: tomato;
     border: 2px solid yellow;
     padding: 10px;
-    
+
 }
