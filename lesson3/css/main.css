@@ -23,26 +23,34 @@ font-family: 'Quando', serif;
 body {
 background-color: #70b3e6;
 font-family: 'Quando', serif;
-}
-.flexbox {
-    display: flex;
-}
-nav li {
-    background-color: tomato;
-    border: 2px solid yellow;
-    padding: 10px;
+margin: 50px;
 
+}
+header {
+
+}
+nav {
+
+}
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+      
+}
+li {
+    display: inline;
 }
 h1 {
     font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 3em;
+   
 }
 h2 {
     font-family: 'Merriweather', serif;
 }
 main {
-text-align: left;
-margin: 50px;
-}
-li {
-    text-decoration: none;
+    text-align: left;
+   
 }
