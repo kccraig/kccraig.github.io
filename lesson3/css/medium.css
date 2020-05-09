@@ -1,9 +1,10 @@
 @media (min-width: 32.5em) {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        display: flex; 
-        background-color: #f29c50;
-        text-align: center;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: block; 
+    background-color: #f29c50;
+    text-align: center;
 }
 }

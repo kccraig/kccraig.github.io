@@ -46,11 +46,11 @@ nav a {
     text-decoration: none;
 }
 ul {
-        list-style-type: none;
-        margin: 0;
-        display: block; 
-        background-color: #f29c50;
-        text-align: center;
+    list-style-type: none;
+    margin: 0;
+    display: flex; 
+    background-color: #f29c50;
+    text-align: center;
 }
 h1 {
     font-family: 'Love Ya Like A Sister', cursive;
