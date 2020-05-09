@@ -45,10 +45,11 @@ nav {
 nav a {
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
-    display: flex; 
+    display: block; 
     background-color: #f29c50;
     text-align: center;
 }
