@@ -2,12 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Love+Ya+Like+A+Sister|Luckiest+Guy|Special+Elite&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/main.css">
-        <title>Typography</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This site is to talk about the weather">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Love+Ya+Like+A+Sister|Luckiest+Guy|Special+Elite&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Potatoland Weather</title>
     </head>
     <header>
         <!--logo, site title, site motto, and current conditions in some views.-->
@@ -22,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <body>
+    <body onload="wrapper()">
         <main>
             <h1>I'm using "love ya like a sister" font for my h1 headers. 
                 It may seem playful but it matches the mood of my site. 
@@ -32,5 +34,10 @@
             <h2>This is an h2 and the font is called Merriweather. That seems appropriate.</h2>
             <p>This is my paragraph font. It's called Quando and is a Google font.</p>
         </main>
+        <footer>
+            <p>&copy;<span id="currentyear"></span>Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+                    Learning</a><br></p>
+                    <p id="yellow">Last Updated: <span id="updatebox"></span></p>
+        </footer>
     </body>
 </html>
