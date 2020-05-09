@@ -1,7 +1,5 @@
 /*Decorative for titles
-font-family: 'Luckiest Guy', cursive;
-font-family: 'Special Elite', cursive;
-font-family: 'Bowlby One SC', cursive;
+
 font-family: 'Love Ya Like A Sister', cursive;
 <style>
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC|Love+Ya+Like+A+Sister|Luckiest+Guy|Special+Elite&display=swap');
@@ -9,10 +7,7 @@ font-family: 'Love Ya Like A Sister', cursive;
 */
 /* Serif for the wording
 Quando is nice, try that first
-font-family: 'Taviraj', serif;
-font-family: 'Neuton', serif;
 font-family: 'Merriweather', serif;
-font-family: 'Vollkorn', serif;
 font-family: 'Quando', serif;
 <style>
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap');
