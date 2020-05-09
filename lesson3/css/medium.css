@@ -10,5 +10,6 @@
 li {
     padding: 20px;
 }
-
+#colors img {
+    width: 100%;
 }
