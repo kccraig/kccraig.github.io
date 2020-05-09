@@ -2,8 +2,8 @@
     ul {
         list-style-type: none;
         margin: 0;
-        display:block;
+        display: flex; 
         background-color: #f29c50;
         text-align: center;
-    }
+}
 }
