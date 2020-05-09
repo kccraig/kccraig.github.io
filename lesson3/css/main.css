@@ -78,4 +78,8 @@ margin: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+
+}
+#colors img {
+    width: 50%;
 }
