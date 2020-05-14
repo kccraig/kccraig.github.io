@@ -9,3 +9,10 @@ background-position: center center;
 background-attachment: fixed;
 background-size: cover;
 }
+nav ul {
+    display: inline;
+}
+
+footer {
+background-color: white;
+}
