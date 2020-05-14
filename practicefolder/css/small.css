@@ -38,7 +38,11 @@ background-color: rgba(0, 0, 0, .4);
 
 }
 
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
