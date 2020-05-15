@@ -34,17 +34,9 @@ darkest grey #0d0d0d
 
 }
 body {
-background-color: #7fafd7;
-
-
+    background-color: #a98363;
 }
-nav ul {
-    
-}
-nav ul li {
-    display:flex;
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
 }
 
-footer {
-background-color: white;
-}
