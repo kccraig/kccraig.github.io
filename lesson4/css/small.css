@@ -1,16 +1,20 @@
+
+
+/* -----PRESTON SMALL CSS PAGE---- */
+
+
 .topbackground {
 
 }
 body {
 background-color: #7fafd7;
-background-image: url(images/preston/IMG_7214.jpeg);
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
+
 }
 nav ul {
-    display: inline;
+    
+}
+nav ul li {
+    display:flex;
 }
 
 footer {
