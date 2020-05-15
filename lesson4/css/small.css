@@ -34,6 +34,8 @@ darkest grey #0d0d0d
 body {
     background-color: #a98363;
     font-family: 'Quando', serif;
+    padding: 0em;
+    margin: 0;
 
 }
 h1 {
@@ -44,7 +46,7 @@ h1 {
 }
 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 0em;
+    font-size: 1em;
 
 }
 header {
@@ -59,4 +61,8 @@ header img {
 }
 nav {
     background-color: ;
-
+}
+.playtogether {
+display: flex;
+flex-direction: column;
+}
