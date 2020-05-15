@@ -70,11 +70,9 @@ flex-direction: column;
 }
 nav {
     display: flex;
-    
+
     justify-content: center;
    
-    
-    
 }
 nav ul {
     list-style: none;
@@ -82,3 +80,4 @@ nav ul {
 }
 nav ul li {
     justify-content: center;
+}
