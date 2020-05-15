@@ -69,6 +69,7 @@ main {
 footer {
 background-color: #bf612a;
 text-align: center;
+padding: 5px;
 }
 li {
 padding: 10px;
