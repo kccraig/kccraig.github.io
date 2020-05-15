@@ -43,16 +43,19 @@ h1 {
 }
 h2 {
     font-family: 'Merriweather', serif;
+    font-size: 0em;
+
 }
 header {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin: auto;
 
 }
 header img {
-height: 50%;
+    height: 50%;
 }
-.fulllogo {
-    display: flex;
-}
+nav {
+    background-color: ;
+
