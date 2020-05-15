@@ -30,13 +30,29 @@ darkest grey #0d0d0d
 /* -----PRESTON SMALL CSS PAGE---- */
 
 
-.topbackground {
 
-}
 body {
     background-color: #a98363;
+    font-family: 'Quando', serif;
+
 }
 h1 {
     font-family: 'Love Ya Like A Sister', cursive;
-}
+   
 
+}
+h2 {
+    font-family: 'Merriweather', serif;
+}
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+header img {
+height: 50%;
+}
+.fulllogo {
+    display: flex;
+}

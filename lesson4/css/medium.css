@@ -6,4 +6,11 @@
 body {
     background-color: lightblue;
 }
+
+header {
+    display: flex;
+}
+
+
+
 }
