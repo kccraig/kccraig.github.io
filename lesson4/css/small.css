@@ -40,29 +40,46 @@ body {
 }
 h1 {
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 2em;
    
+   margin-bottom: 0px;
 
 }
-h2 {
+header h2 {
     font-family: 'Merriweather', serif;
     font-size: 1em;
+    margin-top: 0;
 
 }
-header {
+/* header {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: auto;
-
+    background-color: #7fa663;
+} */
+header {
+    justify-content: center;
+    background-color: #7fa663;
 }
 header img {
     height: 50%;
+    align-content: center;
 }
-nav {
-    background-color: ;
-}
+
 .playtogether {
 display: flex;
 flex-direction: column;
 }
+nav {
+    display: flex;
+    
+    justify-content: center;
+   
+    
+    
+}
+nav ul {
+    list-style: none;
+    flex-direction: column;
+}
+nav ul li {
+    justify-content: center;
