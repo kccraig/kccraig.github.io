@@ -2,10 +2,7 @@
 /* ------PRESTON LARGE CSS----------- */
 
 @media only screen and (min-width: 64rem) {
-    body {
-        background-color: greenyellow;
-        }
-        
+     
         nav button {
             display: none;
         }
@@ -24,5 +21,7 @@
         nav ul.hide{
             display: block;
         }
-        
+       .clouds {
+
+       }
     }

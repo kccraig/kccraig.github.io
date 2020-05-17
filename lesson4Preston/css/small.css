@@ -74,6 +74,7 @@ header {
 .cloudheader {
 display: flex;
 }
+
 nav {
 	background-color: #f39c4d;
 	align-items: center;
