@@ -1,38 +1,58 @@
-
-<!-- ------------PRESTON INDEX---------- -->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/scripts.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap" rel="stylesheet">
-        <title>Preston</title>
-    </head>
-    <body onload="wrapper()">
-        <header>
-            <h1>Preston Idaho</h1>
-            <nav>
-                <ul>
-                    <li>&#9776</li>
-                    <li>Home</li>
-                    <li>Preston</li>
-                    <li>Soda Springs</li>
-                    <li>Fish Haven</li>
-                    <li>Storm Center</li>
-                    <li>Gallery</li>
-                </ul>
-            </nav>            
-        </header>
-        <footer>
-                <p>&copy;<span id="currentyear"></span>Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
-                        Learning</a><br></p>
-                <p id="yellow">Last Updated: <span id="updatebox"></span></p>
-            </footer>
-    </body>
+<head>
+<meta charset="UTF-8">
+<title>weather1</title>
+	<script src="js/scripts.js"></script>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/small.css" rel="stylesheet" type="text/css">
+	<link href="css/medium.css" rel="stylesheet" type="text/css">
+	<link href="css/large.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap" rel="stylesheet">
+</head>
+	<body onload="wrapper()">
+	<header>
+		<img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
+		<div class="tagline">
+		<h1>Potato-Land Weather</h1>
+			<h2>Beautiful Bear River Valley</h2>
+		</div>
+	</header>
+	
+		<nav class="clearfix">
+			<button onClick="toggleMenu()">&#9776Menu</button>
+			<ul id="primarynav" class="hide">
+				<li><a href="weatherindex.html">Home</a></li>
+				<li class="active"><a href=preston-4.html>Preston</a></li>
+				<li><a href=sodasprings.html>Soda Springs</a></li>
+				<li><a href="fishhaven.html">Fish Haven</a></li>
+				<li><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+	</nav>
+
+	 <!-- -----------MAIN SECTION-------- -->
+	<main>
+		<section class="herosection">
+			<h2>Preston</h2>
+			<div></div>
+			<img src="images/preston/cloudyskybig.jpg" alt="preston mountains"><figcaption>photo by Necia Seamons</figcaption>
+		</section>
+		<article>
+			<h2>Article Title</h2>
+			<h4>Author's name</h4>
+			</article>
+			<section>
+				<h3>Contact Information</h3>
+				<img src="images/preston/dustybarn.jpg" alt="barn in preston idaho">
+				<figcaption>photo by Necia Seamons</figcaption>
+			</section>
+	</main>
+
+       <footer>
+            <p>&copy;<span id="currentyear"></span> Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+                    Learning</a><br></p>
+                    <p id="yellow">Last Updated: <span id="updatebox"></span></p>
+        </footer>
+</body>
 </html>

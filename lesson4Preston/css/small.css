@@ -32,52 +32,83 @@ darkest grey #0d0d0d
 
 
 body {
-    background-color: #a98363;
-    font-family: 'Quando', serif;
-    padding: 0em;
-    margin: 0;
-
+	background-color: yellow;
+	font-family: 'Quando', serif;
 }
 h1 {
-    font-family: 'Love Ya Like A Sister', cursive;
+   font-family: 'Love Ya Like A Sister', cursive;
    margin-bottom: 0px;
-
+	font-size: 2em;
+	
 }
 header h2 {
-    font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif;
     font-size: 1em;
-    margin-top: 10 auto  auto;
-
+	margin-top: 0px;
 }
-/* header {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: #7fa663;
-} */
 header {
-    justify-content: center;
-    background-color: #7fa663;
+	padding-top: 10px;
+	background-color: #7fa663;
 }
-header img {
-    height: 50%;
-    align-content: center;
+#potatoman {
+	width: 6em;
+	margin-bottom: 0px;
 }
-
-.playtogether {
-display: flex;
-flex-direction: column;
+.tagline {
+	text-align: center;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 nav {
-    display: flex;
+	background-color: #f29c50;
 
-    justify-content: center;
-   
+}
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: purple;
+	font-size: 1.6rem;
 }
 nav ul {
-    list-style: none;
-    flex-direction: column;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
 }
-nav ul li {
-    justify-content: center;
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #000000;
+	border-top: 1px solid rgba(0,0,0,0.30); 
 }
+nav ul li a:hover {
+	background-color: blue;
+	
+}
+nav ul li.active a {
+	background-color: pink;
+	color: white;
+}
+nav ul.hide {
+	display: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.herosection img {
+	max-width: 100%;
+	height: auto;
+	background-color: purple;
+}
+footer {
+	text-align: center;
+}
+
+

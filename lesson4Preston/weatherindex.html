@@ -1,37 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/scripts.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap" rel="stylesheet">
-        <title>Preston</title>
-    </head>
-<body>
-    <header>
-        <img class="photo" src="images/potatomanlogo.png" alt="potatoman logo">
-        <div class="playtogether">
-            <h1>Potato-Land Weather</h1>
-            <h2>Bear River Valley Current Conditions</h2>
-        </div>
-    </header>
-    <button>&#9776menu</button>
-    
-    <nav>
-        <ul>
-            
-            <li><a href="weatherindex.html">Home</a></li>
-            <li><a href=preston-4.html>Preston</a></li>
-            <li><a href=sodasprings.html>Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
-    
+<head>
+<meta charset="UTF-8">
+<title>weather1</title>
+	<script src="js/scripts.js"></script>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/small.css" rel="stylesheet" type="text/css">
+	<link href="css/medium.css" rel="stylesheet" type="text/css">
+	<link href="css/large.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap" rel="stylesheet">
+</head>
+	<body onload="wrapper()">
+	<header>
+		<img id="potatoman" src="images/potatoman.png" alt="weather site logo">
+		<div class="tagline">
+		<h1>Potato-Land Weather</h1>
+			<h2>Beautiful Bear River Valley</h2>
+		</div>
+	</header>
+	
+		<nav class="clearfix">
+			<button onClick="toggleMenu()">&#9776 Menu</button>
+			<ul id="primarynav" class="hide">
+				<li class="active"><a href="weatherindex.html">Home</a></li>
+				<li><a href=preston-4.html>Preston</a></li>
+				<li><a href=sodasprings.html>Soda Springs</a></li>
+				<li><a href="fishhaven.html">Fish Haven</a></li>
+				<li><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+	</nav>
+	<main>
+		<section class="herosection">
+			<img src=images/preston/IMG_7214.jpeg" alt="preston mountains">
+		</section>
+	</main>
+
+       <footer>
+            <p>&copy;<span id="currentyear"></span> Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+                    Learning</a><br></p>
+                    <p id="yellow">Last Updated: <span id="updatebox"></span></p>
+        </footer>
 </body>
 </html>

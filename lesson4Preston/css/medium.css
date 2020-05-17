@@ -1,35 +1,10 @@
 
 /* -------PRESTON MEDIUM CSS----------- */
 
-/* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
-body {
-    background-color: lightblue;
-}
-
-header {
-    display: flex;
-}
-nav ul {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
+    body {
+     
+        }
+        
     
-
-}
-header {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 10px;
-    
-}
-nav ul li {
-    padding: 20px;
-}
-
-
-
-
-}
+    }
