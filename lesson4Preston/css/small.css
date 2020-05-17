@@ -26,13 +26,20 @@ light green #7fa663
 pretty green #447322
 dark green #335922
 darkest grey #0d0d0d
+
+New PLW Colors
+Blue #80b0d8
+Potato orange #f39c4d
+Forest Green #467322
+Yellow #f1d013
+Brown #3f2d05
 */
 /* -----PRESTON SMALL CSS PAGE---- */
 
 
 
 body {
-	background-color: white;
+	background-color: #7fa663;
 	font-family: 'Quando', serif;
 }
 h1 {
@@ -48,7 +55,7 @@ header h2 {
 }
 header {
 	padding-top: 30px;
-	background-color: #7fa663;
+	background-color: #80b0d8;
 	
 }
 #potatoman {
@@ -65,7 +72,7 @@ header {
 	align-items: center;
 }
 nav {
-	background-color: #f29c50;
+	background-color: #f39c4d;
 	align-items: center;
 
 }
@@ -97,8 +104,8 @@ nav ul li a:hover {
 	
 }
 nav ul li.active a {
-	background-color: pink;
-	color: white;
+	background-color: #f1d013;
+	color: #3f2d05;
 }
 nav ul.hide {
 	display: none;
@@ -109,12 +116,15 @@ nav ul.hide {
   clear: both;
 }
 .herosection img {
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
 	background-color: purple;
 }
 footer {
 	text-align: center;
+	background-color: #f39c4d;
+	color: #3f2d05;
+	padding: 20px;
 }
 img {
 	margin-right: auto;
