@@ -32,7 +32,7 @@ darkest grey #0d0d0d
 
 
 body {
-	background-color: yellow;
+	background-color: white;
 	font-family: 'Quando', serif;
 }
 h1 {
@@ -47,8 +47,9 @@ header h2 {
 	margin-top: 0px;
 }
 header {
-	padding-top: 10px;
+	padding-top: 30px;
 	background-color: #7fa663;
+	
 }
 #potatoman {
 	width: 6em;
@@ -65,6 +66,7 @@ header {
 }
 nav {
 	background-color: #f29c50;
+	align-items: center;
 
 }
 nav button {
@@ -78,6 +80,10 @@ nav ul {
 	list-style-type: none;
 	padding: 0px;
 	margin: 0;
+	
+}
+nav ul li {
+	align-items: center;
 }
 nav ul li a {
 	display: block;
@@ -110,5 +116,8 @@ nav ul.hide {
 footer {
 	text-align: center;
 }
+img {
+	margin-right: auto;
+	margin-left: auto;
 
 
