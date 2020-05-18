@@ -15,7 +15,7 @@ font-family: 'Quando', serif;
 </style>
 */
 /*
-orange #f29c50
+orange #f29c50 rgb(242,156,80)
 dark orange #bf612a
 dark orange beige #a98363
 burgundy #400803
@@ -28,11 +28,11 @@ dark green #335922
 darkest grey #0d0d0d
 
 New PLW Colors
-Blue #80b0d8
-Potato orange #f39c4d
-Forest Green #467322
-Yellow #f1d013
-Brown #3f2d05
+Blue #80b0d8   rgba(128,176,216,__)
+Potato orange #f39c4d rgb(243,156,77)
+Forest Green #467322  rgb(70,115,34)
+Yellow #f1d013 rgb(241,208,19)
+Brown #3f2d05 rgb(63,45,5);
 */
 /* -----PRESTON SMALL CSS PAGE---- */
 
@@ -78,19 +78,21 @@ display: flex;
 nav {
 	background-color: #f39c4d;
 	align-items: center;
+	
 
 }
 nav button {
 	margin: .2rem 2%;
 	background-color: transparent;
 	border: none;
-	color: purple;
+	color: #3f2d05;;
 	font-size: 1.6rem;
 }
 nav ul {
 	list-style-type: none;
 	padding: 0px;
 	margin: 0;
+	color: #3f2d05;
 	
 }
 nav ul li {
@@ -104,7 +106,8 @@ nav ul li a {
 	border-top: 1px solid rgba(0,0,0,0.30); 
 }
 nav ul li a:hover {
-	background-color: blue;
+	background-color: #467322;
+	color: #f39c4d;
 	
 }
 nav ul li.active a {
@@ -121,8 +124,7 @@ nav ul.hide {
 }
 .herosection img {
 	max-width: 50%;
-	height: auto;
-	background-color: purple;
+	background-color: rgba(255,255,255,0.5);
 }
 footer {
 	text-align: center;
@@ -133,5 +135,18 @@ footer {
 img {
 	margin-right: auto;
 	margin-left: auto;
+}
+#contact {
+background-color: #f1d013;
+color: #3f2d05;
+}
+.summary {
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	width: 200px;
+	height: 200px;
+	overflow: scroll;
+	padding: 10px;
 
 
+}
