@@ -2,15 +2,15 @@
 //preston javascript
 
 
-function toggleMenu() {
-	document.getElementById("primarynav").classList.toggle("hide");
-}
+// function toggleMenu() {
+// 	document.getElementById("primarynav").classList.toggle("hide");
+// }
 
 
 
-function lastupdate() {
-    document.getElementById("updatebox").textContent = document.lastModified;
-}
+// function lastupdate() {
+//     document.getElementById("updatebox").textContent = document.lastModified;
+// }
 
 function getyear() {
     var x = new Date();
@@ -30,13 +30,13 @@ function weekday() {
     weekday[6] = "Saturday";
 
      var w = weekday[d.getDay()];
-     document.getElementById("dayoftheweek").innerHTML = w;
+     document.getElementById("dayoftheweek").innerHTML = w + y;
     }
 
 function wrapper() {
-    lastupdate();
+    // lastupdate();
     getyear();
-    toggleMenu();
+    // toggleMenu();
     weekday();
 }
 window.addEventListener('onload', wrapper());
