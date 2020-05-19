@@ -6,7 +6,7 @@
 function getyear() {
     var x = new Date();
     var y = x.getFullYear();
-    document.getElementById("currentyear").innerHTML = y;
+    document.getElementsByClassName("currentyear").innerHTML = y;
 }
 
 function weekday() {
@@ -50,15 +50,11 @@ function dayofmonth() {
     document.getElementById("day").innerHTML = d.getDate();
 }
 
-
-
-
 function wrapper() {
     getyear();
     weekday();
     month();
     dayofmonth();
-   
 
 }
 
