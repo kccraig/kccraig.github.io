@@ -50,12 +50,17 @@ function dayofmonth() {
     document.getElementById("day").innerHTML = d.getDate();
 }
 
-function fullDate() {
-    var d = new Date();
-    var k = d.toLocaleDateString();
-    document.getElementById("fulldate").innerHTML=k;
+// function fullDate() {
+//     var d = new Date();
+//     var k = d.toLocaleDateString();
+//     document.getElementById("fulldate").innerHTML=k;
+//     document.getElementById("fulldate")
+// const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
-}
+// document.getElementById("fulldate").innerHTML(event.toLocaleDateString(en-us, 'long','numeric','long','numeric'));
+
+
+// }
 
 
 
@@ -65,7 +70,7 @@ function wrapper() {
     weekday();
     month();
     dayofmonth();
-    fullDate()
+    // fullDate()
 
 }
 
