@@ -50,12 +50,24 @@ function dayofmonth() {
     document.getElementById("day").innerHTML = d.getDate();
 }
 
+function fullDate() {
+    var d = new Date();
+    var k = d.toLocaleDateString();
+    document.getElementById("fulldate").innerHTML=k;
+
+}
+
+
+
+
 function wrapper() {
     getyear();
     weekday();
     month();
     dayofmonth();
+    fullDate()
 
 }
 
 // Wednesday, 24 July 2020
+
