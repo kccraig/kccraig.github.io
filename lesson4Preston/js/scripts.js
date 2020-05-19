@@ -2,15 +2,6 @@
 //preston javascript
 
 
-// function toggleMenu() {
-// 	document.getElementById("primarynav").classList.toggle("hide");
-// }
-
-
-
-// function lastupdate() {
-//     document.getElementById("updatebox").textContent = document.lastModified;
-// }
 
 function getyear() {
     var x = new Date();
@@ -28,16 +19,47 @@ function weekday() {
     weekday[4] = "Thursday";
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
+    
+    var n = weekday[d.getDay()];
+    
+    document.getElementById("dayoftheweek").innerHTML = n + ", ";
+}
 
-     var w = weekday[d.getDay()];
-     document.getElementById("dayoftheweek").innerHTML = w + y;
-    }
+
+function month() {
+    var d = new Date();
+    var month = new Array();
+    month[0] = "January";
+    month[1] = "February";
+    month[2] = "March";
+    month[3] = "April";
+    month[4] = "May";
+    month[5] = "June";
+    month[6] = "July";
+    month[7] = "August";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    var n = month[d.getMonth()];
+    document.getElementById("mon").innerHTML = n;
+
+}
+function dayofmonth() {
+    var d = new Date();
+    document.getElementById("day").innerHTML = d.getDate();
+}
+
+
+
 
 function wrapper() {
-    // lastupdate();
     getyear();
-    // toggleMenu();
     weekday();
+    month();
+    dayofmonth();
+   
+
 }
-window.addEventListener('onload', wrapper());
+
 // Wednesday, 24 July 2020

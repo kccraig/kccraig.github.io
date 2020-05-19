@@ -13,7 +13,7 @@
 	<body onload="wrapper()">
 	<header>
 		<div class="cloudheader">
-		<img  class="clouds"src="images/leftcloud.png" alt="puffy cloud">
+		<img  class="clouds" src="images/leftcloud.png" alt="puffy cloud">
 		<img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
 		<div class="tagline">
 		<h1>Potato-Land Weather</h1>
@@ -24,7 +24,7 @@
 	</header>
 	
 		<nav class="clearfix">
-			<button onClick="toggleMenu()">&#9776Menu</button>
+			<button onClick="toggleMenu()">&#9776;Menu</button>
 			<ul id="primarynav" class="hide">
 				<li><a href="weatherindex.html">Home</a></li>
 				<li class="active"><a href=preston-4.html>Preston</a></li>
@@ -35,7 +35,7 @@
 			</ul>
 	</nav>
 
-	 <!-- -----------MAIN SECTION-------- -->
+	 <!--   MAIN SECTION   -->
 	<main>
 		<section class="herosection">
 			<h2>Preston</h2>
@@ -69,7 +69,6 @@
 				<p>City of Preston website https://www.prestonidaho.net/</p>
 				<figure>
 				<img src="images/preston/prestonstreetmap.png" alt="barn in preston idaho">
-				<figcaption>photo by Necia Seamons</figcaption>
 				</figure>
 			</section>
 	</main>
@@ -77,9 +76,14 @@
        <footer>
             <p>&copy;<span id="currentyear"></span> Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
                     Learning</a><br></p>
-					<p id="yellow">Last Updated: <span id="updatebox"></span>
-					<span id="dayoftheweek"></span>
-					</p>
+					<!-- <p id="yellow">Last Updated: <span id="updatebox"></span></p> -->
+					
+					<div>
+						<span id="dayoftheweek"></span>
+						<span id="mon"></span>
+						<span id="day"></span>
+						<span id="currentyear"></span>
+					</div>
         </footer>
 </body>
 </html>
