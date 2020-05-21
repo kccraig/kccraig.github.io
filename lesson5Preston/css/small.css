@@ -42,6 +42,7 @@ body {
 	background-color: #7fa663;
 	font-family: 'Quando', serif;
 }
+
 h1 {
    font-family: 'Love Ya Like A Sister', cursive;
    margin-bottom: 0px;
@@ -73,8 +74,12 @@ header {
 }
 .cloudheader {
 display: flex;
+margin-top: 2em;
+margin-bottom: 2em;;
 }
-
+.clouds {
+	display: none;
+}
 nav {
 	background-color: #f39c4d;
 	align-items: center;
@@ -152,3 +157,10 @@ footer {
 
 
 }
+#banner {
+width: 100%;
+background-color: rgb(241,208,19,0.9);
+font-family: 'Englebert', sans-serif;
+padding-left: 100px;
+}
+

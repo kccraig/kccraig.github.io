@@ -37,3 +37,8 @@ function toggleMenu() {
 var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
 document.getElementById("thedate").innerHTML = fulldate;
 
+// function pancakes() {
+//     if (n == 5) {
+        
+// }
+

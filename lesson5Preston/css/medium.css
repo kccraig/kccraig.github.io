@@ -2,9 +2,16 @@
 /* -------PRESTON MEDIUM CSS----------- */
 
 @media only screen and (min-width: 35rem) {
-    body {
-     
-        }
+  
+    main footer {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .clouds {
+        display: inline;
+    }
+
         
     
     }
