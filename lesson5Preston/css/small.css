@@ -122,20 +122,22 @@ nav ul.hide {
   display: table;
   clear: both;
 }
-.herosection img {
-	max-width: 50%;
-	background-color: rgba(255,255,255,0.5);
+/* HEROSECTION top of Preston page */
+.herosection {
+	position: relative;	
 }
+#topphoto {
+border: 2px solid rgb(255,255,255, 0.5);
+}
+
+
 footer {
 	text-align: center;
 	background-color: #f39c4d;
 	color: #3f2d05;
 	padding: 20px;
 }
-img {
-	margin-right: auto;
-	margin-left: auto;
-}
+
 #contact {
 	background-color: #f1d013;
 	color: #3f2d05;
