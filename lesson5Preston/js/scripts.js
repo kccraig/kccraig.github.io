@@ -44,9 +44,9 @@ function myFunction() {
 }
 </script> */}
 
-// if (n = 5) {
-//   document.getElementById("banner").style.display = "block";
-// }
-//   else {
-//     document.getElementById("banner").style.display = "none";
+if (weekday[n] = 5) {
+  document.getElementById("banner").style.display = "block";
+}
+  else {
+    document.getElementById("banner").style.display = "none";
   }
