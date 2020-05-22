@@ -22,12 +22,10 @@
         position: relative;
     }
 
-    #topphoto {
-        border: 2px solid rgb(255, 255, 255, 0.5);
-    }
+  
 
     .summary {
         position: absolute;
         top: 40px;
-        left: 60px;
+        left: 20px;
     }
