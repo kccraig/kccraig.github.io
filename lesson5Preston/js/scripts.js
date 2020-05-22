@@ -2,7 +2,7 @@
 //preston javascript
 
 function toggleMenu() {
-    document.getElementById("primarynav").classList.toggle("hide");
+  document.getElementById("primarynav").classList.toggle("hide");
 }
 
 var x = new Date();
@@ -40,7 +40,6 @@ document.getElementById("thedate").innerHTML = fulldate;
 
 if (n == weekday[4]) {
   document.getElementById("banner").style.display = "block";
+} else {
+  document.getElementById("banner").style.display = "none";
 }
-  else {
-    document.getElementById("banner").style.display = "none";
-  }
