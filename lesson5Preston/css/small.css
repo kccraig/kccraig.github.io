@@ -41,6 +41,10 @@ body {
 	background-color: #7fa663;
 	font-family: 'Quando', serif;
 }
+p {
+	font-family: 'Quando', serif;
+}
+
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
@@ -62,7 +66,7 @@ header {
 }
 
 #potatoman {
-	width: 6em;
+	width: 6rem;
 	margin-bottom: 0px;
 }
 
@@ -145,9 +149,9 @@ nav ul.hide {
 	clear: both;
 }
 
-
-
-
+#topphoto {
+	border: 5px solid black;	
+}
 footer {
 	text-align: center;
 	background-color: #f39c4d;
@@ -161,14 +165,11 @@ footer {
 }
 
 .summary {
-	float: left;
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 200px;
 	height: 200px;
-	overflow: scroll;
-	padding: 10px;
-
-
+	padding: 20px;
+	line-height: 1.6;
 }
 
 #banner {
@@ -176,4 +177,5 @@ footer {
 	background-color: rgb(241, 208, 19, 0.9);
 	font-family: 'Englebert', sans-serif;
 	padding-left: 100px;
+	height: 3rem;
 }

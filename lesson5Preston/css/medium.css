@@ -13,14 +13,21 @@
         display: row;
     }
 
-#banner {
-    display: block;
+    #banner {
+        display: block;
 
-}
-.herosection {
-	position: relative;
-}
+    }
 
-#topphoto {
-	border: 2px solid rgb(255, 255, 255, 0.5);
-}
+    .herosection {
+        position: relative;
+    }
+
+    #topphoto {
+        border: 2px solid rgb(255, 255, 255, 0.5);
+    }
+
+    .summary {
+        position: absolute;
+        top: 40px;
+        left: 60px;
+    }
