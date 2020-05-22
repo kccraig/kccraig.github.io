@@ -38,7 +38,7 @@ var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
 document.getElementById("thedate").innerHTML = fulldate;
 
 
-if (n == weekday[5]) {
+if (n == weekday[4]) {
   document.getElementById("banner").style.display = "block";
 }
   else {
