@@ -133,7 +133,7 @@ nav ul li a {
 	padding: .8rem 2%;
 	text-decoration: none;
 	color: #000000;
-	border-top: 1px solid rgba(0, 0, 0, 0.30);
+	/* border-top: 1px solid rgba(0, 0, 0, 0.30); */
 }
 
 nav ul li a:hover {
@@ -157,10 +157,7 @@ nav ul.hide {
 	clear: both;
 }
 
-#topphoto {
-	border: 10px solid black;
 
-}
 #topphoto img {
 	margin: auto;
 }
