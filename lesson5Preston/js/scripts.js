@@ -36,3 +36,9 @@ var mon = month[x.getMonth()];
 
 var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
 document.getElementById("thedate").innerHTML = fulldate;
+
+{/* <script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+}
+</script> */}
