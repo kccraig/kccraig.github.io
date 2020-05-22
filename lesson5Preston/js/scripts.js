@@ -38,13 +38,7 @@ var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
 document.getElementById("thedate").innerHTML = fulldate;
 
 
-{/* <script>
-function myFunction() {
-  document.getElementById("panel").style.display = "block";
-}
-</script> */}
-
-if (weekday[n] = 5) {
+if (n == weekday[5]) {
   document.getElementById("banner").style.display = "block";
 }
   else {
