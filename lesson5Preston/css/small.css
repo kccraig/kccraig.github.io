@@ -81,7 +81,6 @@ header {
 	display: flex;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	;
 }
 
 .clouds {
@@ -91,7 +90,8 @@ header {
 nav {
 	background-color: #f39c4d;
 	align-items: center;
-
+	font-family: 'Englebert', sans-serif;
+	font-size: 1.3em;
 
 }
 
