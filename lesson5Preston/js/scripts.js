@@ -36,9 +36,3 @@ var mon = month[x.getMonth()];
 
 var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
 document.getElementById("thedate").innerHTML = fulldate;
-
-// function pancakes() {
-//     if (n == 5) {
-
-
-// }
