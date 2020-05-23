@@ -41,7 +41,6 @@ Brown #3f2d05 rgb(63,45,5);
 body {
 	font-family: 'Quando', serif;
 	background-color: #a98363
-
 }
 
 p {
@@ -50,7 +49,7 @@ p {
 
 main {
 	width: 90%;
-	background-color:;
+	background-color: ;
 	margin: auto;
 }
 
@@ -74,7 +73,7 @@ header {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
-	
+
 }
 
 #potatoman {
@@ -112,7 +111,7 @@ nav button {
 	border: none;
 	color: #3f2d05;
 	font-size: 1.6rem;
-	
+
 }
 
 nav ul {
@@ -161,6 +160,7 @@ nav ul.hide {
 #topphoto img {
 	margin: auto;
 }
+
 footer {
 	text-align: center;
 	background-color: #f39c4d;
@@ -189,5 +189,9 @@ footer {
 	font-family: 'Englebert', sans-serif;
 	margin: 0;
 	text-align: center;
-	font-size: x-large;
+	font-size: large;
+}
+
+#forecastbox {
+	display: none;
 }
