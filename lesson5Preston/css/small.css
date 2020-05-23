@@ -40,7 +40,7 @@ Brown #3f2d05 rgb(63,45,5);
 
 body {
 	font-family: 'Quando', serif;
-	background-color: #a98363
+	background-color: #a98363;
 }
 
 p {
@@ -172,7 +172,8 @@ footer {
 }
 
 #contact {
-	background-color: #f1d013;
+	background-color: 
+	rgb(241,208,19,.75);
 	color: #3f2d05;
 }
 
@@ -197,16 +198,28 @@ footer {
 #forecastbox {
 	display: none;
 }
+/* figure {
+	display: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+} */
 
-article {
-	background-color: rgb(64, 8, 3, 0.4);
-	padding: 20px;
-
+.articleflexbox {
+display: flex;
 }
-
-article img {
-	float: right;
-	width: 50%;
+.flexbox {
+ margin: 10px;
+ background-color: beige;
+ padding: 20px;
+}
+article h3 {
+	margin: 0;
+}
+article {
+	margin: 20px;
+	background-color: #a69180;
 }
 #contact h3 {
 	margin-block-start: 1em;
