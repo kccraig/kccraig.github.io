@@ -204,9 +204,13 @@ article {
 
 }
 
-
-
 article img {
 	float: right;
 	width: 50%;
+}
+#contact h3 {
+	margin-block-start: 1em;
+}
+#contact {
+padding: 20px;
 }
