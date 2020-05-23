@@ -45,8 +45,8 @@
         align-content: space-around;
         border: 2px solid #7fa663;
         background-color: rgba(128, 176, 216, 0.75);
-        width: 100px;
-        height: 100px;
+        /* width: 100px;
+        height: 100px; */
 
     }
 
