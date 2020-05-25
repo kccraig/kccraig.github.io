@@ -9,11 +9,15 @@
     nav ul {
         /* margin-left: 2%; */
         margin: 0;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid green;
+
     }
 
     nav ul li {
-        float: left;
-
+        /* float: left; */
+       
     }
 
     nav ul li a {
