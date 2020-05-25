@@ -235,15 +235,18 @@ article {
 .right {
 	/* border: 2px solid purple; */
 }
+
 #contact {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	border: 2px solid red;
 }
+
 #contactleft {
-margin: 20px;
+	margin: 20px;
 
 }
+
 #contactright {
-margin: 20px;
+	margin: 20px;
 }
