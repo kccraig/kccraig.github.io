@@ -16,8 +16,8 @@
     }
 
     nav ul li {
-        /* float: left; */
-       
+        float: left;
+
     }
 
     nav ul li a {
@@ -31,4 +31,24 @@
         display: block;
     }
 
+    .topsection {
+        position: relative;
+        background-color: lightgray;
+    }
+
+    .position {
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid green; */
+    }
+
+    .left {
+
+        padding: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .right {
+        /* border: 2px solid purple; */
+    }
 }

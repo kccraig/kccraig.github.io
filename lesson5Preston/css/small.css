@@ -154,11 +154,11 @@ nav ul.hide {
 
 
 #topphoto img {
-	margin: auto;
+	margin: 0;
 }
 
 .herosection {
-	max-width: 100%;
+	background-color: lightgrey;
 }
 
 footer {
@@ -223,6 +223,7 @@ article {
 
 .position {
 	display: flex;
+	flex-direction: column;
 	/* border: 2px solid green; */
 }
 
