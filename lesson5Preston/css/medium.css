@@ -8,6 +8,12 @@
         border: steelblue;
 
     }
+    nav ul  {
+        display: flex;
+        flex-direction: row;
+        border: steelblue;
+
+    }
 
 
     main footer {
