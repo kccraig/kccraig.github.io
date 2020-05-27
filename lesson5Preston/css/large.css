@@ -8,18 +8,17 @@
 
     nav ul {
         /* margin-left: 2%; */
-        margin: 0;
+        display: inline;
+        /* margin: 0;
         display: flex;
         flex-direction: row;
-        border: 1px solid green;
+        border: 1px solid green; */
 
     }
 
   
 
     nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.30);
         padding: .6rem 1rem;
 
     }

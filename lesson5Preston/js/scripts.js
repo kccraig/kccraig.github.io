@@ -43,3 +43,7 @@ if (n == weekday[5]) {
 } else {
   document.getElementById("banner").style.display = "none";
 }
+
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes();
+document.getElementById("nowtime").innerHTML = time;

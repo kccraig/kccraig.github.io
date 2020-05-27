@@ -191,6 +191,9 @@ footer {
 .summary h3 {
 	margin: 0;
 }
+.summary li {
+	text-decoration: none;
+}
 
 #banner {
 	width: 100%;
