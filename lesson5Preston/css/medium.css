@@ -2,6 +2,14 @@
 
 @media only screen and (min-width: 35rem) {
 
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        border: steelblue;
+
+    }
+
+
     main footer {
         width: 90%;
         margin-right: auto;
@@ -53,5 +61,6 @@
        display: flex;
        flex-direction: row;
     }
+
 
 }

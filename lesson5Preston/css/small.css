@@ -120,9 +120,13 @@ nav ul {
 
 }
 
-/* nav ul li {
-	align-items: center;
-} */
+nav ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #3f2d05;
+
+}
 
 nav ul li a {
 	display: block;
@@ -134,7 +138,7 @@ nav ul li a {
 
 nav ul li a:hover {
 	background-color: #467322;
-	color: #f39c4d;
+	color: rgb(241,208,19);
 }
 
 nav ul li.active a {
@@ -171,8 +175,7 @@ footer {
 }
 
 #contact {
-	background-color:
-		rgb(241, 208, 19, .75);
+	background-color:rgb(241, 208, 19, .75);
 	color: #3f2d05;
 }
 
@@ -182,6 +185,10 @@ footer {
 	height: 200px;
 	padding: 40px;
 	line-height: 1.6;
+	margin: 0;
+	border-radius: .5em;
+}
+.summary h3 {
 	margin: 0;
 }
 
@@ -195,7 +202,7 @@ footer {
 }
 
 #forecastbox {
-	display: none;
+	display: none;s
 }
 
 figure {
