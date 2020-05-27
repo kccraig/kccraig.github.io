@@ -116,24 +116,23 @@ nav ul {
 	padding: 0px;
 	margin: 0;
 	color: #3f2d05;
-	text-align: center;
+	justify-content: center;
 
 }
 
 nav ul li {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
-	border: 2px solid #3f2d05;
-
+	border: 1px solid rgba(0, 0, 0, 0.30);
 }
 
 nav ul li a {
-	display: block;
+	 
 	padding: .8rem 2%;
 	text-decoration: none;
 	color: #000000;
-	/* border-top: 1px solid rgba(0, 0, 0, 0.30); */
+	
 }
 
 nav ul li a:hover {
@@ -142,7 +141,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-	background-color: #f1d013;
+	background-color: rgba(241, 208, 19,0.5);
 	color: #3f2d05;
 }
 
@@ -159,6 +158,7 @@ nav ul.hide {
 
 #topphoto img {
 	margin: 0;
+	width: 100%;
 }
 
 .herosection {
@@ -178,7 +178,9 @@ footer {
 	background-color:rgb(241, 208, 19, .75);
 	color: #3f2d05;
 }
-
+#contactright {
+	padding: 20px;
+}
 .summary {
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 200px;
@@ -193,7 +195,6 @@ footer {
 }
 .summary ul li {
 	list-style: none;
-	margin: 0;
 }
 
 #banner {
@@ -206,15 +207,11 @@ footer {
 }
 
 #forecastbox {
-	display: none;s
+	display: none;
 }
 
 figure {
-	/* display: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-	margin-inline-end: 0; */
+
 	margin: 0;
 }
 

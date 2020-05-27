@@ -7,12 +7,18 @@
     }
 
     nav ul {
-      
+        margin-left: 2%; 
+         margin: 0;
+        
+        border: 1px solid green;
+
     }
 
   
 
     nav ul li a {
+        display: flex;
+        flex-direction: row;
         padding: .6rem 1rem;
 
     }
@@ -25,20 +31,6 @@
         position: relative;
         background-color: lightgray;
     }
-    .position {
-        display: flex;
-        /* border: 2px solid green; */
-    }
-    
-    .left {
-    
-        padding: 20px;
-        /* border: 2px solid red; */
-    }
-    
-    .right {
-        border: 2px solid purple;
-    }
-  
-  
+
+   
 }
