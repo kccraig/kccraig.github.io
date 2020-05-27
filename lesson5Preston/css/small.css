@@ -224,6 +224,10 @@ article {
 	/* margin: 20px; */
 	background-color: #a69180;
 }
+.art {
+display: flex;
+flex-direction: column;
+}
 
 #contact h3 {
 	margin-block-start: 1em;
