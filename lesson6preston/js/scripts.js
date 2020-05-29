@@ -44,6 +44,16 @@ if (n == weekday[5]) {
   document.getElementById("banner").style.display = "none";
 }
 
+WebFont.load({
+  google: {
+    families: [
+       'fontfamilynameofyourchoice'
+    ]
+  }
+})
+
+
+// Time and temperature scripts
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes();
 document.getElementById("nowtime").innerHTML = time;
