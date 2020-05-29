@@ -44,16 +44,14 @@ if (n == weekday[5]) {
   document.getElementById("banner").style.display = "none";
 }
 
-WebFont.load({
-  google: {
-    families: [
-       'Quando', 'Love Ya Like A Sister', 'Merriweather';
-    ]
-  }
-})
-
-
-
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes();
 document.getElementById("nowtime").innerHTML = time;
+
+WebFont.load({
+  google: {
+    families: [
+       'Quando', 'Love Ya Like A Sister', 'Merriweather'
+    ]
+  }
+});
