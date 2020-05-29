@@ -1,9 +1,6 @@
 
-/*Wind chill = 35.74 + 0.6215T – 35.75 (V^0.16) + 0.4275T (V^0.16)
-
-T = Temperature in degrees Fahrenheit
-V = Wind velocity in miles per hour*/
 
 
+alert("hello");
 
 
