@@ -47,13 +47,13 @@ if (n == weekday[5]) {
 WebFont.load({
   google: {
     families: [
-       'fontfamilynameofyourchoice'
+       'Quando', 'Love Ya Like A Sister', 'Merriweather';
     ]
   }
 })
 
 
-// Time and temperature scripts
+
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes();
 document.getElementById("nowtime").innerHTML = time;
