@@ -48,7 +48,7 @@ var today = new Date();
 var h = today.getHours();
 if (h>12) {
   var hr = h-12;
-  var time = hr + ":" + today.getMinutes();
+  var time = hr + ":" + today.getMinutes() + "pm";
 }
   else {
 var time = today.getHours() + ":" + today.getMinutes();
