@@ -9,5 +9,5 @@ if (t < 50 && s > 3) {
     document.getElementById("wchill").textContent = c + "°";
 
 } else {
-    document.getElementById("wchill").textContent = "Nice Day";
+    document.getElementById("wchill").textContent = "Nice Day,go outside!";
 }
