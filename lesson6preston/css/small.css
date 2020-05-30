@@ -172,8 +172,8 @@ footer {
 .summary {
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 200px;
-	height: 200px;
-	padding: 40px;
+	height:200px;
+	padding: 20px;
 	line-height: 1.6;
 	margin: 0;
 	border-radius: .5em;
@@ -181,8 +181,16 @@ footer {
 .summary h3 {
 	margin: 0;
 }
+.summary ul {
+margin: 0;
+text-align: left;
+padding: 0;
+
+}
 .summary ul li {
 	list-style: none;
+	justify-content: left;
+
 }
 
 #banner {

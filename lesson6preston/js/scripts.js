@@ -45,7 +45,15 @@ if (n == weekday[5]) {
 }
 
 var today = new Date();
+var h = today.getHours();
+if (h>12) {
+  var hr = h-12;
+  var time = hr + ":" + today.getMinutes();
+}
+  else {
 var time = today.getHours() + ":" + today.getMinutes();
+  }
+
 document.getElementById("nowtime").innerHTML = time;
 
 WebFont.load({
@@ -55,3 +63,4 @@ WebFont.load({
     ]
   }
 });
+
