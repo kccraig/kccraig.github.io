@@ -45,26 +45,29 @@
         background-color: rgba(128, 176, 216, 0.75);
         width: 100px;
         height: 100px;
-        flex:auto;
+        flex: auto;
 
     }
+
     #contact {
         /* display: grid;
         grid-template-columns: 1fr 1fr; */
-       display: flex;
-       flex-direction: row;
+        display: flex;
+        flex-direction: row;
     }
+
     .art {
         display: flex;
         flex-direction: row;
-       
+
     }
-    
+
     .left {
         padding: 20px;
-        
+
     }
-.right {
-margin: 1em;
-}
+
+    .right {
+        margin: 1em;
+    }
 }
