@@ -59,7 +59,10 @@ header {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
-
+}
+.mtnphoto {
+	background-color: yellow;
+	height: 300px;
 }
 
 #potatoman {
@@ -150,6 +153,7 @@ nav ul.hide {
 
 .herosection {
 	background-color: lightgrey;
+	border: 2px solid black;
 }
 
 footer {
