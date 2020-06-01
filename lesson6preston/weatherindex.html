@@ -1,45 +1,134 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>weather1</title>
-	<script src="js/scripts.js"></script>
+	<meta charset="UTF-8">
+	<title>Preston Week 6</title>
+	<link rel="icon" href="images/potatofavicoicon.png">
 	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 	<link href="css/small.css" rel="stylesheet" type="text/css">
 	<link href="css/medium.css" rel="stylesheet" type="text/css">
 	<link href="css/large.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
 </head>
-	<body onload="wrapper()">
+
+<body>
 	<header>
-		<img id="potatoman" src="images/potatoman.png" alt="weather site logo">
-		<div class="tagline">
-		<h1>Potato-Land Weather</h1>
-			<h2>Beautiful Bear River Valley</h2>
+		<div id="banner">
+			<h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+		</div>
+		<div class="cloudheader">
+			<img class="clouds" src="images/leftcloud.png" alt="puffy cloud">
+			<img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
+			<div class="tagline">
+				<h1>Potato-Land Weather</h1>
+				<h2>Beautiful Bear River Valley</h2>
+			</div>
+			<img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
 		</div>
 	</header>
-	
-		<nav class="clearfix">
-			<button onClick="toggleMenu()">&#9776 Menu</button>
-			<ul id="primarynav" class="hide">
-				<li class="active"><a href="weatherindex.html">Home</a></li>
-				<li><a href=preston6.html>Preston</a></li>
-				<li><a href=sodasprings.html>Soda Springs</a></li>
-				<li><a href="fishhaven.html">Fish Haven</a></li>
-				<li><a href="stormcenter.html">Storm Center</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-			</ul>
+
+	<nav class="clearfix primarynav">
+		<button onClick="toggleMenu()">&#9776;Menu</button>
+		<ul id="primarynav" class="hide">
+			<li><a href="weatherindex.html">Home</a></li>
+			<li class="active"><a href="preston6.html">Preston</a></li>
+			<li><a href=sodasprings.html>Soda Springs</a></li>
+			<li><a href="fishhaven.html">Fish Haven</a></li>
+			<li><a href="stormcenter.html">Storm Center</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
 	</nav>
+
+	<!--   MAIN SECTION   -->
 	<main>
-		<section class="herosection">
-			<img src=images/preston/IMG_7214.jpeg" alt="preston mountains">
+		<section>
+			<h2>Preston</h2>
+			<div class="herosection">
+				<figure id="topphoto">
+					
+					<img srcset="
+					images/large1000.jpg 4x,
+					images/large800.jpg 3x,
+					images/medium600.jpg 2x,
+					images/small400.jpg 1x"
+					src="images/small.jpg" alt="preston mountains">
+					<figcaption>photo by Necia Seamons</figcaption>
+				</figure>
+				<div class="summary">
+					<h3>Weather Summary</h3>
+					<ul>
+						<li>Current Time is <span id="nowtime"></span></li>
+						<li>Temperature <span id="prestemp">78</span>°F</li>
+						<li>Humidity: <span id="humid"></span> &#37;</li>
+						<li>Wind Speed: <span id="wspeed">25</span> mph</li>
+						<li>Wind Chill: <span id="wchill"></span></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div id="forecastbox">
+			<h2>Five Day Forecast</h2>
+			<div id="forecast">
+				<div class="daybox">firstday</div>
+				<div class="daybox">secondday</div>
+				<div class="daybox">thirdday</div>
+				<div class="daybox">fourthday</div>
+				<div class="daybox">fifthday</div>
+			</div>
+		</div>
+		<article>
+			<div class="art">
+				<div class="left">
+					<h3>Let's talk about the weather</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse corrupti impedit ea officia ab
+						quisquam quod quos?
+						Quis eum porro dolorem similique culpa praesentium. Adipisci, praesentium a delectus asperiores
+						saepe eaque corrupti qui itaque, inventore accusamus quis quasi labore numquam architecto,
+						aliquam quo vero? Sed est vitae dolore illum delectus magni possimus itaque quod, nostrum
+						dolorem, quos molestiae nisi neque! Obcaecati debitis sed delectus amet! Doloribus expedita
+						dolores, debitis corporis quia placeat officiis ratione deleniti dolor magnam sit nihil
+						consectetur veritatis quis praesentium nisi voluptatum quasi. Alias nulla delectus temporibus
+						fugit ullam sit, sapiente, error inventore magnam a beatae illum.</p>
+				</div>
+				<div class="right">
+					<figure>
+						<img src="images/preston/snowymtn.jpg" alt="snowymtn">
+						<figcaption>photo by Necia Seamons</figcaption>
+					</figure>
+				</div>
+			</div>
+		</article>
+
+		<section id="contact">
+			<div id="contactleft">
+				<figure>
+					<img src="images/preston/prestonstreetmap.png" alt="barn in preston idaho">
+				</figure>
+			</div>
+			<div id="contactright">
+				<h3>Contact Information</h3>
+				<p>City of Preston website https://www.prestonidaho.net/</p>
+			</div>
+
 		</section>
 	</main>
 
-       <footer>
-            <p>&copy;<span id="currentyear"></span> Kathy Clark Craig | South Carolina | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
-                    Learning</a><br></p>
-                    <p id="yellow">Last Updated: <span id="updatebox"></span></p>
-        </footer>
+	<footer>
+		<p>&copy;<span class="currentyear"></span> Kathy Clark Craig | South Carolina | <a
+				href="https://www.byui.edu/online" target="_blank">BYUI Online
+				Learning</a><br></p>
+		<!-- <p id="yellow">Last Updated: <span id="updatebox"></span></p> -->
+
+		<div id="thedate"></div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/windchill.js"></script>
+
 </body>
+
 </html>
