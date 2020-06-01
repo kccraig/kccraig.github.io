@@ -47,16 +47,17 @@
 		<section>
 			<h2>Preston</h2>
 			<div class="herosection">
-				<figure id="topphoto">
-					
-					<img srcset="
-					images/small400.jpg 1x,
-					images/medium600.jpg 2x,
-					images/large800.jpg 3x,
-					images/large1000.jpg 4x"	
-					src="images/small400.jpg" alt="preston mountains">
-					<figcaption>photo by Necia Seamons</figcaption>
-				</figure>
+				<picture id="topphoto">
+					<!-- <img src="images/small400.jpg"> -->
+					<img src="images/small400.jpg"
+					 srcset="
+					images/large1000.jpg 1000w, 
+					images/large800.jpg 700w,
+					images/medium600.jpg 600w, 
+					images/small400.jpg 400w"
+					alt="preston mountains">
+					<!-- <figcaption>photo by Necia Seamons</figcaption> -->
+				</picture>
 				<div class="summary">
 					<h3>Weather Summary</h3>
 					<ul>
