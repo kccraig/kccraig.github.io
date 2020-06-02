@@ -29,6 +29,8 @@ Brown #3f2d05 rgb(63,45,5);
 body {
 	font-family: 'Quando', serif;
 	background-color: #a98363;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {

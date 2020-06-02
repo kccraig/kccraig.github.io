@@ -29,7 +29,6 @@
 			<img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
 		</div>
 	</header>
-
 	<nav class="clearfix primarynav">
 		<button onClick="toggleMenu()">&#9776;Menu</button>
 		<ul id="primarynav" class="hide">
@@ -41,23 +40,16 @@
 			<li><a href="gallery.html">Gallery</a></li>
 		</ul>
 	</nav>
-
 	<!--   MAIN SECTION   -->
 	<main>
 		<section>
 			<h2>Preston</h2>
 			<div class="herosection">
-				<figure id="topphoto">
-					<!-- <img src="images/small400.jpg"> -->
-					<img src="images/small400.jpg"
-					 srcset="
-					images/large1000.jpg 1000w, 
-					images/large800.jpg 700w,
-					images/medium600.jpg 600w, 
-					images/small400.jpg 400w"
-					alt="preston mountains">
-					<!-- <figcaption>photo by Necia Seamons</figcaption> -->
-				</figure>
+				<picture>
+					<source srcset="images/medium600.jpg" media="(min-width: 400px) and (max-width: 599px)">
+					<source srcset="images/large1000.jpg" media="(min-width: 600px)">
+					<img src="images/small400.jpg" alt="hero">
+				</picture>
 				<div class="summary">
 					<h3>Weather Summary</h3>
 					<ul>

@@ -19,3 +19,15 @@
     display: flex;
     flex-direction: row;
 }
+#photos {
+    text-align: center;
+  margin: 20px;
+  padding: 0;
+border: .5em solid yellow;
+}
+img {
+    border: 1em solid pink;
+}
+picture {
+border: yellow;
+}

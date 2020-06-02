@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,42 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <main>
         <div id="flexbox">
             <div class="red">Red</div>
             <div class="blue">Blue</div>
         </div>
+        <div id="photos">
+
+            <picture>
+                
+                <source media="(max-width:400x)" srcset="images/small400.jpg">
+                    <source media="(min-width:401px)" srcset="images/medium600.jpg">
+                <img src="images/small400.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+
+
+         
+            <!-- <picture>
+                
+                <source srcset="images/large1000.jpg" media="(min-width: 600px) and (max-width: 1000px">
+                    <source srcset="images/medium600.jpg" media="(min-width: 400px) and (max-width: 599px)">
+
+                    <source srcset="images/small400.jpg" media="(max-width: 399px)">
+                <img src="images/small400.jpg" alt="hero">
+                </picture> -->
+
+                <!-- <picture>
+                    <source srcset="images/medium400.png" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/large600.png" media="(min-width: 800px)">
+                    <img src="images/small250.png" alt="Hero Image">
+               </picture> -->
+
+       
+        </div>
     </main>
 </body>
+
 </html>
