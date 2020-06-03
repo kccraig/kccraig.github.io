@@ -62,6 +62,7 @@ header {
 	/* justify-content: center; */
 	align-items: center;
 }
+
 .mtnphoto {
 	background-color: yellow;
 	height: 300px;
@@ -120,20 +121,20 @@ nav ul li {
 }
 
 nav ul li a {
-	 
+
 	padding: .8rem 2%;
 	text-decoration: none;
 	color: #000000;
-	
+
 }
 
 nav ul li a:hover {
 	background-color: #467322;
-	color: rgb(241,208,19);
+	color: rgb(241, 208, 19);
 }
 
 nav ul li.active a {
-	background-color: rgba(241, 208, 19,0.5);
+	background-color: rgba(241, 208, 19, 0.5);
 	color: #3f2d05;
 }
 
@@ -148,14 +149,20 @@ nav ul.hide {
 }
 
 
-#topphoto img {
-	margin: 0;
+.herophoto img {
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
+
+}
+.herosection {
+position: relative;
 }
 
-.herosection {
+.herosection img {
 	background-color: lightgrey;
 	border: 2px solid black;
+	
 }
 
 footer {
@@ -168,30 +175,38 @@ footer {
 }
 
 #contact {
-	background-color:rgb(241, 208, 19, .75);
+	background-color: rgb(241, 208, 19, .75);
 	color: #3f2d05;
 }
+
 #contactright {
 	padding: 20px;
 }
+
 .summary {
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 200px;
-	height:200px;
+	height: 200px;
 	padding: 20px;
 	line-height: 1.6;
-	margin: 0;
+	margin-left: 5px;
+	margin-right: 5px;
 	border-radius: .5em;
+	
+	
 }
+
 .summary h3 {
 	margin: 0;
 }
+
 .summary ul {
-margin: 0;
-text-align: left;
-padding: 0;
+	margin: 0;
+	text-align: left;
+	padding: 0;
 
 }
+
 .summary ul li {
 	list-style: none;
 	justify-content: left;
@@ -221,14 +236,22 @@ article h3 {
 	margin: 0;
 }
 
+.noagent {
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+
 article {
 	/* margin: 20px; */
-	background-color: #a69180;
+	background-color: #7fa663;
+	padding: 20px;
+	justify-content: center;
+
 }
-.art {
-display: flex;
-flex-direction: column;
-}
+
 
 #contact h3 {
 	margin-block-start: 1em;
