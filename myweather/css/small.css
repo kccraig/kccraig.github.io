@@ -1,0 +1,51 @@
+/* orange #f29c50 rgb(242,156,80)
+dark orange #bf612a
+dark orange beige #a98363
+burgundy #400803 rgb(64,8,3);
+dark burgundy #200206
+
+grey #a69180
+light green #7fa663
+pretty green #447322
+dark green #335922
+darkest grey #0d0d0d
+
+New PLW Colors
+Blue #80b0d8   rgba(128,176,216,__)
+Potato orange #f39c4d rgb(243,156,77)
+Forest Green #467322  rgb(70,115,34)
+Yellow #f1d013 rgb(241,208,19)
+Brown #3f2d05 rgb(63,45,5); */
+
+body {
+background-color: rgb(243,156,77);
+text-align: center;
+}
+nav {
+    background-color: rgb(80, 113, 140);
+    color: rgb(236, 232, 204);
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+border-bottom: .2em solid #447322;
+}
+.
+.position {
+    position: relative;
+    background-color: yellow;
+}
+#currentweather {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(214, 221, 227);
+    border-radius: 5px;
+
+}

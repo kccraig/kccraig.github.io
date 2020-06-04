@@ -1,0 +1,7 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    background-color: khaki;
+}
