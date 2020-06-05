@@ -1,6 +1,3 @@
-h1 {
-
-}
 
 #gallery img[data-src] {
     filter: blur(0.2em);
