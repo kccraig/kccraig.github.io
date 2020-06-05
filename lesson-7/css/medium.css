@@ -1,0 +1,78 @@
+/* -------PRESTON MEDIUM CSS----------- */
+
+@media only screen and (min-width: 35rem) {
+
+
+    main footer {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .clouds {
+        display: flex;
+        display: row;
+    }
+
+    #banner {
+        display: block;
+    }
+
+    .herosection {
+        position: relative;
+    }
+
+    .summary {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+
+    #forecastbox {
+        display: inline;
+    }
+
+    #forecast {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .daybox {
+        margin: 0;
+        padding: 5px;
+        align-content: space-around;
+        border: 2px solid #7fa663;
+        background-color: rgba(128, 176, 216, 0.75);
+        width: 100px;
+        height: 100px;
+        flex: auto;
+
+    }
+
+    #contact {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .art {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .left {
+        padding: 20px;
+
+    }
+
+    .right {
+        margin: 1em;
+    }
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
