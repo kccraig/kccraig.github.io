@@ -1,0 +1,21 @@
+h1 {
+
+}
+
+#gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    padding: 20px;
+    margin: 0;
+}

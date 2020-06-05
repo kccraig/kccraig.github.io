@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,21 @@
     <link rel="stylesheet" href="css/lazystyles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Lazy Load Page</h1>
-    <img src="images/IMG_2100.jpeg" alt="snow">
-    <img src="images/IMG_2861.jpeg" alt="preston">
-    <img src="images/IMG_4942.jpeg" alt="barn">
-    <img src="images/IMG_5435.jpeg" alt="sky">
-    <img src="images/IMG_7214.jpeg" alt="mountain">
-    <img src="images/IMG_7400.jpeg" alt="cows">
+    <article>
+        
+        <div id="gallery">
+            <h1>Lazy Load Page</h1>
+            <img src="images/placeholder.jpg" data-src="images/IMG_2100.jpeg" alt="mtn">
+            <img src="images/placeholder.jpg" data-src="images/IMG_2861.jpeg" alt="mtn">
+            <img src="images/placeholder.jpg" data-src="images/IMG_4942.jpeg" alt="mtn">
+            <img src="images/placeholder.jpg" data-src="images/IMG_5435.jpeg" alt="mtn">
+            <img src="images/placeholder.jpg" data-src="images/IMG_7214.jpeg" alt="mtn">
+            <img src="images/placeholder.jpg" data-src="images/IMG_9088.jpeg" alt="mtn">
+        </div>
+    </article>
+    <script src="js/lazyjs.js"></script>
 </body>
+
 </html>
