@@ -155,14 +155,15 @@ nav ul.hide {
 	width: 100%;
 
 }
+
 .herosection {
-position: relative;
+	position: relative;
 }
 
 .herosection img {
 	background-color: lightgrey;
 	border: 2px solid black;
-	
+
 }
 
 footer {
@@ -192,8 +193,8 @@ footer {
 	margin-left: 5px;
 	margin-right: 5px;
 	border-radius: .5em;
-	
-	
+
+
 }
 
 .summary h3 {
@@ -239,8 +240,8 @@ article h3 {
 .noagent {
 	display: flex;
 	flex-direction: column;
-	
-	
+
+
 }
 
 
@@ -276,9 +277,16 @@ article {
 /*  GALLERY PAGE */
 
 .gallery {
-background-color: rgb(64,8,3,0.25);
-}	
+	background-color: rgb(64, 8, 3, 0.25);
+	margin: 20px;
+	padding: 20px;
+}
+
 .gridcontainer {
 	display: grid;
 	grid-template-columns: 1fr;
+	grid-row-gap: 20px;
+
 }
+
+.gridbox {}
