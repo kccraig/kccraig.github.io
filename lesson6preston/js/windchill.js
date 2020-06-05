@@ -7,7 +7,7 @@ if (t < 50 && s > 3) {
 
     var c = Math.round(f);
     document.getElementById("wchill").innerHTML = c + "°";
-    alert(c);
+   
 } 
 else {
     document.getElementById("wchill").innerHTML = "Nice day, go outside!";
