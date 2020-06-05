@@ -15,4 +15,6 @@
 img {
     padding: 20px;
     margin: 0;
+    filter: blur(0em);
+    transition: filter 0.5ss;
 }
