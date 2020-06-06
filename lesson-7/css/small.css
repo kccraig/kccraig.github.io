@@ -277,9 +277,9 @@ article {
 /*  GALLERY PAGE */
 
 .gallery {
-	
 	margin: 20px;
 	padding: 20px;
+
 }
 
 .gridcontainer {
@@ -289,8 +289,8 @@ article {
 
 }
 
-.maingallery {
+.gallerymain {
 	background-color: rgb(64, 8, 3, 0.25);
-
-
+	width: 100%;
+	text-align: center;
 }
