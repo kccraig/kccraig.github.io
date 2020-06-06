@@ -18,10 +18,7 @@
         display: block;
     }
 
-    .herosection {
-        position: relative;
-    }
-
+   
     .summary {
         position: absolute;
         top: 40px;
