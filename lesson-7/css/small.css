@@ -175,9 +175,10 @@ footer {
 	margin: auto;
 	text-decoration: none;
 }
+
 footer a {
 	text-decoration: none;
-	color:#200206;
+	color: #200206;
 }
 
 #contact {
@@ -302,15 +303,19 @@ article {
 	padding: 20px;
 }
 
- .imgbox{
+.imgbox {
 	background-color: #a98363;
-	padding:20px 20px 10px 20px;
+	padding: 20px 20px 10px 20px;
 	font-style: italic;
 }
+
 figcaption {
 	padding: 10px;
 	margin: 0;
+
 }
+
 #gallerytitle {
-color: #80b0d8
+	color: #80b0d8;
+	text-shadow: 2px 2px #f1d013;
 }
