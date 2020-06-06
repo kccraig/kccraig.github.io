@@ -1,5 +1,5 @@
-var t = document.getElementById("prestemp").innerHTML;
-var s = document.getElementById("wspeed").innerHTML;
+var t = parseFloat(document.getElementById("prestemp").innerHTML);
+var s = parseFloat(document.getElementById("wspeed").innerHTML);
 
 
 if (t < 50 && s > 3) {
@@ -10,5 +10,5 @@ if (t < 50 && s > 3) {
    
 } 
 else {
-    document.getElementById("wchill").innerHTML = "Nice day, go outside!";
+    document.getElementById("wchill").innerHTML = "Nice day!";
 }
