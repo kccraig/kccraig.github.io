@@ -294,3 +294,9 @@ article {
 	width: 100%;
 	text-align: center;
 }
+
+ .imgbox{
+	background-color: #a98363;
+	padding:10px;
+	font-style: italic;
+}
