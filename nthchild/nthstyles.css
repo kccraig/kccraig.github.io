@@ -1,0 +1,21 @@
+body {
+    background-color:
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+ul {
+border: 1px solid black;
+padding: 10px;
+}
+
+
+div:nth-child() {
+
+}
+
+p:nth-child() {
+
+}
+
