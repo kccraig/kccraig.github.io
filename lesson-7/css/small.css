@@ -307,6 +307,7 @@ article {
 	background-color: #a98363;
 	padding: 20px 20px 10px 20px;
 	font-style: italic;
+	border-radius: 10px;
 }
 
 figcaption {
@@ -318,6 +319,7 @@ figcaption {
 #gallerytitle {
 	color: #80b0d8;
 	text-shadow: 1px 1px #200206#f1d013;
-
-
+}
+.gridbox {
+	border-radius: 7.5px;
 }
