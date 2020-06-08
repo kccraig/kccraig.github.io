@@ -69,14 +69,14 @@ background-color: darkblue;
 #mainidea {
     background-color: beige;
     color: mediumvioletred;
-    ]
+}
 
 
 /* ----nth child--- */
 h1:nth-child() {
     font-size: 2em;
-    color: #003366;
-    background-color: yellow;
+    color: white;
+    background-color: red;
 }
 
 p:nth-child() {
