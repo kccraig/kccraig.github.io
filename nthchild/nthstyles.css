@@ -18,9 +18,10 @@ body {
     margin-left:20px;
     margin-bottom: 200px;
 }
-div:nth-child(1) {
+h1:nth-child(1) {
 font-size: 2em;
 color: #003366;
+border: 1px solid black;
 }
 p:nth-child(2) {
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
