@@ -4,6 +4,13 @@ lavender #C9ABEB
 coral   #FF9582
 beige #EBD99B
 bright green #78FF75
+border: 3px solid red;
+
+blue #3C64E6
+med blue #3E98F0
+mid green #43B6D9
+aqua #3EF0EA
+light green #3CE6B0
 
 */
 
@@ -11,57 +18,54 @@ bright green #78FF75
 
 
 body {
-    background-color: whitesmoke;
+    background-color:  #43B6D9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: large;
     margin-left: 20px;
     margin-bottom: 200px;
 }
-
-h1:nth-child(1) {
-    font-size: 2em;
-    color: #003366;
-    border: 1px solid black;
+h1 {
+    background-color: #3EF0EA;
+}
+div {
+    background-color: yellow;
+}
+p {
+    background-color: #C9ABEB;
+}
+li {
+    background-color:  #3CE6B0;
+    border: 1px solid #3C64E6;
+}
+ul {
+    background-color:  #FF9582;
 }
 
-p:nth-child(2) {
+
+h1:nth-child() {
+    font-size: 2em;
+    color: #003366;
+    background-color: yellow;
+   
+}
+
+p:nth-child() {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #004d99;
     font-size: 1.2em;
-}
-
-p:nth-child(3) {
-    font-size: 1.5em;
-    font-style: italic;
-    color: purple;
-}
-
-div:nth-child(4) {
-    border: 1px solid #e6f2ff;
-    height: 500px;
-
-}
-
-/* space div */
-div:nth-child(4) {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-
-div:nth-child(6) {
-    background-color: yellow;
+    background-color:  #FF9582;
 }
 
 div:nth-child() {
-    background-color: thistle;
+background-color: #C9ABEB;
 }
 
-div:nth-child() {
-    background-color: #C2f6ff;
+ul:nth-child() {
+    background-color:  #EBD99B;
 }
 
-p:nth-of-type() {
-    background-color: violet;
+li:nth-child(){
+    background-color:#C2f6ff;
 }
+
