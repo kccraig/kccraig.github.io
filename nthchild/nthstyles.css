@@ -29,7 +29,9 @@ body {
 }
 /* CLASSES AND ID*/
 h1 {
-    background-color: #3EF0EA;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 div {
     background-color: yellow;
