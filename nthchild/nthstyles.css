@@ -19,7 +19,7 @@ light green #3CE6B0
 
 body {
     background-color:  whitesmoke;
-    padding: 10px;
+    padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: large;
@@ -32,16 +32,21 @@ body {
 }
 div {
     background-color: yellow;
+    padding: 10px;
 }
 p {
     background-color: #C9ABEB;
+    padding: 10px;
 }
 li {
     background-color:  #3CE6B0;
     border: 1px solid #3C64E6;
+    padding: 10px;
+    list-style-type: none;
 }
 ul {
     background-color:  #FF9582;
+    padding: 10px;
 } */
 
 /* ----nth child--- */
@@ -49,10 +54,9 @@ h1:nth-child() {
     font-size: 2em;
     color: #003366;
     background-color: yellow;
-   
 }
 
-p:nth-child() {
+p:nth-child(8) {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #004d99;
     font-size: 1.2em;
@@ -69,11 +73,12 @@ ul:nth-child() {
 
 li:nth-child(){
     background-color:#C2f6ff;
+    list-style-type: square;
 }
 
 /*---nth-of-type ----*/
 div:nth-of-type() {
-    background-color: yellow;
+    background-color: #3E98F0;
 }
 p:nth-of-type() {
     background-color: yellow;
@@ -81,3 +86,25 @@ p:nth-of-type() {
 ul:nth-of-type() {
     background-color: yellow;
 }
+li:nth-of-type(3) {
+    background-color: red;
+}
+div:nth-child(1) > p:nth-child() {
+    background-color: red;
+}
+div li:nth-child(2) {
+background-color: violet;
+}
+li:nth-child(2) {
+    background-color: lightblue;
+}
+
+/* TEST */
+ul:nth-child(3) > li:nth-child(1)
+div:nth-child(4)
+
+div:nth-child(1) > p:nth-child(2)
+
+div:nth-child(2)
+
+ul:nth-child(3) > li:nth-child(4)
