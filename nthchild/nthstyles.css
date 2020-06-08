@@ -18,14 +18,16 @@ light green #3CE6B0
 
 
 body {
-    background-color:  #43B6D9;
+    background-color:  whitesmoke;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: large;
     margin-left: 20px;
     margin-bottom: 200px;
+    color: #20166B;
 }
-h1 {
+/* h1 {
     background-color: #3EF0EA;
 }
 div {
@@ -40,9 +42,9 @@ li {
 }
 ul {
     background-color:  #FF9582;
-}
+} */
 
-
+/* ----nth child--- */
 h1:nth-child() {
     font-size: 2em;
     color: #003366;
@@ -69,3 +71,13 @@ li:nth-child(){
     background-color:#C2f6ff;
 }
 
+/*---nth-of-type ----*/
+div:nth-of-type() {
+    background-color: yellow;
+}
+p:nth-of-type() {
+    background-color: yellow;
+}
+ul:nth-of-type() {
+    background-color: yellow;
+}
