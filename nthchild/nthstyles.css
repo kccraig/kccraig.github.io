@@ -28,7 +28,7 @@ body {
     color: #20166B;
 }
 /* CLASSES AND ID*/
-h1 {
+/* h1 {
     background-color: red;
     color: white;
     text-align: center;
@@ -69,7 +69,7 @@ background-color: darkblue;
 #mainidea {
     background-color: beige;
     color: mediumvioletred;
-}
+} */
 
 
 /* ----nth child--- */
@@ -88,9 +88,10 @@ p:nth-child() {
 
 div:nth-child() {
 background-color: darkblue;
+color: white;
 }
 
-ul:nth-child() {
+div ul:nth-child() {
     background-color:  #EBD99B;
 }
 
@@ -103,8 +104,8 @@ li:nth-child(){
 div:nth-of-type() {
     background-color: #3E98F0;
 }
-p:nth-of-type() {
-    background-color: yellow;
+li:nth-child(){
+    background-color: violet;
 }
 ul:nth-of-type() {
     background-color: yellow;
@@ -112,26 +113,19 @@ ul:nth-of-type() {
 li:nth-of-type() {
     background-color: red;
 }
-div:nth-child() > p:nth-child() {
-    background-color: red;
-}
-div li:nth-child() {
-background-color: violet;
-}
+
+
+
 li:nth-child() {
     background-color: lightblue;
 }
  div li:nth-child() {
 background-color: yellow;
 }
-/* TEST */
-ul:nth-child(3) > li:nth-child(1)
-div:nth-child(4)
 
-div:nth-child(1) > p:nth-child(2)
-
-div:nth-child(2)
-
-ul:nth-child(3) > li:nth-child(4)
-
-hr
+p:nth-child() {
+    background-color: lightgreen;
+}
+p:nth-of-type() {
+    background-color: yellow;
+}
