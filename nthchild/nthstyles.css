@@ -28,7 +28,7 @@ body {
     color: #20166B;
 }
 /* CLASSES AND ID*/
-h1 {
+/* h1 {
     background-color: #3EF0EA;
 }
 div {
@@ -63,7 +63,7 @@ background-color: orange;
 }
 .darkblue {
 background-color: darkblue;
-}
+} */
 
 
 /* ----nth child--- */
@@ -81,7 +81,7 @@ p:nth-child() {
 }
 
 div:nth-child() {
-background-color: #C9ABEB;
+background-color: darkblue;
 }
 
 ul:nth-child() {
@@ -115,7 +115,9 @@ background-color: violet;
 li:nth-child() {
     background-color: lightblue;
 }
-
+ div li:nth-child() {
+background-color: yellow;
+}
 /* TEST */
 ul:nth-child(3) > li:nth-child(1)
 div:nth-child(4)
@@ -125,3 +127,5 @@ div:nth-child(1) > p:nth-child(2)
 div:nth-child(2)
 
 ul:nth-child(3) > li:nth-child(4)
+
+hr
