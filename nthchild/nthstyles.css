@@ -27,7 +27,8 @@ body {
     margin-bottom: 200px;
     color: #20166B;
 }
-/* h1 {
+/* CLASSES AND ID*/
+h1 {
     background-color: #3EF0EA;
 }
 div {
@@ -47,7 +48,23 @@ li {
 ul {
     background-color:  #FF9582;
     padding: 10px;
-} */
+}
+.teal {
+background-color: teal;
+}
+#grey {
+    background-color: grey;
+}
+#salmon {
+background-color: salmon;
+}
+#orange {
+background-color: orange;
+}
+.darkblue {
+background-color: darkblue;
+}
+
 
 /* ----nth child--- */
 h1:nth-child() {
@@ -56,7 +73,7 @@ h1:nth-child() {
     background-color: yellow;
 }
 
-p:nth-child(8) {
+p:nth-child() {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #004d99;
     font-size: 1.2em;
@@ -86,16 +103,16 @@ p:nth-of-type() {
 ul:nth-of-type() {
     background-color: yellow;
 }
-li:nth-of-type(3) {
+li:nth-of-type() {
     background-color: red;
 }
-div:nth-child(1) > p:nth-child() {
+div:nth-child() > p:nth-child() {
     background-color: red;
 }
-div li:nth-child(2) {
+div li:nth-child() {
 background-color: violet;
 }
-li:nth-child(2) {
+li:nth-child() {
     background-color: lightblue;
 }
 
