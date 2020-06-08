@@ -28,7 +28,7 @@ body {
     color: #20166B;
 }
 /* CLASSES AND ID*/
-/* h1 {
+h1 {
     background-color: #3EF0EA;
 }
 div {
@@ -63,7 +63,11 @@ background-color: orange;
 }
 .darkblue {
 background-color: darkblue;
-} */
+}
+#mainidea {
+    background-color: beige;
+    color: mediumvioletred;
+    ]
 
 
 /* ----nth child--- */
