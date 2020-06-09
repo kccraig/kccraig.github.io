@@ -27,6 +27,10 @@ body {
     margin-bottom: 200px;
     color: #20166B;
 }
+h3 {
+text-decoration: underline;
+}
+
 /* CLASSES AND ID*/
 /* h1 {
     background-color: red;
@@ -73,46 +77,54 @@ background-color: darkblue;
 
 
 /* ----nth child--- */
+div:nth-child() {
+    background-color:#C2f6ff;
+    list-style-type: square;
+})
+li:nth-child(){
+    background-color:#C2f6ff;
+    list-style-type: square;
+}
+ul:nth-child() {
+    background-color: darkblue;
+    color: white;
+    }
 h1:nth-child() {
     font-size: 2em;
     color: white;
     background-color: red;
 }
-
 p:nth-child() {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #004d99;
     font-size: 1.2em;
     background-color:  #FF9582;
 }
+ul:nth-child(1) > li:nth-child(1)
 
-div:nth-child() {
-background-color: darkblue;
-color: white;
-}
 
 div ul:nth-child() {
     background-color:  #EBD99B;
 }
 
-li:nth-child(){
-    background-color:#C2f6ff;
-    list-style-type: square;
-}
+
 
 /*---nth-of-type ----*/
-div:nth-of-type() {
+p:nth-of-type() {
     background-color: #3E98F0;
 }
 li:nth-child(){
     background-color: violet;
 }
-ul:nth-of-type() {
+li:nth-of-type() {
     background-color: yellow;
 }
-li:nth-of-type() {
+/* li:nth-of-type(2n-1) {
     background-color: red;
 }
+li:nth-of-type(2n+1) {
+    background-color: green;
+} */
 
 
 
