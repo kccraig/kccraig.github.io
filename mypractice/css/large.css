@@ -1,0 +1,42 @@
+/* ------PRESTON LARGE CSS----------- */
+
+@media only screen and (min-width: 64rem) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        /* margin-left: 2%;  */
+         /* margin: 0; */
+         margin: auto;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid green;
+
+    }
+
+    nav ul li a {     
+        padding: .6rem 1rem;
+    }
+    /* nav ul.hide {
+        display: block;
+    } */
+
+    .topsection {
+        position: relative;
+        background-color: rgb(121, 68, 68);
+    }
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+
+   img:hover {
+       box-shadow: 0 0 50px #333;
+    }
+
+   }
+}
