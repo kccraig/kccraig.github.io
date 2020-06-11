@@ -17,9 +17,6 @@ table, td, td {
 border: 1px solid #b3b7b9;
 border-collapse: collapse;
 }
-thead {
-background-color: #81b9c1;
-}
 
 table {
 box-shadow:10xp 10px #648da5;
@@ -43,4 +40,9 @@ font-style: italic;
 }
 tr:nth-child(9)> td:nth-child(1 {
  text-align: center;   
-})
+}
+td:hover {
+background-color: #648da5;
+color: #ffffff;
+}
+
