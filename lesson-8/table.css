@@ -19,21 +19,21 @@ padding: 5px;
 }
 th {
 padding: 10px;
+font-weight: 700;
 }
 tfoot td:nth-child(1) {
 font-size: .5rem;;
-padding: 5px;
+padding:5px;
 }
-tboy tr:nth-of-type(2){
+tbody tr:nth-of-type(2){
 background-color: #628ca6;
-color: #ffffff;
+
 }
-/* tbody > tr:nth-child(1) > td:nth-child(1) 
-tr:nth-child(1) > td:nth-child(2)
-tr:nth-child(1) > td:nth-child(3) */
 
 tbody > tr:nth-child(1) > td:nth-child(n +1){
 background-color: #628ca6;
+color: #ffffff;
+font-weight: 500;
 }
 
 tr:nth-child(6) > td:nth-child(1) {
@@ -50,4 +50,7 @@ tbody tr:nth-child(odd) {
 td:hover {
 background-color: #628ca6;
 color: #ffffff;
+}
+table {
+box-shadow:7.5px 7.5px 8px#628ca6;
 }
