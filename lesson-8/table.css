@@ -1,7 +1,7 @@
-/* top blue #81b9c1
-row 2 blue #648da5
-row 3 #e7f0ed
-row 4 $e8ffee
+/* top blue #81b9c1 aqua blue
+row 2 blue #648da5 dark blue
+row 3 #e7f0ed light gray
+row 4 $e8ffee light green
 border #b3b7b9
 shadow #648da5
 
@@ -17,13 +17,14 @@ table, td, td {
 border: 1px solid #b3b7b9;
 border-collapse: collapse;
 }
+thead {
+background-color: #81b9c1;
+}
 
 table {
 box-shadow:10xp 10px #648da5;
-
-
 }
-tr:nth-of-type(2) {
+tr:nth-of-type(1) {
 background-color: #648da5;
 color: #ffffff;
 }
@@ -31,6 +32,15 @@ tr:nth-of-type(odd) {
 background-color: #e7f0ed;
 }
 tr:nth-child(8n + 1) {
-background-color: rgb(121, 54, 121);
+background-color: #81b9c1;
 color: white;
 }
+tr:nth-child(7) > td:nth-child(2) {
+text-align: center;
+}
+tr:nth-child(7) > td:nth-child(1) {
+font-style: italic;
+}
+tr:nth-child(9)> td:nth-child(1 {
+ text-align: center;   
+})
