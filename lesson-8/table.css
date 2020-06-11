@@ -1,10 +1,11 @@
-/* #e7f0ed, 
-#e7ffed (data rows) and 
-#628ca6, 
-#7fb9c2  */
+/* #e7f0ed, light light blue cell color
+#e7ffed (data rows) light greenand 
+#628ca6, dark blue
+#7fb9c2  header blue*/
 body {
 background-color: white;
 font-family: 'Ubuntu', sans-serif;
+text-align: center;
 }
 thead, tfoot {
 background-color: #7fb9c2;
@@ -12,9 +13,41 @@ text-align: center;
 }
 
 table, th, td {
-border: 1px solid #628ca6;
+border: 1px solid #bbbcbb;
 border-collapse: collapse;
+padding: 5px;
 }
 th {
 padding: 10px;
+}
+tfoot td:nth-child(1) {
+font-size: .5rem;;
+padding: 5px;
+}
+tboy tr:nth-of-type(2){
+background-color: #628ca6;
+color: #ffffff;
+}
+/* tbody > tr:nth-child(1) > td:nth-child(1) 
+tr:nth-child(1) > td:nth-child(2)
+tr:nth-child(1) > td:nth-child(3) */
+
+tbody > tr:nth-child(1) > td:nth-child(n +1){
+background-color: #628ca6;
+}
+
+tr:nth-child(6) > td:nth-child(1) {
+font-style: italic;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+
+}
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+
+}
+td:hover {
+background-color: #628ca6;
+color: #ffffff;
 }
