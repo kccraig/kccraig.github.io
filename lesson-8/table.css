@@ -1,8 +1,36 @@
+/* top blue #81b9c1
+row 2 blue #648da5
+row 3 #e7f0ed
+row 4 $e8ffee
+border #b3b7b9
+shadow #648da5
+
+row 
+ */
+
 body {
 background-color: lightcyan;
 font-family: Ubuntu, sans-serif;
+
 }
 table, td, td {
-border: 1px solid black;
+border: 1px solid #b3b7b9;
 border-collapse: collapse;
+}
+
+table {
+box-shadow:10xp 10px #648da5;
+
+
+}
+tr:nth-of-type(2) {
+background-color: #648da5;
+color: #ffffff;
+}
+tr:nth-of-type(odd) {
+background-color: #e7f0ed;
+}
+tr:nth-child(8n + 1) {
+background-color: rgb(121, 54, 121);
+color: white;
 }
