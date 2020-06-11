@@ -19,12 +19,14 @@ th,
 td {
     border: 1px solid #bbbcbb;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 7px;
 }
 
+
 th {
-    padding: 10px;
+    padding: 8px;
     font-weight: 700;
+    font-size: 1.5em;
 }
 
 tfoot td:nth-child(1) {
