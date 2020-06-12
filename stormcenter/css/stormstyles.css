@@ -1,0 +1,15 @@
+body {
+max-width: 650px;
+background-color: lightblue;
+}
+form {
+background-color: lightpink;
+}
+.pinfo {
+display: block;
+}
+
+.abtstm {
+/* background-color: blue; */
+display: block;
+}
