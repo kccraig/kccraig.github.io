@@ -56,6 +56,10 @@ var time = today.getHours() + ":" + today.getMinutes();
 
 document.getElementById("nowtime").innerHTML = time;
 
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
+
 WebFont.load({
   google: {
     families: [

@@ -91,6 +91,7 @@
                         <option value="10"></option>
                     </datalist>
                 </fieldset>
+                
                 <fieldset>
                     <label class="region">Storm Region 
                         <select name="region">
@@ -104,10 +105,28 @@
                 <fieldset>
                     <legend>Are you in danger?</legend>
                     <div class="danger">
-    <label for="yes"><input type="radio" id="yesbox" name="yes">Yes, send help</label>
-    <label for="maybe"><input type="radio" id="maybebox" name="maybe">maybe</label>
-    <label for="no"><input type="radio" id="nobox" name="no">No, I'm okay</label>
+                        <input type="radio" id="yesbox" name="yes"><label for="yes">Yes</label>
+                        <input type="radio" id="nobox" name="no"><label for="">No</label>
+                        </div>
+                </fieldset>
+
+<!--RADIO-->
+                <fieldset>
+                    <legend>Radio Buttons <em>Are you in danger?</em></legend>
+                    <div class="danger">
+                        <label for="yes"><input type="radio" id="yes" name="yes" checked> Yes</label>
                     </div>
+                    <div class="selection">
+                        <label for="maybe"><input type="radio" id="maybe"  name="maybe" value="maybe"> Maybe</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" id="no" name="no" value="10">
+                        <label for="no"> No</label>
+                    </div>
+                    
+                       
+                    </fieldset>
+                    
                 </fieldset>
     
     

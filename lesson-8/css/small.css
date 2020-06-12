@@ -323,3 +323,15 @@ figcaption {
 .gridbox {
 	border-radius: 7.5px;
 }
+
+/* -----RADIO PAGE ------*/
+
+.danger {
+background-color: lightskyblue;
+}
+
+fieldset {
+padding: 10px;
+margin: 5px;
+background-color: #7fa663;
+}
