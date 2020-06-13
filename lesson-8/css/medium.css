@@ -26,6 +26,9 @@
     nav button {
         display: none;
     }
+    nav ul li a {     
+        padding: .6rem 1rem;
+    }
 
     .herosection {
         position: relative;
@@ -93,4 +96,18 @@
 .stormheader {
 max-width: 850px;
 }
+
+#thanksforsending {
+	width: 50%;
+	height: 200px;
+	background-color: #80b0d8;
+	color: #400803;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 100px 30px 100px 30px;
+	margin: 20px auto 20px auto;
+	line-height: 200%;
+}
+
+
 }

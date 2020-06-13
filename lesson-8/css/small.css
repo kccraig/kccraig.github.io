@@ -336,6 +336,7 @@ fieldset {
 	margin: 5px;
 	background-color: #7fa663;
 	display: block;
+	border-radius: 10px;
 }
 
 form {
@@ -373,14 +374,33 @@ textarea {
 	margin-top: 20px;
 	max-width: 100%;
 	padding: 20px;
-	
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+
 }
+
+.stormheader h2 {
+	font-size: 1.75rem;
+	;
+}
+
 #submitbutton {
-background-color: #400803;
-color: #f1d013;
-padding: 20px;
-margin-right: auto;
-margin-left: auto;
+	background-color: #400803;
+	color: #f1d013;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-
+#thanksforsending {
+	width: 50%;
+	height: 100px;
+	background-color: #80b0d8;
+	color: #400803;
+	text-align: center;
+	font-size: .75rem;
+	padding: 30px;
+	margin: 10px auto 10px auto;
+	line-height: 200%;
+}
