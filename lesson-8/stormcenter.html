@@ -49,8 +49,8 @@
     
                 <!-- full name input text, required, min 5 letters, alpha characters pattern -->
                 <fieldset>
-                    <label class="pinfo">First Name: <input type="text" name="fname" required></label>
-                    <label class="pinfo">Last Name: <input type="text" name="lname" required></label>
+                    <label class="pinfo">First Name: <input type="text" name="fname" required placeholder="Jean"></label>
+                    <label class="pinfo">Last Name: <input type="text" name="lname" required placeholder="Rasmussen"></label>
                     <label class="pinfo">Your email please: <input type="email"></label>
                     <label class="pinfo">Phone Number: <input type="tel" name="phone" placeholder="803555789"
                             required></label>
@@ -72,9 +72,8 @@
                         </select>
                     </label>
     
-                    <label class="abtstm">How bad was the Storm?<input type="text"></label>
-                    <!-- <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span> -->
+                    <label class="abtstm">How bad was the Storm?</label>
+                    <p>0=That was fun 10=We almost died and the house blew away.</p>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                     <datalist id="tickmarks">
@@ -109,16 +108,16 @@
                 <fieldset>
                     <legend>Are you in danger?</legend>
                     <div class="danger">
-                        <label for="for"><input type="radio" id="yes" name="yes" checked> Yes</label>
+                        <label for="yes"><input type="radio"  id="yes" name="indanger" value="yes">
+                        Yes</label>
                     </div>
                     <div class="danger">
-                        <label for="maybe"><input type="radio" id="maybe"  name="maybe" value="maybe"> Maybe</label>
+                        <label for="maybe"><input type="radio" id="maybe" name="indanger" value="maybe"> Maybe</label>
                     </div>
                     <div class="danger">
-                        <input type="radio" id="no" name="no" value="10">
-                        <label for="no"> No</label>
+                        <label for="no"><input type="radio" id="no" name="indanger" value="no"> No</label>
                     </div>
-                    
+                     
                        
                     </fieldset>
                     
