@@ -72,7 +72,7 @@
                         </select>
                     </label>
     
-                    <label>How bad was the Storm?<input type="text"></label>
+                    <label class="abtstm">How bad was the Storm?<input type="text"></label>
                     <!-- <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span> -->
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -102,24 +102,19 @@
                         </select>
                     </label>
                 </fieldset>
-                <fieldset>
-                    <legend>Are you in danger?</legend>
-                    <div class="danger">
-                        <input type="radio" id="yesbox" name="yes"><label for="yes">Yes</label>
-                        <input type="radio" id="nobox" name="no"><label for="">No</label>
-                        </div>
-                </fieldset>
+               
+                    
 
 <!--RADIO-->
                 <fieldset>
-                    <legend>Radio Buttons <em>Are you in danger?</em></legend>
+                    <legend>Are you in danger?</legend>
                     <div class="danger">
-                        <label for="yes"><input type="radio" id="yes" name="yes" checked> Yes</label>
+                        <label for="for"><input type="radio" id="yes" name="yes" checked> Yes</label>
                     </div>
-                    <div class="selection">
+                    <div class="danger">
                         <label for="maybe"><input type="radio" id="maybe"  name="maybe" value="maybe"> Maybe</label>
                     </div>
-                    <div class="selection">
+                    <div class="danger">
                         <input type="radio" id="no" name="no" value="10">
                         <label for="no"> No</label>
                     </div>
