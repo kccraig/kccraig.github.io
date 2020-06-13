@@ -328,7 +328,7 @@ figcaption {
 /* -----RADIO PAGE ------*/
 
 .danger {
-	background-color: lightskyblue;
+	padding: 5px;
 }
 
 fieldset {
@@ -371,6 +371,16 @@ textarea {
 	background-color: rgb(64, 8, 3);
 	color: #f1d013;
 	margin-top: 20px;
-	width: 100%;
+	max-width: 100%;
 	padding: 20px;
+	
 }
+#submitbutton {
+background-color: #400803;
+color: #f1d013;
+padding: 20px;
+margin-right: auto;
+margin-left: auto;
+}
+
+
