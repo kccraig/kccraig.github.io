@@ -360,13 +360,12 @@ label {
 
 #moreinfo {
 	display: block;
-	width: 100%;
+	width: 90%;
 	margin-top: 8px;
+margin:8px auto 10px auto;
+	padding: 10px;
 }
 
-textarea {
-	margin-top: 5px;
-}
 
 .stormheader {
 	background-color: rgb(64, 8, 3);
