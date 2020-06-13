@@ -391,6 +391,7 @@ textarea {
 	padding: 20px;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 10px;
 }
 
 #thanksforsending {
@@ -403,4 +404,5 @@ textarea {
 	padding: 30px;
 	margin: 10px auto 10px auto;
 	line-height: 200%;
+	
 }
