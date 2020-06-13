@@ -320,6 +320,7 @@ figcaption {
 	color: #80b0d8;
 	text-shadow: 1px 1px #200206#f1d013;
 }
+
 .gridbox {
 	border-radius: 7.5px;
 }
@@ -327,24 +328,27 @@ figcaption {
 /* -----RADIO PAGE ------*/
 
 .danger {
-background-color: lightskyblue;
+	background-color: lightskyblue;
 }
 
 fieldset {
-padding: 10px;
-margin: 5px;
-background-color: #7fa663;
-display: block;
+	padding: 10px;
+	margin: 5px;
+	background-color: #7fa663;
+	display: block;
 }
+
 form {
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 label {
-padding: 5px;
+	padding: 5px;
 
 }
+
 .pinfo {
 	display: block;
 }
@@ -353,5 +357,20 @@ padding: 5px;
 	display: block;
 }
 
+#moreinfo {
+	display: block;
+	width: 100%;
+	margin-top: 8px;
+}
 
+textarea {
+	margin-top: 5px;
+}
 
+.stormheader {
+	background-color: rgb(64, 8, 3);
+	color: #f1d013;
+	margin-top: 20px;
+	width: 100%;
+	padding: 20px;
+}
