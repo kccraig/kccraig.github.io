@@ -1,6 +1,6 @@
 /* -------PRESTON MEDIUM CSS----------- */
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 32.5rem) {
 
 
     main footer {
@@ -16,6 +16,15 @@
 
     #banner {
         display: block;
+    }
+
+    /* NAV SECTION */
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
     }
 
     .herosection {
@@ -70,14 +79,16 @@
     .right {
         margin: 1em;
     }
+
     .gridcontainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 20px;
     }
-   /* figure.imgbox:nth-last-of-type(9) {
+
+    /* figure.imgbox:nth-last-of-type(9) {
         justify-content: center;
         border: 5px solid yellow;
     } */
-    
+
 }
