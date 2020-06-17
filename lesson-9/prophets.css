@@ -4,7 +4,7 @@ font-family: 'Oswald', sans-serif; */
 
 body {
     background-color:
-    font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald', sans-serif;
 }
 
 .cards {
@@ -13,13 +13,16 @@ body {
 }
 
 section {
-    background-color: yellow;
+    background-color: #2b71d0;
+    border-radius: 8px;;
 }
+
 h1 {
     font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 3rem;
 }
+
 h2 {
     color: #000000;
     font-family: 'Cinzel', serif;
@@ -37,6 +40,11 @@ section {
     text-align: center;
 
 }
+img {
+border: dimgray;
+border-radius: 5px;
+padding: 10px;
+}
 
 /* LARGE SCREEN  */
 @media only screen and (min-width: 64rem) {
@@ -44,9 +52,11 @@ section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
     body {
+       
         background-color: cornflowerblue;
-      
+        
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
