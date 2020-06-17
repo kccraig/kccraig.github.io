@@ -1,13 +1,28 @@
 body {
-background-color: lightslategray;
+    background-color: lightslategray;
 }
+
 section {
-background-color: yellow;
+    background-color: yellow;
 }
+
 h2 {
-color: green;
+    color: green;
 }
+
 p {
-border: 2px solid pink;
-background-color: red;
+    border: 2px solid pink;
+    background-color: red;
+}
+
+section {
+    border: 2px solid green;
+    text-align: center;
+
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
