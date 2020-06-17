@@ -2,6 +2,11 @@ body {
     background-color: lightslategray;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 section {
     background-color: yellow;
 }
@@ -13,6 +18,8 @@ h2 {
 p {
     border: 2px solid pink;
     background-color: red;
+    margin: 5px;
+
 }
 
 section {
@@ -21,8 +28,19 @@ section {
 
 }
 
-.cards {
+/* LARGE SCREEN  */
+@media only screen and (min-width: 64rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* MEDIUM SCREEN */
+@media only screen and (min-width: 400px) and (max-width: 63rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
