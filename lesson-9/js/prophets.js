@@ -18,7 +18,6 @@ fetch(requestURL)
                 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
                 p.textContent = prophets[i].birthdate;
                 p2.textContent = prophets[i].birthplace;
-                // alttext.textContent = prophets[i].name + ' ' + prophets[i].lastname + prophets[i].order;
                 image.setAttribute('src', prophets[i].imageurl);
                 image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' ' + prophets[i].order);
             
