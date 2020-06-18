@@ -199,8 +199,6 @@ footer a {
 	margin-left: 5px;
 	margin-right: 5px;
 	border-radius: .5em;
-
-
 }
 
 .summary h3 {
@@ -234,10 +232,8 @@ footer a {
 }
 
 figure {
-
 	margin: 0;
 }
-
 
 article h3 {
 	margin: 0;
@@ -246,39 +242,24 @@ article h3 {
 .noagent {
 	display: flex;
 	flex-direction: column;
-
-
 }
-
 
 article {
 	/* margin: 20px; */
 	background-color: #7fa663;
 	padding: 20px;
 	justify-content: center;
-
 }
-
 
 #contact h3 {
 	margin-block-start: 1em;
 }
-
-
 
 #contact {
 	display: flex;
 	flex-direction: column-reverse;
 }
 
-/* #contactleft {
-	margin: 20px;
-
-}
-
-#contactright {
-	margin: 20px;
-} */
 
 /*  GALLERY PAGE */
 
