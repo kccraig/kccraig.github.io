@@ -1,3 +1,7 @@
 body {
 background-color: khaki;
 }
+.imagecolumn {
+display: flex;
+flex-direction: column;
+}
