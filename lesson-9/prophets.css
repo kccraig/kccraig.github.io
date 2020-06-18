@@ -1,8 +1,5 @@
 /* font-family: 'Cinzel', serif;
-font-family: 'Oswald', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
-
+font-family: 'Lora', serif; */
 
 body {
     background-color: #d2cbb8;
@@ -38,11 +35,13 @@ h2 {
     color: #000000;
     font-family: 'Cinzel', serif;
     margin: 10px;
+    padding-top: 5px;
 }
 
 p {
     margin: 0;
     font-style: italic;
+    padding: .1em;
 }
 
 
