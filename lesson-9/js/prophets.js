@@ -13,7 +13,7 @@ fetch(requestURL)
                 let p = document.createElement('p');
                 let p2 = document.createElement('p');
                 let image = document.createElement('img');
-                
+
 
                 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
                 p.textContent = prophets[i].birthdate;
@@ -21,13 +21,11 @@ fetch(requestURL)
                 // alttext.textContent = prophets[i].name + ' ' + prophets[i].lastname + prophets[i].order;
                 image.setAttribute('src', prophets[i].imageurl);
                 image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' ' + prophets[i].order);
-
+            
                 card.appendChild(h2);
                 card.appendChild(p);
                 card.appendChild(p2);
-                card.appendChild(image);
-               
-                
+                card.appendChild(image); 
 
                 document.querySelector('div.cards').appendChild(card);
             }});

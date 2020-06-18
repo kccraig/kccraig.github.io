@@ -3,18 +3,22 @@ font-family: 'Oswald', sans-serif; */
 
 
 body {
-    background-color:
-        font-family: 'Oswald', sans-serif;
+    background-color: #d2cbb8;
+    font-family: 'Oswald', sans-serif;
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
+
 }
 
 section {
-    background-color: #2b71d0;
-    border-radius: 8px;;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ceaf80;
+
 }
 
 h1 {
@@ -29,21 +33,17 @@ h2 {
 }
 
 p {
-    border: 2px solid pink;
-    background-color: red;
     margin: 5px;
-
 }
 
 section {
-    border: 2px solid green;
     text-align: center;
-
 }
+
 img {
-border: dimgray;
-border-radius: 5px;
-padding: 10px;
+
+    border-radius: 8px;
+    padding: 10px;
 }
 
 /* LARGE SCREEN  */
@@ -51,19 +51,15 @@ padding: 10px;
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
-
     body {
-       
-        background-color: cornflowerblue;
-        
+        background-image: url(images/slctemple7large.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-
     }
-
 }
 
 /* MEDIUM SCREEN */
@@ -71,5 +67,12 @@ padding: 10px;
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    body {
+        background-image: url(images/slctemple7medium.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
