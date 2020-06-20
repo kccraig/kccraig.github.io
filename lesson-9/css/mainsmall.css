@@ -4,41 +4,49 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 p {
 	font-family: 'Quando', serif;
 }
+
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
 	margin-bottom: 0px;
 	font-size: 2em;
 
 }
+
 header h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
 	margin-top: 0px;
 }
+
 header {
 	background-color: #80b0d8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 #potatoman {
 	width: 6rem;
 	margin-bottom: 0px;
 }
+
 .cloudheader {
 	display: flex;
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+
 nav {
 	background-color: #f39c4d;
 	align-items: center;
 	font-size: 1.3em;
 	text-align: center;
 }
+
 nav button {
 	margin: .2rem 2%;
 	background-color: transparent;
@@ -47,6 +55,7 @@ nav button {
 	font-size: 1.6rem;
 
 }
+
 nav ul {
 	list-style-type: none;
 	padding: 0px;
@@ -55,17 +64,20 @@ nav ul {
 	justify-content: center;
 
 }
+
 nav ul li {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	border: 1px solid rgba(0, 0, 0, 0.30);
 }
+
 nav ul li a {
 	padding: .8rem 2%;
 	text-decoration: none;
 	color: #000000;
 }
+
 nav ul li a:hover {
 	background-color: #467322;
 	color: rgb(241, 208, 19);
@@ -79,11 +91,13 @@ nav ul li.active a {
 nav ul.hide {
 	display: none;
 }
+
 .clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
 footer {
 	text-align: center;
 	background-color: #f39c4d;
@@ -93,10 +107,12 @@ footer {
 	margin: auto;
 	text-decoration: none;
 }
+
 footer a {
 	text-decoration: none;
 	color: #200206;
 }
+
 #banner {
 	width: 100%;
 	background-color: rgb(241, 208, 19, 0.9);
@@ -104,4 +120,19 @@ footer a {
 	margin: 0;
 	text-align: center;
 	font-size: large;
+}
+
+.div1 {
+	background-color: lightpink;
+	height: 100px;
+}
+
+.div2 {
+	background-color: lightseagreen;
+	height: 100px;
+}
+
+.div3 {
+	background-color: lightslategray;
+	height: 100px;
 }
