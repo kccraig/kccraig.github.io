@@ -7,15 +7,15 @@ fetch(requestURL)
     .then(function (jsonObject) {
             console.table(jsonObject); 
             const towns = jsonObject['towns'];
-            for (let i = 0; i < towns.length; i++) {
-                let towncard = document.createElement('section');
+            while towns[i].name === “Preston” || “Soda Springs” || “Fish Haven” {
+            
+                let div = document.createElement('div');
                 let h2 = document.createElement('h2');
                 let p = document.createElement('p');
                 let p2 = document.createElement('p');
                 let p3 = document.createElement('p');
                 let p4 = document.createElement('p');
                 // let image = document.createElement('img');
-                
 
 
                 h2.textContent = towns[i].name;
@@ -24,16 +24,15 @@ fetch(requestURL)
                 p3.textContent = towns[i].currentPopulation;
                 p4.textContent = towns[i].averageRainfall;
 
-
-                // image.setAttribute('src', towns[i].imageurl);
-                
+                // image.setAttribute('src', prophets[i].imageurl);
+                // image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' ' + prophets[i].order);
             
-                towninfo.appendChild(h2);
-                towninfo.appendChild(p);
-                towninfo.appendChild(p2);
-                towninfo.appendChild(p3);
-                towninfo.appendChild(p4);
-                // towninfo.appendChild(image); 
+                div.appendChild(h2);
+                div.appendChild(p);
+                div.appendChild(p2);
+                div.appendChild(p3);
+                div.appendChild(p4);
+                // div.appendChild(image); 
 
                 document.querySelector('div.towninfo').appendChild(towninfo);
             }});
