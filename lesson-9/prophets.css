@@ -43,6 +43,9 @@ p {
     font-style: italic;
     padding: .1em;
 }
+footer {
+    background-color: #ccc6b8;
+}
 
 
 section {
