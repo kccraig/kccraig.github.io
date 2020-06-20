@@ -124,15 +124,22 @@ footer a {
 
 .div1 {
 	background-color: lightpink;
-	height: 100px;
+	
 }
 
 .div2 {
 	background-color: lightseagreen;
-	height: 100px;
+	
 }
 
 .div3 {
 	background-color: lightslategray;
-	height: 100px;
+
+}
+
+.threegridbox {
+background-color: lightyellow;
+padding: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
