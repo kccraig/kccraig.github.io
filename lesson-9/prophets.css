@@ -45,6 +45,9 @@ p {
 }
 footer {
     background-color: #ccc6b8;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
 }
 
 
