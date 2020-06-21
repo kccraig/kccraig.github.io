@@ -8,6 +8,7 @@ fetch(requestURL)
             console.table(jsonObject); 
             const towns = jsonObject['towns'];
             for (let i = 0; i < towns.length; i++) {
+                // if (towns[i].name == 'Preston' || 'Fish Haven' || 'Soda Springs') {
                 let town = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let p1 = document.createElement('p');
@@ -34,7 +35,7 @@ fetch(requestURL)
                 // town.appendChild(image); 
 
                 document.querySelector('div.towninfo').appendChild(town);
-            }});
+    }});
 
             // h2 town name
             // p1 motto  
