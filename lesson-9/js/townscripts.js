@@ -29,6 +29,8 @@ fetch(requestURL)
                 town.appendChild(h2);
                 town.appendChild(p1);
                 town.appendChild(p2);
+                town.appendChild(p3);
+                town.appendChild(p4);
                 // town.appendChild(image); 
 
                 document.querySelector('div.towninfo').appendChild(town);
