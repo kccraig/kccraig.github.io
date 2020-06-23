@@ -19,11 +19,11 @@ fetch(requestURL)
                 let p3 = document.createElement('p');
                 let p4 = document.createElement('p');
                 let pic = document.createElement('img');
-                pic.setAttribute('src', "images/preston/smallcloudysky.jpg");
+                // pic.setAttribute('src', "images/preston/smallcloudysky.jpg");
 
 
                 h2.textContent = towns[i].name;
-                p1.textContent = towns[i].motto;
+                p1.textContent = ' "' + towns[i].motto + '" ';
                 p2.textContent = towns[i].yearFounded;
                 p3.textContent = towns[i].currentPopulation;
                 p4.textContent = towns[i].averageRainfall;
@@ -37,7 +37,7 @@ fetch(requestURL)
                 town.appendChild(p2);
                 town.appendChild(p3);
                 town.appendChild(p4);
-                town.appendChild(image); 
+                // town.appendChild(image); 
 
                 document.querySelector('div.towninfo').appendChild(town);
     }}});
