@@ -1,3 +1,27 @@
+/*
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Quando', serif;
+/*
+orange #f29c50 rgb(242,156,80)
+dark orange #bf612a
+dark orange beige #a98363
+burgundy #400803 rgb(64,8,3);
+dark burgundy #200206
+
+grey #a69180
+light green #7fa663
+pretty green #447322
+dark green #335922
+darkest grey #0d0d0d
+
+New PLW Colors
+Blue #80b0d8   rgba(128,176,216,__)
+Potato orange #f39c4d rgb(243,156,77)
+Forest Green #467322  rgb(70,115,34)
+Yellow #f1d013 rgb(241,208,19)
+Brown #3f2d05 rgb(63,45,5);
+*/
 body {
 	font-family: 'Quando', serif;
 	background-color: #a98363;
@@ -39,6 +63,7 @@ header {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+
 
 nav {
 	background-color: #f39c4d;
@@ -103,7 +128,6 @@ footer {
 	background-color: #f39c4d;
 	color: #3f2d05;
 	padding: 20px;
-	width: 90%;
 	margin: auto;
 	text-decoration: none;
 }
@@ -123,23 +147,33 @@ footer a {
 }
 
 .threegridbox {
-background-color: lightyellow;
-padding: 20px;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+	background-color: lightyellow;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
+
 .cards section {
-    border: 2px solid rgb(52,50,48, 0.5);
-    border-radius: 8px;
-    background-color: #ccc6b8;
+	border: 2px solid rgb(52, 50, 48, 0.5);
+	border-radius: 8px;
+	background-color: #ccc6b8;
 	margin: 10px;
 	text-align: center;
 
 }
+
 .towninfo {
-display: grid;
-grid-template-columns: 1fr;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
 }
+
 .towninfo img {
-padding: 10px;
+	padding: 5px;
+}
+
+.towninfo section {
+	background-color: #7fa663;
+	padding: 10px;
+	text-align: center;
 }
