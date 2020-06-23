@@ -20,6 +20,8 @@ fetch(requestURL)
                 let p4 = document.createElement('p');
                 let pic = document.createElement('img');
                 // pic.setAttribute('src', "images/preston/smallcloudysky.jpg");
+                
+
 
 
                 h2.textContent = towns[i].name;
@@ -27,17 +29,18 @@ fetch(requestURL)
                 p2.textContent = towns[i].yearFounded;
                 p3.textContent = towns[i].currentPopulation;
                 p4.textContent = towns[i].averageRainfall;
-                
 
-                // image.setAttribute('src', prophets[i].imageurl);
+               
              
-            
+                pic.setAttribute('src', "images/preston/smallcloudsky.jpg" + towns[i].photo);
+                pic.setAttribute('alt', 'Photo of ' + towns[i].name);
+                
                 town.appendChild(h2);
                 town.appendChild(p1);
                 town.appendChild(p2);
                 town.appendChild(p3);
                 town.appendChild(p4);
-                // town.appendChild(image); 
+                town.appendChild(image); 
 
                 document.querySelector('div.towninfo').appendChild(town);
     }}});
