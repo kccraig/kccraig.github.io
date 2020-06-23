@@ -21,9 +21,9 @@ fetch(requestURL)
 
                 h2.textContent = towns[i].name;
                 p1.textContent = ' "' + towns[i].motto + '" ';
-                p2.textContent = towns[i].yearFounded;
-                p3.textContent = towns[i].currentPopulation;
-                p4.textContent = towns[i].averageRainfall;
+                p2.textContent = "Founded in " + towns[i].yearFounded;
+                p3.textContent = "Population " + towns[i].currentPopulation;
+                p4.textContent = "Average Rainfall " + towns[i].averageRainfall + '"';
 
                 pic.setAttribute('src', "images/townimages/" + towns[i].photo);
                 

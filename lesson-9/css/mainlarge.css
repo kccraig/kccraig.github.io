@@ -7,6 +7,7 @@
         position: relative;
         background-color: rgb(121, 68, 68);
     }
+
     .gridcontainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -14,12 +15,17 @@
         justify-content: center;
     }
 
-   img:hover {
-       box-shadow: 0 0 50px #333;
+    .cards img:hover {
+        box-shadow: 0 0 50px #333;
     }
+
     .towninfo {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        }
+    }
+
+    section:nth-child(1)>img {
+        border: 3px solid yellow;
+    }
 
 }
