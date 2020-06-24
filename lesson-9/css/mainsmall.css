@@ -162,26 +162,23 @@ footer a {
 
 }
 
-.towninfo {
-	display: grid;
-	grid-template-columns: 1fr;
-}
+ .towninfo {
+	/* display: grid;
+	grid-template-columns: 1fr; */
+	/* display: flex;
+	flex-direction: column; */
+} 
 
 .towninfo img {
-	padding: 5px;
+	padding: 10px;
 }
 
 .towninfo section {
 	background-color: #7fa663;
 	padding: 10px;
 	text-align: center;
+	border: 1px solid rgb(63,45,5);
 }
-.flexbox2 {
-/* display: flex;
-flex-direction: column; */
-border: 3px solid yellow;
-}
-.flexbox2:nth-of-type(2) {
-	flex-direction: row-reverse;
-}
+
+
 

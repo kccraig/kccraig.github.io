@@ -42,24 +42,30 @@
         flex: auto;
     }
 
-    .towninfo {
-        border: 3px solid blue;
-        /* grid-template-columns: 1fr 1fr; */
-    }
+
 
     .flexbox2 {
         display: flex;
         flex-direction: row;
+        margin: 10px;
     }
 
     .flexbox2 div {
         width: 50%;
-        border: 2px solid blueviolet;
+        margin: 35px;
+        padding: 50px;
+        background-color: rgba(128,176,216,0.75);
+        /* border: 2px solid blueviolet; */
     }
 
     .flexbox2 img {
         width: 50%;
+        border-radius: 10px;
+        
     }
-   
-    
+
+    .flexbox2:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
+
 }
