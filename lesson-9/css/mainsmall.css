@@ -162,11 +162,11 @@ footer a {
 
 }
 
-.towninfo {
+/* .towninfo {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 5px;
-}
+} */
 
 .towninfo img {
 	padding: 5px;
@@ -177,3 +177,9 @@ footer a {
 	padding: 10px;
 	text-align: center;
 }
+/* .flexbox2 {
+display: flex;
+flex-direction: row;
+} */
+
+

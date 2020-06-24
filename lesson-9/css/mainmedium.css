@@ -26,9 +26,11 @@
     nav button {
         display: none;
     }
-    nav ul li a {     
+
+    nav ul li a {
         padding: .6rem 1rem;
     }
+
     .daybox {
         margin: 0;
         padding: 5px;
@@ -41,7 +43,21 @@
     }
 
     .towninfo {
-        
-        grid-template-columns: 1fr 1fr;
-        }
+        border: 3px solid blue;
+        /* grid-template-columns: 1fr 1fr; */
+    }
+
+    .flexbox2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flexbox2 div {
+        width: 50%;
+        border: 2px solid blueviolet;
+    }
+
+    .flexbox2 img {
+        width: 50%;
+    }
 }

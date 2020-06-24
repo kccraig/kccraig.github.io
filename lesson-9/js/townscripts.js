@@ -18,25 +18,35 @@ fetch(requestURL)
                 let p3 = document.createElement('p');
                 let p4 = document.createElement('p');
                 let pic = document.createElement('img');
+                let divart = document.createElement('div');
+                
 
+                
                 h2.textContent = towns[i].name;
                 p1.textContent = ' "' + towns[i].motto + '" ';
                 p2.textContent = "Founded in " + towns[i].yearFounded;
                 p3.textContent = "Population " + towns[i].currentPopulation;
                 p4.textContent = "Average Rainfall " + towns[i].averageRainfall + '"';
-
+                // divart.textContent = h2 + p1 + p2 + p3 + p4;
                 pic.setAttribute('src', "images/townimages/" + towns[i].photo);
+                // info into correct divart
+                // divart.appendChild(h2);
+                // append main section into main
                 
                 pic.setAttribute('alt', 'Photo of ' + towns[i].name);
 
-                town.appendChild(h2);
-                town.appendChild(p1);
-                town.appendChild(p2);
-                town.appendChild(p3);
-                town.appendChild(p4);
-                town.appendChild(pic);
+                divart.appendChild(h2);
+                divart.appendChild(p1);
+                divart.appendChild(p2);
+                divart.appendChild(p3);
+                divart.appendChild(p4);
 
+                town.appendChild(divart);
+                town.appendChild(pic);
+               
+                town.setAttribute('class', "flexbox2");
                 document.querySelector('div.towninfo').appendChild(town);
+                
             }
         }
     });

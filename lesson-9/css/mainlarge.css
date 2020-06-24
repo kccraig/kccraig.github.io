@@ -19,8 +19,10 @@
         box-shadow: 0 0 50px #333;
     }
 
-    .towninfo {
-        grid-template-columns: 1fr 1fr 1fr;
+    .flexbox2 {
+        border: 3px solid white;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
     }
 
 
