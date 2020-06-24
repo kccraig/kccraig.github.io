@@ -181,5 +181,7 @@ footer a {
 flex-direction: column; */
 border: 3px solid yellow;
 }
-
+.flexbox2:nth-of-type(2) {
+	flex-direction: row-reverse;
+}
 
