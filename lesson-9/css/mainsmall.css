@@ -162,12 +162,14 @@ footer a {
 
 }
 
- .towninfo {
+
+.towninfo {
 	/* display: grid;
 	grid-template-columns: 1fr; */
 	/* display: flex;
 	flex-direction: column; */
-} 
+}
+
 
 .towninfo img {
 	padding: 10px;
@@ -177,8 +179,5 @@ footer a {
 	background-color: #7fa663;
 	padding: 10px;
 	text-align: center;
-	border: 1px solid rgb(63,45,5);
+	border: 1px solid rgb(63, 45, 5);
 }
-
-
-
