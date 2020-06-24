@@ -21,9 +21,21 @@
 
     .flexbox2 {
         border: 3px solid white;
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+       display: flex;
+       flex-direction: column;
+       
     }
+.towninfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.flexbox2 div {
+    width: 100%;
+    border: 2px solid blueviolet;
+}
 
+.flexbox2 img {
+    width: 100%;
+}
 
 }
