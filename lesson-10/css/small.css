@@ -183,9 +183,9 @@ footer {
 }
 .summary {
 	background-color: rgba(255, 255, 255, 0.5);
-	width: 200px;
-	height: 200px;
-	padding: 40px;
+	width: 250px;
+	height: 250px;
+	padding: 20px;
 	line-height: 1.6;
 	margin: 0;
 	border-radius: .5em;
