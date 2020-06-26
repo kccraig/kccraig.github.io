@@ -18,7 +18,9 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     const currentTemp = document.querySelector('#current-temp');
-    currentTemp.textContent = jsObject.list[0].main.temp;
+    currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
+    const humidity = document.querySelector('#humidity');
+    humidity.textContent = jsObject.list[0].main.humidity;
     
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
@@ -31,7 +33,7 @@ fetch(apiURL)
       document.getElementById("wchill").innerHTML = c + "°";
   } 
   else {
-      document.getElementById("wchill").innerHTML = "No chill today!";
+      document.getElementById("wchill").innerHTML = "none";
   }
     
     const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
