@@ -1,0 +1,36 @@
+/* ------PRESTON LARGE CSS----------- */
+
+@media only screen and (min-width: 64rem) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%; 
+         margin: 0;
+        
+        border: 1px solid green;
+
+    }
+
+  
+
+    nav ul li a {
+        display: flex;
+        flex-direction: row;
+        padding: .6rem 1rem;
+
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    .topsection {
+        position: relative;
+        background-color: lightgray;
+    }
+
+   
+}
