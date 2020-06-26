@@ -48,15 +48,6 @@ fetch(apiURL)
     // document.getElementById('icon').setAttribute('src', imagesrc); 
     // document.getElementById('icon').setAttribute('alt', desc);
   });
-/*GET WIND SPEED*/
-
-
-  /*WIND CHILL*/
-  
-
-
-
-
 
 var x = new Date();
 var y = x.getFullYear();
