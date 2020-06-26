@@ -1,0 +1,46 @@
+.cloudheader {
+    display: flex;
+    }
+    
+    nav {
+        background-color: #f39c4d;
+        align-items: center;
+        
+    
+    }
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        color: #3f2d05;;
+        font-size: 1.6rem;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0;
+        color: #3f2d05;
+        
+    }
+    nav ul li {
+        align-items: center;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #000000;
+        border-top: 1px solid rgba(0,0,0,0.30); 
+    }
+    nav ul li a:hover {
+        background-color: #467322;
+        color: #f39c4d;
+        
+    }
+    nav ul li.active a {
+        background-color: #f1d013;
+        color: #3f2d05;
+    }
+    nav ul.hide {
+        display: none;
+    }

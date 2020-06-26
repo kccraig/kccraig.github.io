@@ -1,0 +1,56 @@
+/* ------PRESTON LARGE CSS----------- */
+
+@media only screen and (min-width: 64rem) {
+
+
+    .topsection {
+        position: relative;
+        background-color: rgb(121, 68, 68);
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+
+    .cards img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    /*Preston main weather page*/
+
+    .towninfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .flexbox2 {
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px; */
+    }
+    
+
+    .flexbox2 div {
+        width: 90%;
+       margin:0 auto 0 auto;
+        padding: 5px;
+        
+        
+    }
+
+    .flexbox2 img {
+        width: 90%;
+        margin:0 auto 0 auto; 
+
+    }
+
+    .flexbox2:nth-of-type(2) {
+        flex-direction: column;
+    }
+
+
+
+}

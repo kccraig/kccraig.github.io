@@ -1,0 +1,11 @@
+
+body {
+background-color: khaki;
+}
+.imgcolumn {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-align: center;
+}
+

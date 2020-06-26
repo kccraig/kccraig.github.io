@@ -1,0 +1,180 @@
+/*
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Quando', serif;
+/*
+orange #f29c50 rgb(242,156,80)
+dark orange #bf612a
+dark orange beige #a98363
+burgundy #400803 rgb(64,8,3);
+dark burgundy #200206
+
+grey #a69180
+light green #7fa663
+pretty green #447322
+dark green #335922
+darkest grey #0d0d0d
+
+New PLW Colors
+Blue #80b0d8   rgba(128,176,216,__)
+Potato orange #f39c4d rgb(243,156,77)
+Forest Green #467322  rgb(70,115,34)
+Yellow #f1d013 rgb(241,208,19)
+Brown #3f2d05 rgb(63,45,5);
+*/
+body {
+	font-family: 'Quando', serif;
+	background-color: #a98363;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-family: 'Quando', serif;
+}
+
+h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin-bottom: 0px;
+	font-size: 2em;
+
+}
+
+header h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	margin-top: 0px;
+}
+
+header {
+	background-color: #80b0d8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#potatoman {
+	width: 6rem;
+	margin-bottom: 0px;
+}
+
+.cloudheader {
+	display: flex;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+/* nav {
+	background-color: #f39c4d;
+	align-items: center;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: #3f2d05;
+	font-size: 1.6rem;
+
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+	color: #3f2d05;
+	justify-content: center;
+
+}
+
+nav ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+nav ul li a {
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #000000;
+}
+
+nav ul li a:hover {
+	background-color: #467322;
+	color: rgb(241, 208, 19);
+}
+
+nav ul li.active a {
+	background-color: rgba(241, 208, 19, 0.5);
+	color: #3f2d05;
+}
+
+nav ul.hide {
+	display: none;
+} */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	text-align: center;
+	background-color: #f39c4d;
+	color: #3f2d05;
+	padding: 20px;
+	margin: auto;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #200206;
+}
+
+#banner {
+	width: 100%;
+	background-color: rgb(241, 208, 19, 0.9);
+	font-family: 'Englebert', sans-serif;
+	margin: 0;
+	text-align: center;
+	font-size: large;
+}
+
+.threegridbox {
+	background-color: lightyellow;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards section {
+	border: 2px solid rgb(52, 50, 48, 0.5);
+	border-radius: 8px;
+	background-color: #ccc6b8;
+	margin: 10px;
+	text-align: center;
+}
+
+.towninfo img {
+	padding: 10px;
+}
+
+ .towninfo section {
+	background-color: #7fa663;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid rgb(63, 45, 5);
+} 
+.flexbox2 {
+	display: flex;
+	flex-direction: column;
+}
+.flexbox2 div {
+	background-color: rgba(128,176,216,0.75);
+}
