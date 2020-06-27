@@ -38,20 +38,26 @@ fetch(apiURL)
     const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
     console.log(fiveday);
     console.log(fiveday[1].main);
-    var f = 0;
-    while (f=0, f<5, f++) {
-      // let card = document.createElement('section');
-        let fbox = document.createElement('table');
-        let trow = document.createElement('tr');
-        let dayname = document.createElement('td');
-        let sunny = document.createElement('td');
+    for (let i = 0; i < fiveday.length; i++) {
+      let ftable = document.createElement('table');
+      // let tr = document.createElement('tr');
+      // let td1 = document.createElement('td');
+      // let td2 = document.createElement('td');
 
+      // td1.textContent = "hello";
+      // ftable.appendChild(tr);
+      // ftable.appendChild(td1);
 
-    dayname.textContent = fiveday[0].name;
-        // h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+      document.querySelector('div.forecast').appendChild(ftable);
 
+      // let image = document.createElement('img')
     }
-    
+
+
+
+
+
+
 
     // document.getElementById('current-temp').textContent = jsObject.main.temp;
     // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png'; 
@@ -75,6 +81,7 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 var n = weekday[x.getDay()];
+
 
 var month = new Array();
 month[0] = "January";
