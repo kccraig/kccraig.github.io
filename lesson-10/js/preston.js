@@ -21,24 +21,37 @@ fetch(apiURL)
     currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
     const humidity = document.querySelector('#humidity');
     humidity.textContent = jsObject.list[0].main.humidity;
-    
+
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
     // const imagesrc = `https://openweathermap.org/img/w/$jsObject.weather[0].icon)`;
     var t = currentTemp;
-  var s = windsp;
-  if (t < 50 && s > 3) {
+    var s = windsp;
+    if (t < 50 && s > 3) {
       var f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (.4275 * t * Math.pow(s, 0.16));
       var c = Math.round(f);
       document.getElementById("wchill").innerHTML = c + "°";
-  } 
-  else {
+    } else {
       document.getElementById("wchill").innerHTML = "none";
-  }
-    
+    }
+
     const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
     console.log(fiveday);
     console.log(fiveday[1].main);
+    var f = 0;
+    while (f=0, f<5, f++) {
+      // let card = document.createElement('section');
+        let fbox = document.createElement('table');
+        let trow = document.createElement('tr');
+        let dayname = document.createElement('td');
+        let sunny = document.createElement('td');
+
+
+    dayname.textContent = fiveday[0].name;
+        // h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+
+    }
+    
 
     // document.getElementById('current-temp').textContent = jsObject.main.temp;
     // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png'; 
@@ -86,8 +99,3 @@ if (n == weekday[5]) {
 } else {
   document.getElementById("banner").style.display = "none";
 }
-
-
-
-
-

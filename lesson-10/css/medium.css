@@ -35,6 +35,8 @@
     #forecast {
         display: flex;
         flex-flow: row wrap;
+        background-color: red;
+        height: 100px;
     }
 
     .daybox {
