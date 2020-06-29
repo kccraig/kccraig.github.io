@@ -7,8 +7,11 @@ var today = new Date();
 var hours = today.getHours();
 if (hours > 12) {
   var h = (hours - 12);
+  var time = h + ":" + today.getMinutes() + "pm";
 }
-var time = h + ":" + today.getMinutes();
+else {
+  time = hours + ":" + today.getMinutes() + "am";
+}
 document.getElementById("nowtime").innerHTML = time;
 
 
@@ -35,11 +38,67 @@ fetch(apiURL)
       document.getElementById("wchill").innerHTML = "none";
     }
 
+    var x = new Date();
+    var y = x.getFullYear();
+    document.getElementsByClassName("currentyear")[0].innerHTML = y;
+
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+    var n = weekday[x.getDay()];
+
+    var month = new Array();
+    month[0] = "January";
+    month[1] = "February";
+    month[2] = "March";
+    month[3] = "April";
+    month[4] = "May";
+    month[5] = "June";
+    month[6] = "July";
+    month[7] = "August";
+    month[8] = "September";
+    month[9] = "October";
+    month[10] = "November";
+    month[11] = "December";
+    var mon = month[x.getMonth()];
+
+    var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
+    document.getElementById("thedate").innerHTML = fulldate;
+
+    if (n == weekday[5]) {
+      document.getElementById("banner").style.display = "block";
+    } else {
+      document.getElementById("banner").style.display = "none";
+    }
+
     const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
     console.log(fiveday);
     console.log(fiveday[1].main);
     for (let i = 0; i < fiveday.length; i++) {
-      let ftable = document.createElement('table');
+document.getElementsByClassName('proday').textContent = fiveday[i].weather.main;
+    }
+
+
+      var x = new Date();
+      var y = x.getFullYear();
+      document.getElementsByClassName("currentyear")[0].innerHTML = y;
+  
+    
+      
+  
+
+
+    
+
+
+
+
+      // let ftable = document.createElement('table');
       // let tr = document.createElement('tr');
       // let td1 = document.createElement('td');
       // let td2 = document.createElement('td');
@@ -48,10 +107,10 @@ fetch(apiURL)
       // ftable.appendChild(tr);
       // ftable.appendChild(td1);
 
-      document.querySelector('div.forecast').appendChild(ftable);
+      // document.querySelector('div.forecast').appendChild(ftable);
 
       // let image = document.createElement('img')
-    }
+    
 
 
 
@@ -67,42 +126,3 @@ fetch(apiURL)
     // document.getElementById('icon').setAttribute('src', imagesrc); 
     // document.getElementById('icon').setAttribute('alt', desc);
   });
-
-var x = new Date();
-var y = x.getFullYear();
-document.getElementsByClassName("currentyear")[0].innerHTML = y;
-
-var weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-var n = weekday[x.getDay()];
-
-
-var month = new Array();
-month[0] = "January";
-month[1] = "February";
-month[2] = "March";
-month[3] = "April";
-month[4] = "May";
-month[5] = "June";
-month[6] = "July";
-month[7] = "August";
-month[8] = "September";
-month[9] = "October";
-month[10] = "November";
-month[11] = "December";
-var mon = month[x.getMonth()];
-
-var fulldate = n + ", " + x.getDate() + " " + mon + " " + y;
-document.getElementById("thedate").innerHTML = fulldate;
-
-if (n == weekday[5]) {
-  document.getElementById("banner").style.display = "block";
-} else {
-  document.getElementById("banner").style.display = "none";
-}

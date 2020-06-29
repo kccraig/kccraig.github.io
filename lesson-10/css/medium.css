@@ -28,28 +28,7 @@
         left: 20px;
     }
 
-    #forecastbox {
-        display: inline;
-    }
-
-    #forecast {
-        display: flex;
-        flex-flow: row wrap;
-        background-color: red;
-        height: 100px;
-    }
-
-    .daybox {
-        margin: 0;
-        padding: 5px;
-        align-content: space-around;
-        border: 2px solid #7fa663;
-        background-color: rgba(128, 176, 216, 0.75);
-        width: 100px;
-        height: 100px;
-        flex:auto;
-
-    }
+  
     #contact {
         /* display: grid;
         grid-template-columns: 1fr 1fr; */
@@ -69,4 +48,35 @@
 .right {
 margin: 1em;
 }
+
+#forecastbox {
+    display: inline;
+}
+
+#forecast {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: red;
+    height: 100px;
+}
+
+.daybox {
+    margin: 0;
+    padding: 5px;
+    align-content: space-around;
+    border: 2px solid #7fa663;
+    background-color: rgba(128, 176, 216, 0.75);
+    width: 100px;
+    height: 100px;
+    flex:auto;
+}
+#forecasttable {
+background-color: lightskyblue;
+
+}
+.iconpix {
+border: 2px dashed green;
+}
+
+
 }
