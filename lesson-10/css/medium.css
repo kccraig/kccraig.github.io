@@ -72,11 +72,16 @@ margin: 1em;
 }
 #forecasttable {
 background-color: lightskyblue;
-
 }
+#forecasttable tr, th, td {
+    border: 1px solid black;
+    background-color: lime;
+  }
 .iconpix {
 border: 2px dashed green;
 }
 
-
+.firstday {
+background-color: linen;
+}
 }

@@ -8,8 +8,7 @@ var hours = today.getHours();
 if (hours > 12) {
   var h = (hours - 12);
   var time = h + ":" + today.getMinutes() + "pm";
-}
-else {
+} else {
   time = hours + ":" + today.getMinutes() + "am";
 }
 document.getElementById("nowtime").innerHTML = time;
@@ -80,35 +79,37 @@ fetch(apiURL)
     console.log(fiveday);
     console.log(fiveday[1].main);
     for (let i = 0; i < fiveday.length; i++) {
-document.getElementsByClassName('proday').textContent = fiveday[i].weather.main;
+      document.getElementsByClassName('firstday').textContent = fiveday[i].weather.main;
+      alert(fiveday[i].weather.main);
     }
 
 
-      var x = new Date();
-      var y = x.getFullYear();
-      document.getElementsByClassName("currentyear")[0].innerHTML = y;
-  
-    
-
-      let ftable = document.createElement('table');
-      let tr = document.createElement('tr');
-      let td1 = document.createElement('td');
-      let tr2 = document.createElement('tr');
-      let td2 = document.createElement('td');
-
-      td1.textContent = 'monday';
-      td2.textContent = 'tuesday';
-      ftable.appendChild(tr);
-      ftable.appendChild(td1);
-      // ftable.appendChild(tr2);
-      ftable.appendChild(td2);
 
 
-      document.querySelector('div.tablehere').appendChild(ftable);
-     
 
-      // let image = document.createElement('img')
-    
+
+    // let ftable = document.createElement('table');
+    // let tr = document.createElement('tr');
+    // let td1 = document.createElement('td');
+    // let tr2 = document.createElement('tr');
+    // let td2 = document.createElement('td');
+
+    // td1.textContent = 'monday';
+    // td2.textContent = 'tuesday';
+    // ftable.appendChild(tr);
+    // ftable.appendChild(td1);
+    // // ftable.appendChild(tr2);
+    // ftable.appendChild(td2);
+
+
+    // document.querySelector('div.tablehere').appendChild(ftable);
+
+
+    var x = new Date();
+    var y = x.getFullYear();
+    document.getElementsByClassName("currentyear")[0].innerHTML = y;
+    // let image = document.createElement('img')
+
 
 
 
