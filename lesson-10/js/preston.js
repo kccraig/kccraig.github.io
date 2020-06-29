@@ -14,15 +14,19 @@ if (hours > 12) {
 document.getElementById("nowtime").innerHTML = time;
 
 
-const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+
     const currentTemp = document.querySelector('#current-temp');
     currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
+
     const humidity = document.querySelector('#humidity');
     humidity.textContent = jsObject.list[0].main.humidity;
+
+    const icon = document.querySelector('img');
 
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
@@ -36,6 +40,13 @@ fetch(apiURL)
     } else {
       document.getElementById("wchill").innerHTML = "none";
     }
+
+
+    // const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    // const desc = jsObject.weather[0].description;
+    // icon.setAttribute('src', imagesrc);
+    // icon.setAttribute('alt', desc);
+
 
     var x = new Date();
     var y = x.getFullYear();
@@ -80,40 +91,27 @@ fetch(apiURL)
     console.log(fiveday[1].main);
     for (let i = 0; i < fiveday.length; i++) {
       document.getElementsByClassName('firstday').textContent = fiveday[i].weather.main;
-      alert(fiveday[i].weather.main);
-    }
 
+    let ftable = document.createElement('table');
+    let tr = document.createElement('tr');
+    let td1 = document.createElement('td');
+    let tr2 = document.createElement('tr');
+    let td2 = document.createElement('td');
+    let img = document.createElement('img');
 
-
-
-
-
-    // let ftable = document.createElement('table');
-    // let tr = document.createElement('tr');
-    // let td1 = document.createElement('td');
-    // let tr2 = document.createElement('tr');
-    // let td2 = document.createElement('td');
-
-    // td1.textContent = 'monday';
-    // td2.textContent = 'tuesday';
-    // ftable.appendChild(tr);
-    // ftable.appendChild(td1);
-    // // ftable.appendChild(tr2);
-    // ftable.appendChild(td2);
-
-
-    // document.querySelector('div.tablehere').appendChild(ftable);
-
+    td1.textContent = fiveday;
+    td2.textContent = 'tuesday';
+    ftable.appendChild(tr);
+    ftable.appendChild(td1);
+    // ftable.appendChild(tr2);
+    ftable.appendChild(td2);
+    document.querySelector('div.forecasttable').appendChild(ftable);
+  }
 
     var x = new Date();
     var y = x.getFullYear();
     document.getElementsByClassName("currentyear")[0].innerHTML = y;
     // let image = document.createElement('img')
-
-
-
-
-
 
 
 
