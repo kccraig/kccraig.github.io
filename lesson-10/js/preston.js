@@ -89,25 +89,23 @@ document.getElementsByClassName('proday').textContent = fiveday[i].weather.main;
       document.getElementsByClassName("currentyear")[0].innerHTML = y;
   
     
-      
-  
+
+      let ftable = document.createElement('table');
+      let tr = document.createElement('tr');
+      let td1 = document.createElement('td');
+      let tr2 = document.createElement('tr');
+      let td2 = document.createElement('td');
+
+      td1.textContent = 'monday';
+      td2.textContent = 'tuesday';
+      ftable.appendChild(tr);
+      ftable.appendChild(td1);
+      // ftable.appendChild(tr2);
+      ftable.appendChild(td2);
 
 
-    
-
-
-
-
-      // let ftable = document.createElement('table');
-      // let tr = document.createElement('tr');
-      // let td1 = document.createElement('td');
-      // let td2 = document.createElement('td');
-
-      // td1.textContent = "hello";
-      // ftable.appendChild(tr);
-      // ftable.appendChild(td1);
-
-      // document.querySelector('div.forecast').appendChild(ftable);
+      document.querySelector('div.tablehere').appendChild(ftable);
+     
 
       // let image = document.createElement('img')
     
