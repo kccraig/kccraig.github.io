@@ -92,20 +92,24 @@ fetch(apiURL)
     for (let i = 0; i < fiveday.length; i++) {
       document.getElementsByClassName('firstday').textContent = fiveday[i].weather.main;
 
-    let ftable = document.createElement('table');
-    let tr = document.createElement('tr');
-    let td1 = document.createElement('td');
-    let tr2 = document.createElement('tr');
-    let td2 = document.createElement('td');
-    let img = document.createElement('img');
 
-    td1.textContent = fiveday;
-    td2.textContent = 'tuesday';
-    ftable.appendChild(tr);
-    ftable.appendChild(td1);
-    // ftable.appendChild(tr2);
-    ftable.appendChild(td2);
-    document.querySelector('div.forecasttable').appendChild(ftable);
+
+      
+
+    // let ftable = document.createElement('table');
+    // let tr = document.createElement('tr');
+    // let td1 = document.createElement('td');
+    // let tr2 = document.createElement('tr');
+    // let td2 = document.createElement('td');
+    // let img = document.createElement('img');
+
+    // td1.textContent = fiveday[i].weather.main;
+    // td2.textContent = 'tuesday';
+    // ftable.appendChild(tr);
+    // ftable.appendChild(td1);
+    // // ftable.appendChild(tr2);
+    // ftable.appendChild(td2);
+    // document.querySelector('div.forecasttable').appendChild(ftable);
   }
 
     var x = new Date();
