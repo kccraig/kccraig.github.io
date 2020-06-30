@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -14,7 +14,7 @@ fetch(apiURL)
 
         let tr = document.createElement('tr');
         let tr2 = document.createElement('tr');
-        
+
         let td1 = document.createElement('td');
         let td2 = document.createAttribute('td');
         
