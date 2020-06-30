@@ -42,10 +42,7 @@ fetch(apiURL)
       }
 
 
-      // const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-      // const desc = jsObject.weather[0].description;
-      // icon.setAttribute('src', imagesrc);
-      // icon.setAttribute('alt', desc);
+     
 
 
       var x = new Date();
@@ -89,9 +86,16 @@ fetch(apiURL)
       const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
       console.log(fiveday);
       console.log(fiveday[1].main);
-      // for (let i = 0; i < fiveday.length; i++) {
-      // document.getElementsByClassName('day').textContent = fiveday[0].main.temp;
-      document.getElementById('ticon').textContent = "hello";
+      for (let i = 0; i < fiveday.length; i++) {
+      document.getElementsByClassName('day').textContent = fiveday[i].main.temp;
+      const imagesrc = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
+      const desc = fiveday[i].weather[0].description;
+      icon.setAttribute('src', imagesrc);
+      icon.setAttribute('alt', desc);
+      document.getElementsByClassName('ticon')[i].src = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
+
+      document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
+      }
 
 
 
