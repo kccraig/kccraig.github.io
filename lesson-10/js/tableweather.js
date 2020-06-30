@@ -11,26 +11,31 @@ fetch(apiURL)
 
     for (let i = 0; i < fiveday.length; i++) {
         let table = document.createElement('table');
+
         let tr = document.createElement('tr');
-        
         let tr2 = document.createElement('tr');
+        
         let td1 = document.createElement('td');
         let td2 = document.createAttribute('td');
         
         let image = document.createElement('img');
         var x = new Date();
+        var y = new Date();
         
        
         table.appendChild(tr);
+        table.appendChild(tr2);
         tr.appendChild(td1);
+        tr2.appendChild(td2);
         
       
         table.appendChild(tr2);
+
         // tr2.appendChild(td2);
         
         
         td1.textContent = x;
-        td2.textContent = "hello";
+        td2.textContent = y;
       
         document.querySelector('div#table').appendChild(table);
         
