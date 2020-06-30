@@ -1,7 +1,31 @@
 /* -------PRESTON MEDIUM CSS----------- */
 
 @media only screen and (min-width: 35rem) {
+    primarynav {
+        flex-direction: row;
+    }
 
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        margin: 0;
+         
+        border: 1px solid green;
+
+    }
+    nav ul li a{
+        padding:10px 20px 10px 20px;  
+      
+        
+    }
+
+    nav ul.hide {
+        display: flex;
+        flex-direction: row;
+    }
 
     main footer {
         width: 90%;
@@ -52,10 +76,10 @@
     }
 
     .ftable {
-        background-color: rgb(64,8,3,0.5);
+        background-color: rgb(64, 8, 3, 0.5);
         width: 80%;
         margin: 5px auto 5px auto;
-       
+
     }
 
     .ftable tr td {
@@ -65,8 +89,9 @@
         color: #e7c387;
         text-align: center;
     }
+
     .ticon {
-width: 5rem;
+        width: 5rem;
     }
 
 

@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 64rem) {
 
-    nav button {
+    /* nav button {
         display: none;
     }
 
@@ -14,8 +14,6 @@
 
     }
 
-  
-
     nav ul li a {
         display: flex;
         flex-direction: row;
@@ -25,7 +23,7 @@
 
     nav ul.hide {
         display: block;
-    }
+    } */
 
     .topsection {
         position: relative;
