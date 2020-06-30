@@ -95,7 +95,7 @@ header {
 }
 primarynav {
 	display: flex;
-		}
+	}
 
 nav {
 	background-color: #f39c4d;
@@ -118,9 +118,7 @@ nav ul {
 	list-style-type: none;
 	padding: 0px;
 	margin: 0;
-	color: #3f2d05;
 	justify-content: center;
-
 }
 
 nav ul li {
@@ -134,7 +132,7 @@ nav ul li a {
 	 
 	padding: .8rem 2%;
 	text-decoration: none;
-	color: #000000;
+	color: #3f2d05;
 	
 }
 
