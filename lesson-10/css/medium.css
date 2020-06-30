@@ -12,10 +12,12 @@
     nav ul {
         margin-left: 2%;
         margin: 0;
-        /* border: 1px solid green; */
+        
     }
     nav ul li a{
-        padding:10px 20px 10px 20px;  
+        /* padding:10px 20px 10px 20px;   */
+        padding: 20px;
+        border: 
       
         
     }

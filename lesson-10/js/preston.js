@@ -4,6 +4,7 @@ function toggleMenu() {
 
 /*CURRENT TIME*/
 var today = new Date();
+
 var hours = today.getHours();
 if (hours > 12) {
   var h = (hours - 12);
