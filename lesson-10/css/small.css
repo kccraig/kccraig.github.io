@@ -175,7 +175,7 @@ footer {
 }
 
 #contact {
-	background-color:rgb(241, 208, 19, .75);
+	background-color:#e7c387;
 	color: #3f2d05;
 }
 #contactright {
@@ -221,8 +221,8 @@ article h3 {
 }
 
 article {
-	/* margin: 20px; */
-	background-color: #a69180;
+	margin: 5px auto 5px auto;
+	background-color: #7fa663;
 }
 .art {
 display: flex;
@@ -238,6 +238,9 @@ flex-direction: column;
 #contact {
 	display: flex;
 	flex-direction: column-reverse;
+}
+ftable {
+display: none;
 }
 
 /* #contactleft {

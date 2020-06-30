@@ -50,16 +50,24 @@
     .right {
         margin: 1em;
     }
-  .ftable {
-background-color: pink;
 
-  }
-  .ftable tr td {
-    border: 1px solid #bbbcbb;
-    border-collapse: collapse;
-    padding: 20px;
-    
+    .ftable {
+        background-color: rgb(64,8,3,0.5);
+        width: 80%;
+        margin: 5px auto 5px auto;
+       
+    }
 
-  }
+    .ftable tr td {
+        border: 1px solid #bbbcbb;
+        border-collapse: collapse;
+        padding: 20px;
+        color: #e7c387;
+        text-align: center;
+    }
+    .ticon {
+width: 5rem;
+    }
+
 
 }
