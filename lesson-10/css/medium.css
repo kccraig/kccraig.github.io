@@ -21,12 +21,12 @@
     nav ul li a {
         /* display: flex;
         flex-direction: row; */
-        padding: .6rem 1rem;
+        padding: 20px;
 
     }
 
     nav ul.hide {
-        display: block;
+        display: flex;
     }
     .clouds {
         display: flex;

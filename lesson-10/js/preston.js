@@ -27,7 +27,7 @@ fetch(apiURL)
     const humidity = document.querySelector('#humidity');
     humidity.textContent = jsObject.list[0].main.humidity;
 
-    const icon = document.querySelector('ticon');
+    const icon = document.querySelector('.ticon');
 
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
