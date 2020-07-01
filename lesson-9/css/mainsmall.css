@@ -65,7 +65,7 @@ header {
 }
 
 
-/* nav {
+nav {
 	background-color: #f39c4d;
 	align-items: center;
 	font-size: 1.3em;
@@ -115,7 +115,7 @@ nav ul li.active a {
 
 nav ul.hide {
 	display: none;
-} */
+}
 
 .clearfix:after {
 	content: "";
