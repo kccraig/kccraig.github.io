@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Weather Home Page</title>
+	<link rel="icon" href="images/potatofavicoicon.png">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+</head>
+<div id="banner">
+	<h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+</div>
+<header>
+	<div class="cloudheader">
+		<img class="clouds" src="images/leftcloud.png" alt="puffy cloud">
+		<img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
+		<div class="tagline">
+			<h1>Potato-Land Weather</h1>
+			<h2>Beautiful Bear River Valley</h2>
+		</div>
+		<img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
+	</div>
+	<nav class="clearfix primarynav">
+		<button onClick="toggleMenu()">&#9776;Menu</button>
+		<ul id="primarynav" class="hide">
+			<li><a href="weatherindex.html">Home</a></li>
+			<li class="active"><a href="preston6.html">Preston</a></li>
+			<li><a href=sodasprings.html>Soda Springs</a></li>
+			<li><a href="fishhaven.html">Fish Haven</a></li>
+			<li><a href="stormcenter.html">Storm Center</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+</header>
+<body>
+	<main>
+		<section>
+			<h2>Preston</h2>
+			<div class="herosection">
+				<figure id="topphoto">
+					<img src="images/preston/cloudyskybig.jpg" alt="preston mountains">
+					<figcaption>photo by Necia Seamons</figcaption>
+				</figure>
+				<div class="summary">
+					<h3>Weather Summary</h3>
+					<ul>
+						<li>Current Time is <span id="nowtime"></span></li>
+						<li>Current Temperature in Preston: <span id="current-temp"></span>&deg; F</li>
+						<li>Wind Chill: <span id="wchill"></span></li>
+						<li>Humidity: <span id="humidity"></span>%</li>
+						<li>Wind Speed: <span id="windspeed"></span>mph</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<article>
+			<div class="art">
+				<div class="left">
+					<h3>Bear Lake History</h3>
+					<p id="history">Native Americans called the fertile Bear Lake Valley home for more than 12,000 years, settling along
+						 the shores of the massive lake and moving seasonally in search of game and edible plants in the surrounding mountains 
+						 and lush wetlands north of the lake. These early inhabitants gathered plants to store for the long winter and caught fish 
+						 and waterfowl in the abundant lakes, rivers, and streams. They hunted rabbits, deer, bison, and the fleet-footed pronghorn antelope on the open range, thriving by migrating between Bear Lake and the Great Salt Lake Valley to the west. Tribes including the Shoshone, Ute, and Bannock hunted and fished in the broad valley and often camped along the lakeshore. Eventually, they began trading with other tribes and with 
+						mountain men who began frequenting Bear Lake in the 1800s.</p>
+				</div>
+				<div class="right">
+					<figure>
+						<img src="images/preston/snowymtn.jpg" alt="snowymtn">
+						<figcaption>photo by Necia Seamons</figcaption>
+					</figure>
+				</div>
+			</div>
+		</article>
+		<div id="forecastbackground">
+			<table class="ftable">
+				
+				<h3>Your Five Day Weather Forecast</h3>
+				<tr>
+					
+					<td><span class="nextday"></span></td>
+					<td><span class="nextday"></span></td>
+					<td><span class="nextday"></span></td>
+					<td><span class="nextday"></span></td>
+					<td><span class="nextday"></span></td>
+
+				</tr>
+				<tr>
+					<td><img class="ticon"></td>
+					<td><img class="ticon"></td>
+					<td><img class="ticon"></td>
+					<td><img class="ticon"></td>
+					<td><img class="ticon"></td>
+
+				</tr>
+				<tr>
+					<td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+					<td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+					<td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+					<td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+					<td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+				</tr>
+			</table>
+		
+		</div>
+
+		<section id="contact">
+			<div id="contactleft">
+				<figure>
+					<img src="images/preston/prestonstreetmap.png" alt="barn in preston idaho">
+				</figure>
+			</div>
+			<div id="contactright">
+				<h3>Contact Information</h3>
+				<p>City of Preston website https://www.prestonidaho.net/</p>
+			</div>
+
+		</section>
+	</main>
+	<footer>
+		<p>&copy;<span class="currentyear"></span> Kathy Clark Craig | South Carolina | <a
+				href="https://www.byui.edu/online" target="_blank">BYUI Online
+				Learning</a><br></p>
+
+		<div id="thedate"></div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<!-- <script src="js/scripts.js"></script>
+			<script src="js/townscripts.js"></script> -->
+	<script src="js/preston.js"></script>
+
+</body>
+
+</html>

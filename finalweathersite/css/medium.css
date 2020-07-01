@@ -1,0 +1,102 @@
+/* -------PRESTON MEDIUM CSS----------- */
+
+@media only screen and (min-width: 35rem) {
+
+    .primarynav ul {
+        flex-direction: row;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        margin: 0;
+
+        border: 1px solid green;
+
+    }
+nav {
+width: 100%;
+}
+    nav ul li a {
+        /* display: flex;
+        flex-direction: row; */
+        padding: 20px;
+
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .clouds {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #banner {
+        display: block;
+    }
+
+    .herosection {
+        position: relative;
+    }
+
+    .summary {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+
+    #contact {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .art {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .left {
+        padding: 20px;
+
+    }
+
+    .right {
+        margin: 1em;
+    }
+
+    .ftable {
+        margin: 5px auto 5px auto;
+        display: inline;
+       
+    }
+
+    .ftable tr td {
+        border: 1px solid #bbbcbb;
+        border-collapse: collapse;
+        padding: 20px;
+        color: #e7c387;
+        text-align: center;
+        background-color: rgb(64, 8, 3, 0.5);
+    }
+
+    .ticon {
+        width: 5rem;
+    }
+
+    #forecastbackground {
+        background-color: linen;
+        padding: 8px;
+        text-align: center;
+        margin: 10px auto 10px auto;
+    }
+
+
+}
