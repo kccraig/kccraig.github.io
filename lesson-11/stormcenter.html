@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Storm Center</title>
+    <link rel="icon" href="images/potatofavicoicon.png">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/small.css" rel="stylesheet" type="text/css">
+    <link href="css/medium.css" rel="stylesheet" type="text/css">
+    <link href="css/large.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CMerriweather%7CQuando&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+</head>
+
+
+<header>
+
+    <div class="cloudheader">
+        <img class="clouds" src="images/leftcloud.png" alt="puffy cloud">
+        <img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
+        <div class="tagline">
+            <h1>Potato-Land Weather</h1>
+            <h2>Beautiful Bear River Valley</h2>
+        </div>
+        <img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
+    </div>
+</header>
+<nav class="clearfix primarynav">
+    <button onClick="toggleMenu()">&#9776;Menu</button>
+    <ul id="primarynav" class="hide">
+        <li><a href="weatherindex.html">Home</a></li>
+        <li class="active"><a href="preston6.html">Preston</a></li>
+        <li><a href=sodasprings.html>Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<body>
+    <main>
+        <header class="stormheader">
+            <h2>Storm Report</h2>
+            <h3>Please tell us about the extreme weather you encountered</h3>
+        </header>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <label class="pinfo">Your Name: <input type="text" name="fname" required placeholder="Amy Craig"
+                        pattern="[A-Za-z]{5}"></label>
+                <label class="pinfo">Your email please: <input type="email"></label>
+                <label class="pinfo">Phone Number: <input type="tel" name="phone" placeholder="803555789"
+                        required></label>
+                <label class="pinfo">Zip code: <input type="number" name="zip" placeholder="12345" required></label>
+            </fieldset>
+            <fieldset>
+                <label class="abtstm">Date of Storm: <input type="date" name="stormdate" required></label>
+                <!-- Storm Type list reference datalist of Flash Flood, Hail, Hurricane, Thurnderstorm, tornado -->
+                <label class="abtstm">What type of storm was it?
+                    <select name="typeofstorm">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="duststorm">Dust Storm</option>
+                        <option value="tornado">Tornado</option>
+                        <option value="hail">Hail</option>
+                        <option value="windstorm">Windstorm</option>
+                        <option value="blizzard">Blizzard</option>
+                    </select>
+                </label>
+
+                <label class="abtstm">How bad was the Storm?</label>
+                <p>0=That was fun 10=We almost died and the house blew away.</p>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+            </fieldset>
+
+            <fieldset>
+                <label class="region">Storm Region
+                    <select name="region">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="fishhaven">Fish Haven</option>
+                        <option value="sodasprings">Soda Springs</option>
+                    </select>
+                </label>
+            </fieldset>
+
+
+
+            <!--RADIO-->
+            <fieldset>
+                <legend>Are you in danger?</legend>
+                <div class="danger">
+                    <label for="yes"><input type="radio" id="yes" name="indanger" value="yes">
+                        Yes</label>
+                </div>
+                <div class="danger">
+                    <label for="maybe"><input type="radio" id="maybe" name="indanger" value="maybe"> Maybe</label>
+                </div>
+                <div class="danger">
+                    <label for="no"><input type="radio" id="no" name="indanger" value="no"> No</label>
+                </div>
+            </fieldset>
+            <fieldset>
+
+                <div id="moreinfo">
+                    <label for="moreinfo">Tell us more about the storm.</label>
+                    <textarea name="moreinfo" id="moreinfo" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <div>
+            <input id="submitbutton" type="submit" value="Thanks for your reporting!">
+        </div>
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy;<span class="currentyear"></span> Kathy Clark Craig | South Carolina | <a
+                href="https://www.byui.edu/online" target="_blank">BYUI Online
+                Learning</a><br></p>
+
+        <div id="thedate"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/lazyjs.js"></script>
+    <script src="
+    </body>
+
+</html>
