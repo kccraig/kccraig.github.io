@@ -142,11 +142,12 @@ nav ul li a {
 nav ul li a:hover {
 	background-color: #467322;
 	color: rgb(241, 208, 19);
+	font-size: 1.15em;
 }
 
 nav ul li.active a {
-	background-color: rgba(241, 208, 19, 0.5);
-	color: #3f2d05;
+	background-color: rgba(241, 208, 19, 0.25);
+	color: #467322;
 }
 
 nav ul.hide {
