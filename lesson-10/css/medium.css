@@ -11,13 +11,15 @@
     }
 
     nav ul {
-        margin-left: 2%; 
+        margin-left: 2%;
         margin: 0;
-        
+
         border: 1px solid green;
 
     }
-
+nav {
+width: 100%;
+}
     nav ul li a {
         /* display: flex;
         flex-direction: row; */
@@ -28,9 +30,10 @@
     nav ul.hide {
         display: flex;
     }
+
     .clouds {
         display: flex;
-        flex-direction:  row;
+        flex-direction: row;
     }
 
     #banner {
@@ -72,6 +75,7 @@
     .ftable {
         margin: 5px auto 5px auto;
         display: inline;
+       
     }
 
     .ftable tr td {
@@ -80,19 +84,19 @@
         padding: 20px;
         color: #e7c387;
         text-align: center;
+        background-color: rgb(64, 8, 3, 0.5);
     }
 
     .ticon {
         width: 5rem;
     }
+
     #forecastbackground {
         background-color: linen;
         padding: 8px;
         text-align: center;
         margin: 10px auto 10px auto;
-        }
-        tbody {
-            background-color: rgb(64, 8, 3, 0.5);
-        }
+    }
+
 
 }
