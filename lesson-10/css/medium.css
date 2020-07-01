@@ -52,7 +52,6 @@
         left: 20px;
     }
 
-
     #contact {
         /* display: grid;
         grid-template-columns: 1fr 1fr; */
@@ -77,8 +76,9 @@
 
     .ftable {
         background-color: rgb(64, 8, 3, 0.5);
-        width: 80%;
+ 
         margin: 5px auto 5px auto;
+        display: inline;
 
     }
 
@@ -93,6 +93,11 @@
     .ticon {
         width: 5rem;
     }
-
+    #forecastbackground {
+        background-color: linen;
+        padding: 8px;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        }
 
 }
