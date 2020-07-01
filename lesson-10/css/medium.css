@@ -75,11 +75,8 @@
     }
 
     .ftable {
-        background-color: rgb(64, 8, 3, 0.5);
- 
         margin: 5px auto 5px auto;
         display: inline;
-
     }
 
     .ftable tr td {
@@ -98,6 +95,9 @@
         padding: 8px;
         text-align: center;
         margin: 10px auto 10px auto;
+        }
+        tbody {
+            background-color: rgb(64, 8, 3, 0.5);
         }
 
 }
