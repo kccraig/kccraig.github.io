@@ -1,0 +1,47 @@
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.gallery {
+	margin: 20px;
+	padding: 20px;
+
+}
+
+.gridcontainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 40px;
+
+}
+
+.gallerymain {
+	background-color: rgba(51, 89, 34, 1);
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.imgbox {
+	background-color: #a98363;
+	padding: 20px 20px 10px 20px;
+	font-style: italic;
+	border-radius: 7.5px;
+}
+
+figcaption {
+	padding: 10px;
+	margin: 0;
+
+}
+
+#gallerytitle {
+	color: #80b0d8;
+	text-shadow: 1px 1px #200206#f1d013;
+}
+.gridbox {
+	border-radius: 7.5px;
+}
