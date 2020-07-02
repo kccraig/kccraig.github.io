@@ -6,8 +6,20 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
             console.table(jsonObject); 
-            const events = jsonObject['events'];
+            const towns = jsonObject['towns'];
+          
+           document.getElementById('box').innerHTML = towns[0].name;
+           
+           for (let i = 0; i < towns.length; i++) {
+          if (towns[0].name == 'Soda Springs') {
             
+document.getElementById('box').innerHTML = towns[i].name;
+          }
+          else {
+            if (towns[0].name == 'Fish Haven') {
+                document.getElementById('box').innerHTML = towns[i].name;
+          }
+        }
 
 
-    }
+    }})
