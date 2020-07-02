@@ -24,15 +24,11 @@
 //     document.getElementById('icon').setAttribute('alt', desc);
 
 // const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat={42.0369}&lon={-111.3963}&appid={5aa9a97658cd372399c4ff0e81b82f97}';
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?q={fishhaven}&appid={5aa9a97658cd372399c4ff0e81b82f97}';
-// const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat={42.0372°}&lon={111.3960}&appid={5aa9a97658cd372399c4ff0e81b82f97}';
+
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat={42.0372}&lon={111.3960}&appid={5aa9a97658cd372399c4ff0e81b82f97}';
+// const apiURL = 'http://api.openweathermap.org/data/2.5/weather?q={fishhaven}&appid={5aa9a97658cd372399c4ff0e81b82f97}';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);  
- 
-    
-
-
-
   });
