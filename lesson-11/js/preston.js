@@ -20,7 +20,6 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-
     const currentTemp = document.querySelector('#current-temp');
     currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
 
