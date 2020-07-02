@@ -29,6 +29,11 @@
         position: relative;
         background-color: lightgray;
     }
-
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
    
 }
