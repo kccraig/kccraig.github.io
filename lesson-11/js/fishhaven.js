@@ -10,10 +10,9 @@
 function toggleMenu() {
     document.getElementById("primarynav").classList.toggle("hide");
   }
-  
+ 
   /*CURRENT TIME*/
   var today = new Date();
-  
   var hours = today.getHours();
   if (hours > 12) {
     var h = (hours - 12);
@@ -49,10 +48,6 @@ function toggleMenu() {
       } else {
         document.getElementById("wchill").innerHTML = "none";
       }
-  
-  
-  
-  
   
       var x = new Date();
       var y = x.getFullYear();
@@ -112,4 +107,5 @@ function toggleMenu() {
         document.getElementsByClassName('nextday')[i].textContent = weekday[d];
         d++;
         document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
+    }
     })
