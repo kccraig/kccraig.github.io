@@ -18,13 +18,14 @@ if (hours > 12) {
 document.getElementById("nowtime").innerHTML = time;
 
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
     const currentTemp = document.querySelector('#current-temp');
-    currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
+    // currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
+  
 
     const humidity = document.querySelector('#humidity');
     humidity.textContent = jsObject.list[0].main.humidity;
