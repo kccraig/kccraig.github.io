@@ -25,9 +25,9 @@
 
 
 //fish haven
-// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0369&lon=-111.3963&appid=5aa9a97658cd372399c4ff0e81b82f97';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0369&lon=-111.3963&appid=5aa9a97658cd372399c4ff0e81b82f97';
 //sodasprings 
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
+// const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
 
 fetch(apiURL)
   .then((response) => response.json())

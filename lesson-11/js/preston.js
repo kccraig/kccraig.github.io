@@ -43,8 +43,6 @@ fetch(apiURL)
 
 
 
-
-
     var x = new Date();
     var y = x.getFullYear();
     document.getElementsByClassName("currentyear")[0].innerHTML = y;
@@ -106,33 +104,4 @@ fetch(apiURL)
     }
 
 
-
-
-    // let ftable = document.createElement('table');
-    // let tr = document.createElement('tr');
-    // let td1 = document.createElement('td');
-    // let tr2 = document.createElement('tr');
-    // let td2 = document.createElement('td');
-    // let img = document.createElement('img');
-
-    // td1.textContent = fiveday[i].weather.main;
-    // td2.textContent = 'tuesday';
-    // ftable.appendChild(tr);
-    // ftable.appendChild(td1);
-    // // ftable.appendChild(tr2);
-    // ftable.appendChild(td2);
-    // document.querySelector('div.forecasttable').appendChild(ftable);
-
-
-
-
-
-
-    // document.getElementById('current-temp').textContent = jsObject.main.temp;
-    // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png'; 
-    // console.log(imagesrc);
-    // const desc = jsObject.weather[0].description; 
-    // document.getElementById('imagesrc').textContent = imagesrc;
-    // document.getElementById('icon').setAttribute('src', imagesrc); 
-    // document.getElementById('icon').setAttribute('alt', desc);
   })
