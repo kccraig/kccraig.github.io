@@ -15,6 +15,7 @@ function toggleMenu() {
     time = hours + ":" + today.getMinutes() + "am";
   }
   document.getElementById("nowtime").innerHTML = time;
+  
   // const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=83287&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
   const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
   fetch(apiURL)
