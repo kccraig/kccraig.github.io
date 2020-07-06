@@ -30,7 +30,6 @@ fetch(apiURL)
 
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
-    // const imagesrc = `https://openweathermap.org/img/w/$jsObject.weather[0].icon)`;
     var t = currentTemp;
     var s = windsp;
     if (t < 50 && s > 3) {
@@ -40,8 +39,6 @@ fetch(apiURL)
     } else {
       document.getElementById("wchill").innerHTML = "none";
     }
-
-
 
     var x = new Date();
     var y = x.getFullYear();
@@ -97,11 +94,33 @@ fetch(apiURL)
       if (d >= 7) {
         d = 0;
       }
-  
       document.getElementsByClassName('nextday')[i].textContent = weekday[d];
       d++;
       document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
     }
 
 
+  })
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const towns = jsonObject['towns'];
+
+    for (let i = 0; i < towns.length; i++) {
+      console.log(towns[i].name);
+      if (towns[i].name == 'Soda Springs') {
+        let eventinput = document.createElement('section');
+        for (let x = 0; x <= towns[i].events.length; x++) {
+
+          let p = document.createElement('p');
+          p.textContent = towns[i].events[x];
+          eventinput.appendChild(p);
+          document.querySelector('div.peventbox').appendChild(eventinput);
+        }
+      }
+    }
   })
