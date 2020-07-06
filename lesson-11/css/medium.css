@@ -57,6 +57,8 @@
         grid-template-columns: 1fr 1fr; */
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        
     }
 
     .art {
@@ -83,7 +85,7 @@
     .ftable tr td {
         border: 1px solid #bbbcbb;
         border-collapse: collapse;
-        padding: 20px;
+        padding: 5px;
         color: #e7c387;
         text-align: center;
         background-color: rgb(64, 8, 3, 0.5);
