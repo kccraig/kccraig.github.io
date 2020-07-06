@@ -15,7 +15,7 @@ fetch(requestURL)
 
                            let eventinput = document.createAttribute('section');
                            let p = document.createAttribute('p');
-                           p.textContent = towns[i].events;
+                           p.textContent = towns[i].events[x];
                            eventinput.appendChild(p);
                            document.querySelector('div.eventbox').appendChild(eventinput);
                         }
