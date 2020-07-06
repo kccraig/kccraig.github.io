@@ -43,6 +43,37 @@
         text-align: center;
         background-color: rgb(64, 8, 3, 0.5);
     }
+      /*WEATHER INDEX weather page*/
+
+      .towninfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .flexbox2 {
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px; */
+    }
+    
+
+    .flexbox2 div {
+        width: 90%;
+       margin:0 auto 0 auto;
+        padding: 5px;
+        
+        
+    }
+
+    .flexbox2 img {
+        width: 90%;
+        margin:0 auto 0 auto; 
+
+    }
+
+    .flexbox2:nth-of-type(2) {
+        flex-direction: column;
+    }
 
    
 }

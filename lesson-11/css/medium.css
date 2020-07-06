@@ -107,5 +107,29 @@
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 20px;
     }
+/*MAIN INDEX PAGE*/
+    .flexbox2 {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .flexbox2 div {
+        width: 50%;
+        margin: 35px;
+        padding: 50px;
+       
+       
+    }
+
+    .flexbox2 img {
+        width: 50%;
+        border-radius: 10px;
+        
+    }
+
+    .flexbox2:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
 
 }
