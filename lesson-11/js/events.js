@@ -11,10 +11,6 @@ fetch(requestURL)
         for (let i = 0; i <= towns[i].name.length; i++) { 
 
                     if (towns[i].name == 'Soda Springs') {
-var x = towns[i].events[0];
-// for (x=0; x<=x.length; x++) {
-// alert(x);
-// }
 
                            
 
