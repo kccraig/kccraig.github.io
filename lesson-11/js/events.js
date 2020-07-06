@@ -12,10 +12,13 @@ fetch(requestURL)
 
                     if (towns[i].name == 'Soda Springs') {
 
-                           
-
+                           let eventinput = document.createAttribute('section');
+                           let p = document.createAttribute('p');
+                           p.textContent = towns[i].events;
+                           eventinput.appendChild(p);
+                           document.querySelector('div.eventbox').appendChild(eventinput);
 
                         
-              document.getElementById('eventbox').textContent = towns[i].events;
+            //   document.getElementById('eventbox').textContent = towns[i].events;
                     }
     }})
