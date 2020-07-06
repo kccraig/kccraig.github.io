@@ -11,13 +11,14 @@ fetch(requestURL)
         for (let i = 0; i <= towns[i].name.length; i++) { 
 
                     if (towns[i].name == 'Soda Springs') {
+                        for (let x = 0; x<=events[x].length; x++) {
 
                            let eventinput = document.createAttribute('section');
                            let p = document.createAttribute('p');
                            p.textContent = towns[i].events;
                            eventinput.appendChild(p);
                            document.querySelector('div.eventbox').appendChild(eventinput);
-
+                        }
                         
             //   document.getElementById('eventbox').textContent = towns[i].events;
                     }
