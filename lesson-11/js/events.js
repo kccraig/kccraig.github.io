@@ -11,11 +11,11 @@ fetch(requestURL)
         for (let i = 0; i <= towns[i].name.length; i++) { 
 
                     if (towns[i].name == 'Soda Springs') {
-                        
-                        for (let x = 0; x<=events[x].length; x++) {
-
-                           let eventinput = document.createAttribute('section');
-                           let p = document.createAttribute('p');
+                        document.getElementById('eventbox').textContent = towns[i].events[0];
+                        let eventinput = document.createElement('section');
+                        for (let x = 0; x<=towns[i].events.length; x++) {
+                            
+                           let p = document.createElement('p');
                            p.textContent = towns[i].events[x];
                            eventinput.appendChild(p);
                            document.querySelector('div.eventbox').appendChild(eventinput);
