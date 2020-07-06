@@ -13,7 +13,7 @@
     nav ul {
         margin-left: 2%;
         margin: 0;
-/* justify-content: space-around; */
+        /* justify-content: space-around; */
         /* border: 1px solid green; */
 
     }
@@ -53,12 +53,10 @@
     }
 
     #contact {
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+
     }
 
     .art {
@@ -69,7 +67,6 @@
 
     .left {
         padding: 20px;
-
     }
 
     .right {
@@ -79,7 +76,6 @@
     .ftable {
         margin: 5px auto 5px auto;
         display: inline;
-
     }
 
     .ftable tr td {
@@ -102,13 +98,19 @@
         margin: 10px auto 10px auto;
 
     }
-   
+
+    .hide {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridcontainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 20px;
     }
-/*MAIN INDEX PAGE*/
+
+    /*MAIN INDEX PAGE*/
     .flexbox2 {
         display: flex;
         flex-direction: row;
@@ -119,19 +121,19 @@
         width: 50%;
         margin: 35px;
         padding: 50px;
-       
-       
+
+
     }
 
     .flexbox2 img {
         width: 50%;
         border-radius: 10px;
-        
+
     }
 
     .flexbox2:nth-of-type(2) {
         flex-direction: row-reverse;
     }
-  
+
 
 }

@@ -215,7 +215,10 @@ footer {
 	padding: 20px;
 }
 
-#forecastbox {
+/* #forecastbox {
+	display: none;
+} */
+.hide {
 	display: none;
 }
 
