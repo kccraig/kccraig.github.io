@@ -13,6 +13,9 @@ font-family: 'Quando', serif;
 <style>
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap');
 </style>
+font-family: dry-cowboy, sans-serif;
+font-weight: 400;
+font-style: normal;
 */
 /*
 orange #f29c50 rgb(242,156,80)
@@ -421,4 +424,17 @@ label {
 	margin: 10px auto 10px auto;
 	line-height: 200%;
 
+}
+.events {
+	background-color: #e7c387;
+	color: #3f2d05;
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	margin: 10px auto 10px auto;
+	border-radius: 2px;;
+}
+.space {
+margin: 10px;
+font-family: dry-cowboy, sans-serif;
 }
