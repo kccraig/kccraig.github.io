@@ -327,18 +327,15 @@ figcaption {
 /*storm report*/
 .stormheader {
 	background-color: rgb(64, 8, 3,0.75);
-	color: linen;
-	margin-top: 20px;
+	color: rgb(241,208,19,0.75);
 	max-width: 100%;
-	padding: 20px;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 10px;
 	border-radius: 5px;
 	text-align: center;
-
+	margin: 10 auto 10 auto;
 }
 
 .stormheader h2 {
 	font-size: 1.75rem;
-	;
+	margin-bottom: 2px;
 }
