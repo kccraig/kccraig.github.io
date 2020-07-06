@@ -169,9 +169,9 @@ text-align: center;
 background-color: linen;
 color: #3f2d05;
 padding: 20px;
-width: 75x%;
+width: 75%;
 margin: 10px auto 10px auto;
-border-radius: 5px;
+border-radius: 2px;
 
 }
 .herosection {
@@ -302,8 +302,11 @@ article {
 }
 
 figcaption {
-	padding: 10px;
+	padding: 5px;
 	margin: 0;
+	background-color: linen;
+	font-size: .5em;
+	font-style: italic;
 }
 
 #gallerytitle {
