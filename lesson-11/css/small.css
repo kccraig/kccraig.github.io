@@ -215,9 +215,6 @@ footer {
 	padding: 20px;
 }
 
-/* #forecastbox {
-	display: none;
-} */
 .hide {
 	display: none;
 }
@@ -225,7 +222,6 @@ footer {
 figure {
 	margin: 0;
 }
-
 
 article h3 {
 	margin: 0;
