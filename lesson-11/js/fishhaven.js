@@ -1,9 +1,3 @@
-// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0369&lon=-111.3963&appid=5aa9a97658cd372399c4ff0e81b82f97';
-// fetch(apiURL)
-//   .then((response) => response.json())
-//   .then((jsObject) => {
-//     console.log(jsObject);  
-//   });
 
 //   fish haven id 5585010
 
@@ -21,7 +15,6 @@ function toggleMenu() {
     time = hours + ":" + today.getMinutes() + "am";
   }
   document.getElementById("nowtime").innerHTML = time;
-  
   
   const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
   fetch(apiURL)
