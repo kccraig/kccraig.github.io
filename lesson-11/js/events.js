@@ -8,19 +8,20 @@ fetch(requestURL)
         console.table(jsonObject);
         const towns = jsonObject['towns'];
 
-        for (let i = 0; i <= towns[i].name.length; i++) { 
+        for (let i = 0; i < towns.length; i++) {
+            console.log(towns[i].name);
+            if (towns[i].name == 'Soda Springs') {
+                // document.getElementById('eventbox').textContent = towns[i].events[0];
+                let eventinput = document.createElement('section');
+                for (let x = 0; x <= towns[i].events.length; x++) {
 
-                    if (towns[i].name == 'Soda Springs') {
-                        document.getElementById('eventbox').textContent = towns[i].events[0];
-                        let eventinput = document.createElement('section');
-                        for (let x = 0; x<=towns[i].events.length; x++) {
-                            
-                           let p = document.createElement('p');
-                           p.textContent = towns[i].events[x];
-                           eventinput.appendChild(p);
-                           document.querySelector('div.eventbox').appendChild(eventinput);
-                        }
-                        
-            //   document.getElementById('eventbox').textContent = towns[i].events;
-                    }
-    }})
+                    let p = document.createElement('p');
+                    p.textContent = towns[i].events[x];
+                    eventinput.appendChild(p);
+                    document.querySelector('div.eventbox').appendChild(eventinput);
+                }
+
+                //   document.getElementById('eventbox').textContent = towns[i].events;
+            }
+        }
+    })
