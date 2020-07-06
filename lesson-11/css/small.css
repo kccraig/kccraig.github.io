@@ -160,7 +160,6 @@ nav ul.hide {
 	clear: both;
 }
 
-
 #topphoto img {
 	margin: 0;
 	width: 100%;
@@ -177,15 +176,6 @@ footer {
 	padding: 20px;
 	width: 90%;
 	margin: auto;
-}
-
-#contact {
-	background-color: #e7c387;
-	color: #3f2d05;
-}
-
-#contactright {
-	padding: 20px;
 }
 
 .summary {
@@ -249,6 +239,15 @@ article {
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: center;
+}
+#contact {
+	background-color: #e7c387;
+	color: #3f2d05;
+}
+
+
+#contactright {
+	padding: 20px;
 }
 
 .ftable {
