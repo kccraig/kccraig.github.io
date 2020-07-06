@@ -18,7 +18,8 @@ if (hours > 12) {
 document.getElementById("nowtime").innerHTML = time;
 
 // 3242
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
+// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 
 fetch(apiURL)
   .then((response) => response.json())
