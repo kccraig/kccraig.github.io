@@ -11,6 +11,7 @@ fetch(requestURL)
         for (let i = 0; i <= towns[i].name.length; i++) { 
 
                     if (towns[i].name == 'Soda Springs') {
+                        
                         for (let x = 0; x<=events[x].length; x++) {
 
                            let eventinput = document.createAttribute('section');
