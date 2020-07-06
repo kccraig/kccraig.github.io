@@ -131,5 +131,6 @@
     .flexbox2:nth-of-type(2) {
         flex-direction: row-reverse;
     }
+  
 
 }

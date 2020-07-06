@@ -323,3 +323,22 @@ figcaption {
 .flexbox2 div {
 	background-color: rgba(128,176,216,0.75);
 }
+
+/*storm report*/
+.stormheader {
+	background-color: rgb(64, 8, 3,0.75);
+	color: linen;
+	margin-top: 20px;
+	max-width: 100%;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+.stormheader h2 {
+	font-size: 1.75rem;
+	;
+}
