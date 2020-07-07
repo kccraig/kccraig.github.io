@@ -327,19 +327,20 @@ figcaption {
 }
 
 .gridbox {
-	border-radius: 7.5px;
+	border-radius: 2px;
 }
 
 /*MAIN WEATHER INDEX PAGE*/
 .towninfo img {
-	padding: 10px;
+	/* padding: 10px; */
+	box-shadow: 3px 3px 10px 2px #333;
 }
 
 .towninfo section {
 	background-color: #7fa663;
 	padding: 10px;
 	text-align: center;
-	border: 1px solid rgb(63, 45, 5);
+	border: 1px solid rgb(63, 45, 5, .5);
 }
 
 .flexbox2 {
@@ -472,4 +473,5 @@ label {
 p1 {
 font-style: italic;
 }
+
 
