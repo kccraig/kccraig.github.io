@@ -164,11 +164,12 @@ nav ul.hide {
 }
 
 #valleyintro {
-	background-color: #80b0d8;
+	background-color: rgb(250,240,230,.75);
 	color: #400803;
 	padding: 10px;
 	border-radius: 2px;
 	margin: 5px auto 5px auto;
+	border: 5px solid yellow;
 }
 
 
