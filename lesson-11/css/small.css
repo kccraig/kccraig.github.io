@@ -389,7 +389,7 @@ label {
 	display: block;
 }
 
-#moreinfo {
+.moreinfo {
 	display: block;
 	width: 90%;
 	margin-top: 8px;

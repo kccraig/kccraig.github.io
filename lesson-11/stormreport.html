@@ -14,32 +14,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
 </head>
 
-
-<header>
-
-    <div class="cloudheader">
-        <img class="clouds" src="images/leftcloud.png" alt="puffy cloud">
-        <img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
-        <div class="tagline">
-            <h1>Potato-Land Weather</h1>
-            <h2>Beautiful Bear River Valley</h2>
-        </div>
-        <img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
-    </div>
-</header>
-<nav class="clearfix primarynav">
-    <button onClick="toggleMenu()">&#9776;Menu</button>
-    <ul id="primarynav" class="hide">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
-        <li><a href=sodasprings.html>Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>
-        <li class="active"><a href="stormreport.html">Storm Report</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-    </ul>
-</nav>
-
 <body>
+    <header>
+        <div class="cloudheader">
+            <img class="clouds" src="images/leftcloud.png" alt="puffy cloud">
+            <img id="potatoman" src="images/potatomanglove.png" alt="weather site logo">
+            <div class="tagline">
+                <h1>Potato-Land Weather</h1>
+                <h2>Beautiful Bear River Valley</h2>
+            </div>
+            <img class="clouds" src="images/rightcloud.png" alt="puffy cloud">
+        </div>
+    </header>
+    <nav class="clearfix primarynav">
+        <button onClick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primarynav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href=sodasprings.html>Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="stormreport.html">Storm Report</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
     <main>
         <header class="stormheader">
             <h2 class="bigger">Storm Report</h2>
@@ -114,14 +112,14 @@
             </fieldset>
             <fieldset>
 
-                <div id="moreinfo">
+                <div class="moreinfo">
                     <label for="moreinfo">Tell us more about the storm.</label>
-                    <textarea name="moreinfo" id="moreinfo" cols="30" rows="10"></textarea>
+                    <textarea name="moreinfo" class="moreinfo" cols="30" rows="10"></textarea>
                 </div>
             </fieldset>
             <div>
-            <input id="submitbutton" type="submit" value="Submit Your Report">
-        </div>
+                <input id="submitbutton" type="submit" value="Submit Your Report">
+            </div>
         </form>
 
     </main>
@@ -135,6 +133,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/scripts.js"></script>
-    </body>
+</body>
 
 </html>
