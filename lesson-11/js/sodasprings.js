@@ -1,6 +1,4 @@
-// const apiURL = 'http://api.openweathermap.org/data/2.5/weather?lat=42.6543652&lon=-111.6046687&appid=5aa9a97658cd372399c4ff0e81b82f97'; 
-
-
+//   fish haven id 5585010
 
 function toggleMenu() {
   document.getElementById("primarynav").classList.toggle("hide");
@@ -17,6 +15,7 @@ if (hours > 12) {
 }
 document.getElementById("nowtime").innerHTML = time;
 
+// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=83287&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
@@ -25,7 +24,6 @@ fetch(apiURL)
     const currentTemp = document.querySelector('#current-temp');
     currentTemp.textContent = Math.round(jsObject.list[0].main.temp);
 
-
     const humidity = document.querySelector('#humidity');
     humidity.textContent = jsObject.list[0].main.humidity;
 
@@ -33,6 +31,7 @@ fetch(apiURL)
 
     const windsp = document.querySelector('#windspeed');
     windsp.textContent = jsObject.list[0].wind.speed;
+    // const imagesrc = `https://openweathermap.org/img/w/$jsObject.weather[0].icon)`;
     var t = currentTemp;
     var s = windsp;
     if (t < 50 && s > 3) {
@@ -93,40 +92,38 @@ fetch(apiURL)
       icon.setAttribute('src', imagesrc);
       icon.setAttribute('alt', desc);
 
-      document.getElementsByClassName('ticon')[i].src = imagesrc;
+      document.getElementsByClassName('ticon')[i].src = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
       document.getElementsByClassName('ticon')[i].alt = desc;
       if (d >= 7) {
         d = 0;
       }
+
       document.getElementsByClassName('nextday')[i].textContent = weekday[d];
       d++;
       document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
     }
   })
+  const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-  /*EVENT BOX*/
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
-    const towns = jsonObject['towns'];
-
-    for (let i = 0; i < towns.length; i++) {
-      console.log(towns[i].name);
-      if (towns[i].name == 'Soda Springs') {
-        let eventinput = document.createElement('section');
-        for (let x = 0; x <= towns[i].events.length; x++) {
-
-          let p = document.createElement('p');
-          p.textContent = towns[i].events[x];
-          eventinput.appendChild(p);
-          document.querySelector('div.eventbox').appendChild(eventinput);
-        }
-
-      }
-    }
-  })
+  fetch(requestURL)
+      .then(function (response) {
+          return response.json();
+      })
+      .then(function (jsonObject) {
+          console.table(jsonObject);
+          const towns = jsonObject['towns'];
+  
+          for (let i = 0; i < towns.length; i++) {
+              console.log(towns[i].name);
+              if (towns[i].name == 'Soda Springs') {
+                  let eventinput = document.createElement('section');
+                  for (let x = 0; x <= towns[i].events.length; x++) {
+                      let p = document.createElement('p');
+                      p.textContent = towns[i].events[x];
+                      eventinput.appendChild(p);
+                      document.querySelector('div.eventbox').appendChild(eventinput);
+                  }
+  
+              }
+          }
+      })
