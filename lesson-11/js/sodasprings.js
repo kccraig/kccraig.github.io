@@ -18,7 +18,6 @@ if (hours > 12) {
 document.getElementById("nowtime").innerHTML = time;
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
-
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -93,17 +92,18 @@ fetch(apiURL)
       const desc = fiveday[i].weather[0].description;
       icon.setAttribute('src', imagesrc);
       icon.setAttribute('alt', desc);
+
       document.getElementsByClassName('ticon')[i].src = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
-      // document.getElementsByClassName('ticon')[i].alt = desc;
       if (d >= 7) {
         d = 0;
       }
-
       document.getElementsByClassName('nextday')[i].textContent = weekday[d];
       d++;
       document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
     }
   })
+
+  /*EVENT BOX*/
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)

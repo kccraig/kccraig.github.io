@@ -14,7 +14,6 @@ if (hours > 12) {
 }
 document.getElementById("nowtime").innerHTML = time;
 
-
 const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())

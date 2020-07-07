@@ -11,7 +11,6 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             console.log(towns[i].name);
             if (towns[i].name == 'Soda Springs') {
-                // document.getElementById('eventbox').textContent = towns[i].events[0];
                 let eventinput = document.createElement('section');
                 for (let x = 0; x <= towns[i].events.length; x++) {
                     let p = document.createElement('p');
