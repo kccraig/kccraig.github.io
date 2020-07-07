@@ -162,12 +162,13 @@ nav ul.hide {
 	display: table;
 	clear: both;
 }
+
 #valleyintro {
 	background-color: #80b0d8;
 	color: #400803;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 2px;
-	margin: 10px auto 5px auto;
+	margin: 5px auto 5px auto;
 }
 
 
@@ -394,7 +395,7 @@ label {
 
 .stormheader {
 	background-color: rgb(64, 8, 3, 0.75);
-	color: rgb(241, 208, 19,.80);
+	color: rgb(241, 208, 19, .80);
 	margin-top: 20px;
 	max-width: 100%;
 	padding: 20px;
@@ -411,7 +412,7 @@ label {
 
 #submitbutton {
 	background-color: rgb(64, 8, 3, 0.75);
-	color: rgb(241, 208, 19,.80);
+	color: rgb(241, 208, 19, .80);
 	padding: 20px;
 	margin-right: auto;
 	margin-left: auto;
@@ -430,6 +431,7 @@ label {
 	line-height: 200%;
 
 }
+
 .events {
 	background-color: #e7c387;
 	color: #3f2d05;
@@ -437,9 +439,34 @@ label {
 	padding: 10px;
 	width: 50%;
 	margin: 10px auto 10px auto;
-	border-radius: 2px;;
+	border-radius: 2px;
+	;
 }
+
 .space {
-margin: 10px;
-font-family: dry-cowboy, sans-serif;
+	margin: 10px;
+	font-family: dry-cowboy, sans-serif;
 }
+
+#weatherclimate {
+	text-align: center;
+}
+#weatherclimate img {
+	 
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	 }
+
+
+#valleyintro {
+	background-color: #80b0d8;
+	color: #400803;
+	padding: 10px;
+	border-radius: 2px;
+	margin: 5px auto 5px auto;
+	text-align: center;
+}
+
+.slant {
+	font-style: italic;
+}
+

@@ -135,5 +135,30 @@
         flex-direction: row-reverse;
     }
 
+    /* #valleyintro {
+        background-color: #80b0d8;
+        color: #400803;
+        padding: 10px;
+        border-radius: 2px;
+        margin: 5px auto 5px auto;
+        text-align: center;
+      
+    } */
+    #weatherclimate {
+        display: flex;
+        flex-direction: flex-wrap;
+        align-items: center;
+        padding: 12px;
+    }
+
+    #weatherclimate img {
+        box-shadow: 2px 2px;
+    }
+
+    .imgbox img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+
 
 }
