@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        flex-direction: row;
+        background-color: #f29c50;
+        text-align: center;
+    }
+li {
+    padding: 20px;
+}
+#colors img {
+    width: 100%;
+}
+}

@@ -1,0 +1,87 @@
+/*Decorative for titles
+
+font-family: 'Love Ya Like A Sister', cursive;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC|Love+Ya+Like+A+Sister|Luckiest+Guy|Special+Elite&display=swap');
+</style>
+*/
+/* Serif for the wording
+Quando is nice, try that first
+font-family: 'Merriweather', serif;
+font-family: 'Quando', serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap');
+</style>
+*/
+/*
+orange #f29c50
+dark orange #bf612a
+dark orange beige #a98363
+burgundy #400803
+dark burgundy #200206
+
+grey #a69180
+light green #7fa663
+pretty green #447322
+dark green #335922
+darkest grey #0d0d0d
+*/
+
+
+body {
+background-color: #a69180;
+font-family: 'Quando', serif;
+margin: 50px;
+
+}
+header {
+background-color: #7fa663;
+padding: 5px;
+text-align: center;
+}
+nav {
+    margin-bottom: -5px;
+}
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    background-color: #f29c50;
+    text-align: center;
+    padding-left: 0;
+}
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 3em;
+   
+}
+h2 {
+    font-family: 'Merriweather', serif;
+}
+main {
+    text-align: left;   
+}
+footer {
+background-color: #bf612a;
+text-align: center;
+padding: 5px;
+}
+li {
+padding: 10px;
+text-align: center;
+margin: auto;
+}
+#colors {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#colors img {
+    width: 50%;
+}

@@ -1,0 +1,77 @@
+/*
+grey #859399
+pink #972255
+green #2d5147
+*/
+
+
+body {
+    background-color: #FFFEFC;
+    font-family: 'Poppins', sans-serif;  
+   
+    
+}
+header {
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: #972255;
+    padding: 5px;
+    color: #E7E5D9;
+    border-radius: 10px;
+}
+header h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.gridbox {
+    text-align: center;
+    background-color:#E7E5D9;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #972255;
+    color: #2d5147;
+}
+footer {
+    text-align: center;
+    background-color:#972255;
+    color: #E7E5D9;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+img {
+    width: 75%;
+    border-radius: 5px;
+}
+.parasettings {
+    background-color: #FFFEFC;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #2d5147;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+a:link {
+    color:blue;
+    text-decoration: none; 
+}
+a:hover {
+color: #aa1e32;
+}
+.principle {
+margin: 0px;
+background-color:#2d5147;
+padding: 10px;
+border-radius: 10px;
+color: #FFFEFC;
+}
+
+

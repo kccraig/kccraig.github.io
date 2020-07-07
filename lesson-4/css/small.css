@@ -1,0 +1,152 @@
+
+/*Decorative for titles
+
+font-family: 'Love Ya Like A Sister', cursive;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC|Love+Ya+Like+A+Sister|Luckiest+Guy|Special+Elite&display=swap');
+</style>
+*/
+/* Serif for the wording
+Quando is nice, try that first
+font-family: 'Merriweather', serif;
+font-family: 'Quando', serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Neuton|Quando|Taviraj|Vollkorn&display=swap');
+</style>
+*/
+/*
+orange #f29c50 rgb(242,156,80)
+dark orange #bf612a
+dark orange beige #a98363
+burgundy #400803
+dark burgundy #200206
+
+grey #a69180
+light green #7fa663
+pretty green #447322
+dark green #335922
+darkest grey #0d0d0d
+
+New PLW Colors
+Blue #80b0d8   rgba(128,176,216,__)
+Potato orange #f39c4d rgb(243,156,77)
+Forest Green #467322  rgb(70,115,34)
+Yellow #f1d013 rgb(241,208,19)
+Brown #3f2d05 rgb(63,45,5);
+*/
+/* -----PRESTON SMALL CSS PAGE---- */
+
+
+
+body {
+	background-color: #7fa663;
+	font-family: 'Quando', serif;
+}
+h1 {
+   font-family: 'Love Ya Like A Sister', cursive;
+   margin-bottom: 0px;
+	font-size: 2em;
+	
+}
+header h2 {
+	font-family: 'Merriweather', serif;
+    font-size: 1em;
+	margin-top: 0px;
+}
+header {
+	padding-top: 30px;
+	background-color: #80b0d8;
+	
+}
+#potatoman {
+	width: 6em;
+	margin-bottom: 0px;
+}
+.tagline {
+	text-align: center;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cloudheader {
+display: flex;
+}
+
+nav {
+	background-color: #f39c4d;
+	align-items: center;
+	
+
+}
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: #3f2d05;;
+	font-size: 1.6rem;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+	color: #3f2d05;
+	
+}
+nav ul li {
+	align-items: center;
+}
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #000000;
+	border-top: 1px solid rgba(0,0,0,0.30); 
+}
+nav ul li a:hover {
+	background-color: #467322;
+	color: #f39c4d;
+	
+}
+nav ul li.active a {
+	background-color: #f1d013;
+	color: #3f2d05;
+}
+nav ul.hide {
+	display: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.herosection img {
+	max-width: 50%;
+	background-color: rgba(255,255,255,0.5);
+}
+footer {
+	text-align: center;
+	background-color: #f39c4d;
+	color: #3f2d05;
+	padding: 20px;
+}
+img {
+	margin-right: auto;
+	margin-left: auto;
+}
+#contact {
+	background-color: #f1d013;
+	color: #3f2d05;
+}
+.summary {
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	width: 200px;
+	height: 200px;
+	overflow: scroll;
+	padding: 10px;
+
+
+}
