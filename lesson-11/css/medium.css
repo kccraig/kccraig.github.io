@@ -150,6 +150,10 @@
     .imgbox img:hover {
         box-shadow: 0 0 50px #333;
     }
+    #history {
+        line-height: 200%;
+        padding: 10px;
+    }
    
 
     

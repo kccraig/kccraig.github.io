@@ -276,7 +276,7 @@ article {
 	display: none;
 }
 
-.history {
+#history {
 	line-height: 150%;
 	padding: 10px;
 }
@@ -449,7 +449,7 @@ label {
 
 .space {
 	margin: 10px;
-	font-family: dry-cowboy, sans-serif;
+	font-family: cowboyslang-expanded, sans-serif;
 }
 
 #weatherclimate {
