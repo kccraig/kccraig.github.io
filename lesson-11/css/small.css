@@ -276,7 +276,7 @@ article {
 	display: none;
 }
 
-#history {
+.history {
 	line-height: 150%;
 	padding: 10px;
 }
