@@ -93,7 +93,8 @@ fetch(apiURL)
       icon.setAttribute('src', imagesrc);
       icon.setAttribute('alt', desc);
 
-      document.getElementsByClassName('ticon')[i].src = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
+      document.getElementsByClassName('ticon')[i].src = imagesrc;
+      document.getElementsByClassName('ticon')[i].alt = desc;
       if (d >= 7) {
         d = 0;
       }
