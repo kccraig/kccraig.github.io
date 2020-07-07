@@ -45,6 +45,7 @@ fetch(requestURL)
                 town.appendChild(pic);
                
                 town.setAttribute('class', "flexbox2");
+                p1.setAttribute('class', "slant");
                 document.querySelector('div.towninfo').appendChild(town);
                 
             }

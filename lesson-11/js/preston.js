@@ -112,7 +112,7 @@ fetch(requestURL)
 
     for (let i = 0; i < towns.length; i++) {
       console.log(towns[i].name);
-      if (towns[i].name == 'Soda Springs') {
+      if (towns[i].name == 'Preston') {
         let eventinput = document.createElement('section');
         for (let x = 0; x <= towns[i].events.length; x++) {
 
