@@ -1,0 +1,15 @@
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Damion&family=Fugaz+One&family=Galada&family=Modak&family=Pacifico&family=Ranchers&family=Salsa&display=swap" rel="stylesheet">
+
+font-family: 'Courgette', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Salsa', cursive;
+
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&family=Josefin+Sans:wght@300;400;600&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+font-family: 'Catamaran', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
