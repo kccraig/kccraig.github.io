@@ -100,7 +100,7 @@ fetch(apiURL)
       if (d >= 7) {
         d = 0;
       }
-  
+
       document.getElementsByClassName('nextday')[i].textContent = weekday[d];
       d++;
       document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/small.css">
     <title>Home</title>
 </head>
 <body>
@@ -24,13 +25,45 @@
     <div>
         <h4>Current Weather on Cozumel</h4>
        <ul>
-        <li>Temperature: <span id="current-temp"></span>&deg; F</li>
-        <li>Humidity: <span id="humidity"></span>%</li>
-           <li><span class="descriptionimg"></span></li>
+        <li>Temperature: <span class="current-temp"></span>&deg; F</li>
+        <li>Humidity: <span class="humidity"></span>%</li>
+        <li><img class="wicon"></li>
+           <li><span class="description"></span></li>
        </ul>
-
+    </div>
+    <div>
+        <h4>Five Day Cozumel Weather Forecast</h4>
+        <div class="fiveday">
+            <p>five day forecast here</p>
+        </div>
     </div>
 </section>
+<div id="forecastbackground">
+    <h3 class="hide">Your Five Day Weather Forecast</h3>
+    <table class="ftable">
+        <tr>
+            <td><span class="nextday"></span></td>
+            <td><span class="nextday"></span></td>
+            <td><span class="nextday"></span></td>
+            <td><span class="nextday"></span></td>
+            <td><span class="nextday"></span></td>
+        </tr>
+        <tr>
+            <td><img class="ticon"></td>
+            <td><img class="ticon"></td>
+            <td><img class="ticon"></td>
+            <td><img class="ticon"></td>
+            <td><img class="ticon"></td>
+        </tr>
+        <tr>
+            <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+            <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+            <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+            <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+            <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+        </tr>
+    </table>
+</div>
     </main>
     <footer>
         <div>
