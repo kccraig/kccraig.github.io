@@ -1,6 +1,16 @@
-// const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1c63b29616f73119eb969c661944c844&units=imperial';
+var today = new Date();
+var hours = today.getHours();
+if (hours > 12) {
+  var h = (hours - 12);
+  var time = h + ":" + today.getMinutes() + "pm";
+} else {
+  time = hours + ":" + today.getMinutes() + "am";
+}
+// document.getElementById("nowtime").innerHTML = time;
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.5113&lon=86.9302&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
+
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=77645,52&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
+// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.4230&lon=86.9223&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -18,4 +28,25 @@ fetch(apiURL)
     //  document.getElementsByClassName('wicon').src = imagesrc;
     //  document.getElementsByClassName('wicon').alt = desc;
 
-  })
+
+  const fiveday = cozinfo.list.filter(item => item.dt_txt.includes("12:00:00"));
+  console.log(fiveday);
+  console.log(fiveday[1].main);
+  for (let i = 0; i < fiveday.length; i++) {
+    document.getElementsByClassName('day').textContent = fiveday[i].main.temp;
+    const imagesrc = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
+    const desc = fiveday[i].weather[0].description;
+    icon.setAttribute('src', imagesrc);
+    icon.setAttribute('alt', desc);
+
+    document.getElementsByClassName('ticon')[i].src = `https://openweathermap.org/img/w/${fiveday[i].weather[0].icon}.png`;
+    document.getElementsByClassName('ticon')[i].alt = desc;
+    if (d >= 7) {
+      d = 0;
+    }
+    document.getElementsByClassName('nextday')[i].textContent = weekday[d];
+    d++;
+    document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
+  }
+
+})
