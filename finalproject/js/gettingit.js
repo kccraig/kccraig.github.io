@@ -27,14 +27,14 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
+        citylist = jsonObject;
         console.log(jsonObject);
-        alert('hi');
-        // var list = jsonObject;
-        // var i = 0;
-        // for (i = 0; i < jsonObject.length; i++) {
-        // if (list.name == "Cozumel") {
-        //     document.querySelector('city').textContent = i;
+        for (let i = 0; i < citylist.length; i++) {
+            // if (
 
-        // }
+console.log(citylist);
+        }
+        
     }
-    })
+    )
+    
