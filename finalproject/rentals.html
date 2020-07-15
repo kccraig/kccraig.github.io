@@ -1,19 +1,89 @@
-
 <!--RENTAL CHART WITH PRICES AND AVAILABLE RENTALS-->
 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tablestyles.css">
     <title>Rentals</title>
 </head>
+
 <body>
     <h1>Available Rental Options</h1>
     <div id="rentalchart"></div>
-    
-</div>
+    <table>
+        <tr>
+            <th colspan="10">Max Persons and Price Chart(includes tax)</th>
+        </tr>
+        <tr>
+            <td colspan="6"> </td>
+            <td colspan="2.5">Reservation</td>
+            <td colspan="2.5">Walk-In</td>
+        </tr>
+        <tr rowspan="2">
+           <td colspan="5">Rental Type</td>
+           <td>Max. Persons</td>
+            <td>Half Day</td>
+            <td>Full Day</td>
+            <td>Half Day</td>
+            <td>Full Day</td>
+        </tr>
+        <tr>
+            <td colspan="5">Honds Metro Scooter</td>
+            <td>1</td>
+            <td>$20</td>
+            <td>$30</td>
+            <td>$25</td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td colspan="5">Honda Dio Scooter</td>
+            <td>2</td>
+            <td>$30</td>
+            <td>$40</td>
+            <td>$35</td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td colspan="5">Honda PCX150 Scooter</td>
+            <td>2</td>
+            <td>$40</td>
+            <td>$50</td>
+            <td>$45</td>
+            <td>$55</td>
+        </tr>
+        <tr>
+            <td colspan="5">Honda Pioneer ATV</td>
+            <td>4</td>
+            <td>$50</td>
+            <td>$70</td>
+            <td>$60</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td colspan="5">Jeep Wrangler - 4 door with a/c	</td>
+            <td>5</td>
+            <td>$70</td>
+            <td>$100</td>
+            <td>$85</td>
+            <td>$125</td>
+        </tr>
+        <tr>
+            <td colspan="5">Jeep Wrangler - 2 door</td>
+            <td>4</td>
+            <td>$60</td>
+            <td>$85</td>
+            <td>$70</td>
+            <td>$90</td>
+        </tr>
+    </table>
+
+    </div>
 </body>
 <script src="js/pricechart.js"></script>
+
 </html>

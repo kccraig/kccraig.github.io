@@ -1,0 +1,10 @@
+table, th, td {
+border: 1px solid black;
+}
+table {
+empty-cells: shows;
+}
+td {
+padding: 10px;
+text-align: center;
+}
