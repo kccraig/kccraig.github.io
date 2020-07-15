@@ -1,0 +1,76 @@
+<!-- RESERVATIONS PAGE ---- NEEDS A FORM 
+date, period, rental type, number, phone number, name, email, home state or country,
+     cruise line if applicable, and special accommodations/comments 
+    such as the need and location of a drop-off request. Use CSS Flex to design the layout. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <H1>Reserve Your Vacation Transportation Now</H1>
+    <div class="rezform">
+        <form method="get" action="thanks.html">
+
+            <fieldset>
+                <label class="pinfo">First Name: <input type="text" name="fname" required placeholder="Janet"
+                        pattern="[A-Za-z]{3}"></label>
+                <label class="pinfo">Last Name: <input type="text" name="lname" required placeholder="Smith"
+                        pattern="[A-Za-z]{3}"></label>
+                <label class="pinfo">Your email please: <input type="email"
+                        placeholder="happycamper@yourmail.com"></label>
+                <label class="pinfo">Phone Number: <input type="tel" name="phone" placeholder="803555789"
+                        required></label>
+                <label class="pinfo">Country: <input type="text" name="country" required placeholder="United States"
+                        pattern="[A-Za-z]{3}"></label>
+            </fieldset>
+            <fieldset>
+                <label for="pickupdate">Date of Pickup:</label>
+                <input type="date" name="pickup">
+                <label for="pickuptime">Time of Pickup:</label>
+                <input type="time" id="pickuptime" name="pickuptime" min="08:00" max="18:00"><br>
+
+                <label for="dropoffdate">Date of Dropoff:</label>
+                <input type="date" name="dropoff">
+                <label for="dropofftime">Time of Dropoff:</label>
+                <input type="time" id="dropofftime" name="dropofftime" min="08:00" max="18:00">
+            </fieldset>
+
+            <fieldset>
+                <label for="pickup">Pickup Location (pickup and dropoff must be same location):</label>
+                <fieldset>
+                    <label class="pickupbox">Pickup Location:
+                        <select name="pickuplocation">
+                            <option value="">Please Select</option>
+                            <option value="ferrydock">Playa del Carmen-Cozumel Ferry dock</option>
+                            <option value="terminal">Terminal Puerta Maya</option>
+                        </select>
+                    </label>
+                    <label class="pickupbox">Type of Vehicle (Must be licensed driver to rent Jeep):
+                        <select name="typevehicle">
+                            <option value="">Please Select</option>
+                            <option value="Metro">Honda Metro Scooter seats 1 person</option>
+                            <option value="Dio">Honda Dio Scooter seats 2 people</option>
+                            <option value="PCX150">Honda PCX150 Scooter seats 2 people</option>
+                            <option value="Pioneer">Honda Pioneer ATV seats 4 people</option>
+                            <option value="Jeep4door">Jeep Wrangler - 4 door with a/c seats 5 people</option>
+                            <option value="Jeep2door">Jeep Wrangler - 2 door seats 4 people</option>
+                        </select>
+                    </label>
+                    
+                </fieldset>
+            </fieldset>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
