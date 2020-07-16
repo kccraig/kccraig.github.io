@@ -65,12 +65,18 @@ address {
 }
 
 .footerdesign {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     border: 2px solid purple;
     align-items: center;
+
 }
-iframe {
-    width: 80%;
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* iframe {
     margin: 10px;
-}
+} */
