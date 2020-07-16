@@ -2,18 +2,25 @@
 
 .footerdesign {
     flex-direction: row;
+    justify-content: flex-start;
 }
 
-/* .footleft {
-    align-items: flex-start;
+.footleft {
+    float: left;
+    border: 2px solid lawngreen;
+    text-align: left;
 
 }
 
 .footright {
-    align-items: flex-end;
-} */
+    float: right;
+    border: 2px solid yellow;
+    margin: 5px;
+    text-align: right;
+}
 footer {
 text-align: center;
+margin: 5px;
 }
 
 }
