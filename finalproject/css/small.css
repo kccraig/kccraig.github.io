@@ -8,23 +8,65 @@ green rgb(26,113,9)
 original green rgb(27,166,0) */
 
 footer {
-background-color: rgb(8,118,190);
-color: #ffffff;
+    background-color: rgb(8, 118, 190);
+    color: #ffffff;
 }
+
 header {
-    background-color: rgb(255,246,0);
+    background-color: rgb(255, 246, 0);
     color: black;
+    position: relative;
+    height: 200px;
 }
+
+.title {
+    /* transform: rotate(330deg); */
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.title h1 {
+    font-size: 4em;
+}
+
 h1 {
-   font-family: 'Galada', cursive;
+    font-family: 'Galada', cursive;
 }
+
 body {
     font-family: 'Rubik', sans-serif;
+
 }
+
 main {
-background-color: rgb(236,0,106);
+    background-color: rgb(236, 0, 106);
 }
+
 .currentweather {
-background-color: rgb(52,160,170);
-height: 100px;
+    background-color: rgb(52, 160, 170);
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+address {
+    font-family: 'Merriweather', serif;
+    ;
+}
+
+.footerdesign {
+    display: flex;
+    flex-direction: column;
 }

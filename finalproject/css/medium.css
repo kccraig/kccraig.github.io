@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35rem) {
+
+.footerdesign {
+    flex-direction: row;
+}
+
+/* .footleft {
+    align-items: flex-start;
+
+}
+
+.footright {
+    align-items: flex-end;
+} */
+footer {
+text-align: center;
+}
+
+}
