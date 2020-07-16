@@ -58,15 +58,19 @@ nav ul {
 nav ul li {
     list-style-type: none;
     padding: 10px;
-
 }
 
 address {
     font-family: 'Merriweather', serif;
-    ;
 }
 
 .footerdesign {
     display: flex;
     flex-direction: column;
+    border: 2px solid purple;
+    align-items: center;
+}
+iframe {
+    width: 80%;
+    margin: 10px;
 }

@@ -1,25 +1,27 @@
 @media only screen and (min-width: 35rem) {
 
 .footerdesign {
-    flex-direction: row;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .footleft {
-    float: left;
+    display: flex;
+    flex-direction: row;
     border: 2px solid lawngreen;
     text-align: left;
 
 }
 
 .footright {
-    float: right;
+    display: flex;
+    flex-direction: row;
     border: 2px solid yellow;
-    margin: 5px;
-    text-align: right;
+   
+    text-align: left;
 }
 footer {
-text-align: center;
 margin: 5px;
 }
 
