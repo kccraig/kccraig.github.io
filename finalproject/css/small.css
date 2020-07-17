@@ -11,10 +11,7 @@ original green rgb(27,166,0) */
 body {
 background-color: rgb(52,160,170);
 }
-footer {
-    background-color: rgb(8, 118, 190);
-    color: #ffffff;
-}
+
 
 header {
     background-color: rgb(255, 246, 0);
@@ -27,12 +24,13 @@ header {
 }
 
 .bigtitle h1 {
-    font-size: 4em;
+    font-size: 5em;
     margin: 5px;
 }
 
 .bigtitle h2 {
     margin: 5px;
+    font-size: 3em;
 
 }
 
@@ -55,6 +53,12 @@ main {
     height: 100px;
 }
 
+/* NAV AT TOP*/
+topnav {
+font-size: 1.5em;
+margin-top: 0;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -65,7 +69,14 @@ nav ul li {
     list-style-type: none;
     padding: 10px;
 }
+/* END OF NAV */
 
+/* FOOTER */
+
+footer {
+    background-color: rgb(8, 118, 190);
+    color: #ffffff;
+}
 address {
     font-family: 'Merriweather', serif;
 }
@@ -81,6 +92,7 @@ address {
     display: table;
     clear: both;
 }
+/* END OF FOOTER */
 
 /* THANK YOU PAGE*/
 #thankyoubox {
@@ -92,3 +104,11 @@ padding: 30px;
 text-align: center;
 border-radius: 10px;
 }
+/* END OF THANKS PAGE*/
+
+/* RESERVATIONS PAGE */
+.rezform {
+background-color: rgb(121,55,183);
+}
+
+/* END OF REZ PAGE*/
