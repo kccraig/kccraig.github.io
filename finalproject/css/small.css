@@ -15,21 +15,20 @@ footer {
 header {
     background-color: rgb(255, 246, 0);
     color: black;
-    position: relative;
-    height: 200px;
 }
-
-.title {
-    /* transform: rotate(330deg); */
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 20px;
-
+.bigtitle {
+text-align: start;
+margin: 5px auto 10px 40px;
 }
-
-.title h1 {
+.bigtitle h1 {
     font-size: 4em;
+    margin: 5px;
 }
+.bigtitle h2 {
+    margin: 
+
+}
+
 
 h1 {
     font-family: 'Galada', cursive;
@@ -65,18 +64,14 @@ address {
 }
 
 .footerdesign {
-    /* display: flex; */
-    /* flex-direction: column; */
+
     border: 2px solid purple;
     align-items: center;
 
 }
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
 
-/* iframe {
-    margin: 10px;
-} */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
