@@ -1,32 +1,47 @@
 @media only screen and (min-width: 35rem) {
 
-.footerdesign {
-   display: flex;
-    
-}
+    .footerdesign {
+        display: flex;
 
-.footleft {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid lawngreen;
-    text-align: left;
-    padding: 5px;
-    margin: 10px;
-    justify-content: space-evenly;
+    }
 
-}
+    .footleft {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid lawngreen;
+        text-align: left;
+        padding: 5px;
+        margin: 10px;
+        justify-content: space-evenly;
 
-.footright {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid yellow;
-   padding: 5px;
-    text-align: left;
-    margin-left: 5px;
-    justify-content: flex-end;
-}
-footer {
-margin: 5px;
-}
+    }
+
+    .footright {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid yellow;
+        padding: 5px;
+        text-align: left;
+        margin-left: 5px;
+        justify-content: flex-end;
+    }
+
+    footer {
+        margin: 5px;
+    }
+
+    .moveit20 {
+        margin-left: 20px;
+    }
+
+    .moveit100 {
+        margin-left: 200px;
+        position: relative;
+    }
+
+    .moveit500 {
+        margin-left: 500px;
+        position: relative;
+    }
 
 }

@@ -3,35 +3,46 @@ date, period, rental type, number, phone number, name, email, home state or coun
      cruise line if applicable, and special accommodations/comments 
     such as the need and location of a drop-off request. Use CSS Flex to design the layout. -->
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Courgette&family=Damion&family=Fugaz+One&family=Galada&family=Pacifico&family=Ranchers&family=Salsa&family=Sriracha&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&family=Josefin+Sans:wght@300;400;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,600&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap"
+            rel="stylesheet">
+    
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/basestyles.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Rentals</li>
+                <li>Reservations</li>
+                <li>Cozumel Info</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <div class="title">
+            <h1>Scoots</h1>
+            <h2>Your Vacation Transportation</h2>
+        </div>
+</header>
 
 <body>
-
+<main>
     <H1>Reserve Your Vacation Transportation Now</H1>
     <div class="rezform">
         <form method="get" action="thanks.html">
 
-            <fieldset>
-                <label class="pinfo">First Name: <input type="text" name="fname" required placeholder="Janet"
-                        pattern="[A-Za-z]{3}"></label>
-                <label class="pinfo">Last Name: <input type="text" name="lname" required placeholder="Smith"
-                        pattern="[A-Za-z]{3}"></label>
-                <label class="pinfo">Your email please: <input type="email"
-                        placeholder="happycamper@yourmail.com"></label>
-                <label class="pinfo">Phone Number: <input type="tel" name="phone" required placeholder="803555789"
-                        required></label>
-                <label class="pinfo">Country: <input type="text" name="country" placeholder="United States"
-                        pattern="[A-Za-z]{3}"></label>
-                <label class="pinfo">Cruise Ship Line/Name of Ship if applicable: <input type="text"
-                        name="cline"></label>
-            </fieldset>
             <fieldset>
                 <label for="pickupdate">Date of Pickup:</label>
                 <input type="date" name="pickup">
@@ -64,13 +75,27 @@ date, period, rental type, number, phone number, name, email, home state or coun
                 </label><br>
                 <label for="numvehicles">Number of Vehicles You Want to Rent</label>
                 <input type="number" name="numvs">
-
-            </fieldset>
             </fieldset>
 
-
-
+            <fieldset>
+                <label class="pinfo">First Name: <input type="text" name="fname" placeholder="Jan"
+                        pattern="[A-Za-z]{3}"></label>
+                <label class="pinfo">Last Name: <input type="text" name="lname" placeholder="Smith"
+                        pattern="[A-Za-z]{3}"></label>
+                <label class="pinfo">Your email please: <input type="email"
+                        placeholder="happycamper@yourmail.com"></label>
+                <label class="pinfo">Phone Number: <input type="tel" name="phone" required placeholder="803555789"
+                        required></label>
+                <label class="pinfo">Country: <input type="text" name="country" placeholder="United States"
+                        pattern="[A-Za-z]{3}"></label>
+                <label class="pinfo">Cruise Ship Line/Name of Ship if applicable: <input type="text"
+                        name="cline"></label>
+            </fieldset>
+            <div>
+                <input id="submitbutton" type="submit" value="Make Reservation">
+            </div>
         </form>
+    </main>
     </div>
 </body>
 
