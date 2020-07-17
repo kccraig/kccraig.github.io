@@ -1,0 +1,24 @@
+/* red rgb(237,28,36)
+purple rgb(121,55,183)
+pink rgb(236,0,106)
+yellow rgb(255,246,0)
+teal rgb(52,160,170)
+blue rgb(8,118,190)
+green rgb(26,113,9)
+original green rgb(27,166,0) */
+
+
+body {
+background-color: lawngreen;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}

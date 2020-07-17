@@ -17,6 +17,8 @@ fetch(apiURL)
 
     const humidity = document.querySelector('.humidity');
     humidity.textContent = Math.round(cozinfo.main.humidity);
+    
+
 
   
 
