@@ -5,7 +5,8 @@
             "rezpricehalfday": 20,
             "rezpricefullday": 30,
             "walkinhalfday": 25,
-            "walkinfullday": 35
+            "walkinfullday": 35,
+            "imageurl": "images/bluemetro.jpg"
         },
 
         {
@@ -14,7 +15,8 @@
             "rezpricehalfday": 30,
             "rezpricefullday": 40,
             "walkinhalfday": 35,
-            "walkinfullday": 45
+            "walkinfullday": 45,
+            "imageurl": "images/dioblack.jpg"
         },
 
         {
@@ -23,7 +25,9 @@
             "rezpricehalfday": 40,
             "rezpricefullday": 50,
             "walkinhalfday": 45,
-            "walkinfullday": 55
+            "walkinfullday": 55,
+            "imageurl":"images/pcx150.jpg"
+
         },
 
         {
