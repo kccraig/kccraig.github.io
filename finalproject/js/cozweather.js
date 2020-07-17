@@ -6,18 +6,13 @@ if (hours > 12) {
 } else {
   time = hours + ":" + today.getMinutes() + "am";
 }
-// document.getElementById("nowtime").innerHTML = time;
-
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.4757&lon=-86.9753&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
-
-// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=77645,52&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
-// const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.4230&lon=86.9223&appid=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
     cozinfo = jsObject;
-    const currentTemp = document.querySelector('.current-temp');
+    const currentTemp = document.querySelector('.currenttemp');
     currentTemp.textContent = Math.round(cozinfo.main.temp);
 
     const humidity = document.querySelector('.humidity');
