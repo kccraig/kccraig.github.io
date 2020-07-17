@@ -121,3 +121,20 @@ background-color: rgb(121,55,183);
 }
 
 /* END OF REZ PAGE*/
+
+
+/* RENTAL PAGE */
+.rentalrules {
+border: 2px dashed rgb(26,113,9);
+width: 200px;
+font-size: .75em;
+color: white;
+}
+
+#rentalchart {
+border: 5px solid rgb(121,55,183);
+width: 60%;
+background-color: white;
+color: rgb(121,55,183);
+}
+/* END OF RENTAL PAGE */
