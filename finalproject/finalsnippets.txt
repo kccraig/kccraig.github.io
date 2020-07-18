@@ -16,3 +16,10 @@ font-family: 'Quattrocento Sans', sans-serif;
 
 
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&family=Josefin+Sans:wght@300;400;600&family=Merriweather:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,600&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
+
+HOW TO ADD CLASS OR ID TO APPENDCHILD
+var div = document.createElement('div');
+div.textContent = "Sup, y'all?";
+div.setAttribute('class', 'note');
+document.body.appendChild(div);

@@ -19,20 +19,30 @@
 //           document.querySelector('div.peventbox').appendChild(eventinput);
 //         }
 
-const requestURL = 'js/city.list.json';
+const requestURL = 'js/rentalprices.json';
 
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
-        citylist = jsonObject;
-        console.log(jsonObject);
-        for (let i = 0; i < citylist.length; i++) {
-            // if (
+        // console.table(jsonObject);
+        const rentals = jsonObject['rentalpricechart'];
+        console.log(rentals);
+        for (let i = 0; i < rentals.length; i++) {
+            // let scootcard = document.createElement('section');
+let tablelements = document.createElement('table')
+let tr1 = document.createElement('tr');
+let td1 = document.createElement('td');
 
-console.log(citylist);
+td1.textContent = "Reservations";
+tablelements.appendChild(td1);
+
+
+
+
+            document.querySelector('table.inputtable').appendChild(tablelements);
+
         }
         
     }
