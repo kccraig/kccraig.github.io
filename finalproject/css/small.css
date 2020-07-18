@@ -161,4 +161,12 @@ margin: 10px auto 10px auto;
 height: 200px;
 border: 2px solid blue;
 }
+.contactform {
+border: 3px solid green;
+display: flex;
+flex-direction: column;
+width: 60%;
+margin: 20px auto 20px auto;
+}
+
 /* END OF CONTACT PAGE*/
