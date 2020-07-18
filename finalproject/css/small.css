@@ -138,10 +138,20 @@ width: 60%;
 background-color: white;
 color: rgb(121,55,183);
 }
-section {
-background-color: rgb(236,0,106);
-}
+
 .leftside {
 border: 3px solid yellow;
 }
+.rightside {
+border: 3px solid lightskyblue;
+width: 50%;
+}
+#fullcard {
+border: 4px dashed lightslategray;
+display: flex;
+width: 75%;
+text-align: center;
+margin: 10px auto 10px auto;
+}
+
 /* END OF RENTAL PAGE */
