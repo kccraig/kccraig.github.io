@@ -31,17 +31,20 @@ fetch(requestURL)
         console.log(rentals);
         for (let i = 0; i < rentals.length; i++) {
             // let scootcard = document.createElement('section');
-let tablelements = document.createElement('table')
-let tr1 = document.createElement('tr');
+let tablerow = document.createElement('tr')
+let td2 = document.createElement('td');
 let td1 = document.createElement('td');
 
-td1.textContent = "Reservations";
-tablelements.appendChild(td1);
+
+td1.textContent = rentals[i].name;
+td2.textContent = rentals[i].maxpersons;
+
+alert(td1);
 
 
 
 
-            document.querySelector('table.inputtable').appendChild(tablelements);
+            document.querySelector('table.tablelements').appendChild(tablerow);
 
         }
         

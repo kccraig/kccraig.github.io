@@ -141,4 +141,7 @@ color: rgb(121,55,183);
 section {
 background-color: rgb(236,0,106);
 }
+.leftside {
+border: 3px solid yellow;
+}
 /* END OF RENTAL PAGE */
