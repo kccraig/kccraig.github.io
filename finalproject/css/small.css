@@ -155,3 +155,10 @@ margin: 10px auto 10px auto;
 }
 
 /* END OF RENTAL PAGE */
+
+/* CONTACT PAGE */
+.commentbox {
+height: 200px;
+border: 2px solid blue;
+}
+/* END OF CONTACT PAGE*/
