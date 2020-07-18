@@ -167,6 +167,21 @@ display: flex;
 flex-direction: column;
 width: 60%;
 margin: 20px auto 20px auto;
+padding: 20px;
+color: white;
+background-color: rgb(8,118,190);
+}
+.contact {
+text-align: center;
+margin-top: -2px;
+margin: -2px auto 2px auto;
+padding: 30px;
+border:3px solid blue;
+width: 75%;
+background-color:rgb(121,55,183)
+
+
+
 }
 
 /* END OF CONTACT PAGE*/
