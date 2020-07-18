@@ -8,38 +8,31 @@ fetch(requestURL)
             console.table(jsonObject);
             const rentals = jsonObject['rentalpricechart'];
             console.log(rentals);
+
+            var body = document.getElementsByClassName('popcorn')[0];
+
+            var tbl = document.createElement('table');
+            var tblBody = document.createElement('tbody');
+
             for (let i = 0; i < rentals.length; i++) {
 
+                var row = document.createElement('tr');
 
-                // var div = document.createElement('div');
-                // div.textContent = "Sup, y'all?";
-                // div.setAttribute('class', 'note');
-                // document.body.appendChild(div);
-                // image.setAttribute('src', rentals[i].imageurl);
-                // image.setAttribute('alt', rentals[i].name);
-
-                var here = document.getElementsByClassName('tablehere')[0];
-                var table = document.createElement('table');
-                var tablebody = document.createElement('tbody');
-                for (var r = 0; r< 2; r++) {
-                    var row = document.createElement('tr');
-
-                    for (var c = 0; c < rentals.length; c++) {
-                        var cell = document.createElement('td');
-                        var celltext = document.createTextNode('rentals[i].name');
-                        celltext.textContent = ('rentals[i].name');
-                        cell.appendChild(celltext);
-                        row.appendChild(cell);
-
-
-                        }
-                        tablebody.appendChild(row);
-
-                    }
-
-table.appendChild(tablebody);
-document.querySelector('div.rentalpricechart').appendChild(table);
-
+                for (var j = 0; j < rentals.length; j++) {
+                    var cell = document.createElement('td');
+                    var cellText = document.createTextNode(rentals[j].name);
+                    cell.appendChild(cellText);
+                    row.appendChild(cell);
                 }
-                
-            })
+
+                tblBody.appendChild(row);
+            }
+            tbl.appendChild(tblBody);
+            body.appendChild(tbl);
+            tbl.setAttribute('border', '2');
+
+        }
+
+
+
+    )
