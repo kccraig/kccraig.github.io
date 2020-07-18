@@ -36,7 +36,9 @@
             "rezpricehalfday": 50,
             "rezpricefullday": 70,
             "walkinhalfday": 60,
-            "walkinfullday": 80
+            "walkinfullday": 80,
+            "imageurl":"images/atvred.jpg"
+
         },
 
         {
@@ -45,7 +47,9 @@
             "rezpricehalfday": 70,
             "rezpricefullday": 100,
             "walkinhalfday": 85,
-            "walkinfullday": 125
+            "walkinfullday": 125,
+            "imageurl":"images/jeep4door.jpg"
+
         },
 
         {
@@ -54,7 +58,9 @@
             "rezpricehalfday": 60,
             "rezpricefullday": 85,
             "walkinhalfday": 70,
-            "walkinfullday": 90
+            "walkinfullday": 90,
+            "imageurl":"images/white2doorjeep.jpg"
+
         }
     ]
 }
