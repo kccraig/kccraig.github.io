@@ -15,10 +15,11 @@ fetch(requestURL)
             let maxpeep = document.createElement('p');
             let rezpricehalfday = document.createElement('p');
             let leftdiv = document.createElement('div');
-       
-          
-
-       
+            let rezpricefullday = document.createElement('p');
+            let walkinhalfday = document.createElement('p');
+            let rezprice = document.createElement('h3');
+            let walkprice = document.createElement('h3');
+            let walkinfullday = document.createElement('p');
             // var div = document.createElement('div');
             // div.textContent = "Sup, y'all?";
             // div.setAttribute('class', 'note');
@@ -26,19 +27,30 @@ fetch(requestURL)
             image.setAttribute('src', rentals[i].imageurl);
             image.setAttribute('alt', rentals[i].name);
             maxpeep.textContent = "Maximum Riders " + rentals[i].maxpersons;
-            rezpricehalfday.textContent = "Rezervation Price " + rentals[i].rezpricehalfday;
+            rezpricehalfday.textContent = "Half Day: $" + rentals[i].rezpricehalfday;
             h2.textContent = rentals[i].name;
-            leftdiv.textContent = image + maxpeep;
-            
+            rezprice.textContent = "Rezervation Prices: ";
+            walkprice.textContent= "Walk-in Prices: ";
+            rezpricefullday.textContent = "Full Day $" + rentals[i].rezpricefullday;
+            walkinhalfday.textContent = "Half Day: $" + rentals[i].walkinhalfday;
+            walkinfullday.textContent = "Full Day: $" + rentals[i].walkinfullday; 
+
 
             scootcard.appendChild(image); 
             scootcard.appendChild(h2);
             scootcard.appendChild(maxpeep);
+            scootcard.appendChild(rezprice);
+            scootcard.appendChild(rezpricefullday);
             scootcard.appendChild(rezpricehalfday);
+            
+            
+            scootcard.appendChild(walkprice);
+            scootcard.appendChild(walkinhalfday);
+            scootcard.appendChild(walkinfullday);
             scootcard.appendChild(leftdiv);
 
         
-            document.querySelector('div.tablehere').appendChild(scootcard);
+            document.querySelector('div.rentalpricechart').appendChild(scootcard);
            
 
 
