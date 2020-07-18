@@ -3,6 +3,8 @@ border: 1px solid black;
 }
 table {
 empty-cells: shows;
+background-color: lawngreen;
+height: 500px;
 }
 td {
 padding: 10px;

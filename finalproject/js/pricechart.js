@@ -38,7 +38,7 @@ fetch(requestURL)
             scootcard.appendChild(leftdiv);
 
         
-            document.querySelector('div.rentalpricechart').appendChild(scootcard);
+            document.querySelector('div.tablehere').appendChild(scootcard);
            
 
 

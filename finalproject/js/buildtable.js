@@ -26,7 +26,8 @@ fetch(requestURL)
 
                     for (var c = 0; c < rentals.length; c++) {
                         var cell = document.createElement('td');
-                        var celltext = document.createTextNode('cell in row ' + r + ", column " + c);
+                        var celltext = document.createTextNode('rentals[i].name');
+                        celltext.textContent = ('rentals[i].name');
                         cell.appendChild(celltext);
                         row.appendChild(cell);
 
@@ -37,7 +38,8 @@ fetch(requestURL)
                     }
 
 table.appendChild(tablebody);
-
+document.querySelector('div.rentalpricechart').appendChild(table);
 
                 }
+                
             })
