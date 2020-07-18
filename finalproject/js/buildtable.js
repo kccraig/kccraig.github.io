@@ -13,6 +13,7 @@ fetch(requestURL)
 
             var tbl = document.createElement('table');
             var tblBody = document.createElement('tbody');
+           alert(rentals.name);
 
             for (let i = 0; i < rentals.length; i++) {
 
