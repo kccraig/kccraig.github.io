@@ -13,16 +13,16 @@ fetch(requestURL)
 
             var tbl = document.createElement('table');
             var tblBody = document.createElement('tbody');
-            var c = rentals[0];
-            alert(c.name);
-            for (let i = 0; i < rentals.length; i++) {
+      
+            for (let i = 0; i < 6; i++) {
 
                 var row = document.createElement('tr');
 
-                for (var j = 0; j < rentals.length; j++) {
+                for (var j = 0; j < rentals[j].length; j++) {
+                    
                     var cell1 = document.createElement('td');
-                    var cell2 = document.createElement('td');
                     var name = document.createTextNode(rentals[j].name);
+                    var cell2 = document.createElement('td');
                     var maxper = document.createTextNode(rentals[j].maxpersons);
                     cell1.appendChild(name);
                     cell2.appendChild(maxper);
