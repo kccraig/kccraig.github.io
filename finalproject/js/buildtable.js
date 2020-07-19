@@ -5,39 +5,59 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-            console.table(jsonObject);
-            const rentals = jsonObject['rentalpricechart'];
-            console.log(rentals);
+        console.table(jsonObject);
+        const rentals = jsonObject['rentalpricechart'];
+        console.log(rentals);
 
-            var body = document.getElementsByClassName('popcorn')[0];
+        var body = document.getElementsByClassName('popcorn')[0];
 
-            var tbl = document.createElement('table');
-            var tblBody = document.createElement('tbody');
-      
-            for (let i = 0; i < 6; i++) {
+        var tbl = document.createElement('table');
+        var tblBody = document.createElement('tbody');
 
-                var row = document.createElement('tr');
+        for (let i = 0; i < 6; i++) {
 
-                for (var j = 0; j < rentals[j].length; j++) {
-                    
-                    var cell1 = document.createElement('td');
-                    var name = document.createTextNode(rentals[j].name);
-                    var cell2 = document.createElement('td');
-                    var maxper = document.createTextNode(rentals[j].maxpersons);
-                    cell1.appendChild(name);
-                    cell2.appendChild(maxper);
-                    row.appendChild(cell1);
-                    row.appendChild(cell2);
-                }
+            var row = document.createElement('tr');
 
-                tblBody.appendChild(row);
-            }
-            tbl.appendChild(tblBody);
-            body.appendChild(tbl);
-            tbl.setAttribute('border', '2');
+        var th1 = document.createElement('th');
+        
+            var cell1 = document.createElement('td');
+            var name = document.createTextNode(rentals[i].name);
 
+            var cell2 = document.createElement('td');
+            var maxper = document.createTextNode(rentals[i].maxpersons);
+
+            var cell3 = document.createElement('td');
+            var rezpricehalfday = document.createTextNode("$" + rentals[i].rezpricehalfday);
+
+            var cell4 = document.createElement('td');
+            var rezpricefullday = document.createTextNode("$" + rentals[i].rezpricefullday);
+
+            var cell5 = document.createElement('td');
+            var walkinhalfday = document.createTextNode(rentals[i].walkinhalfday);
+
+            var cell6 = document.createElement('td');
+            var walkinfullday = document.createTextNode(rentals[i].walkinfullday);
+            
+            cell1.appendChild(name);
+            cell2.appendChild(maxper);
+            cell3.appendChild(rezpricefullday);
+            cell4.appendChild(rezpricehalfday);
+            cell5.appendChild(walkinhalfday);
+            cell6.appendChild(walkinfullday);
+
+            row.appendChild(cell1);
+            row.appendChild(cell2);
+            row.appendChild(cell3);
+            row.appendChild(cell4);
+            row.appendChild(cell5);
+            row.appendChild(cell6);
+    
+
+            tblBody.appendChild(row);
         }
 
+        tbl.appendChild(tblBody);
+        body.appendChild(tbl);
+        tbl.setAttribute('border', '2');
 
-
-    )
+    })
