@@ -23,7 +23,6 @@ fetch(requestURL)
 
             var row = document.createElement('tr');
 
-
             var cell1 = document.createElement('td');
             var name = document.createTextNode(rentals[i].name);
 
@@ -57,12 +56,18 @@ fetch(requestURL)
             row.appendChild(cell5);
             row.appendChild(cell6);
 
-
-            tblBody.appendChild(row);
+            tblBody.appendChild(row); 
         }
+         // div.setAttribute('class', 'note');
+            // document.body.appendChild(div);
 
         tbl.appendChild(tblBody);
         body.appendChild(tbl);
-        tbl.setAttribute('border', '2');
+        tbl.setAttribute('class', 'pricetable');
+        cell5.setAttribute('class', 'tdcell');
+        row.setAttribute('class','tablerow');
+// KATHY YOU ARE GOING TO HAVE TO USE NTH CHILD TO STYLE THESE CELLS
+
+        
 
     })
