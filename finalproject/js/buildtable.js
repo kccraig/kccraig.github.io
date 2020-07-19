@@ -14,12 +14,16 @@ fetch(requestURL)
         var tbl = document.createElement('table');
         var tblBody = document.createElement('tbody');
 
+        var row = document.createElement('tr');
+        var th1 = document.createElement('th');
+        th1.textContent = "header";
+        row.appendChild(th1);
+
         for (let i = 0; i < 6; i++) {
 
             var row = document.createElement('tr');
 
-        var th1 = document.createElement('th');
-        
+
             var cell1 = document.createElement('td');
             var name = document.createTextNode(rentals[i].name);
 
@@ -37,7 +41,8 @@ fetch(requestURL)
 
             var cell6 = document.createElement('td');
             var walkinfullday = document.createTextNode(rentals[i].walkinfullday);
-            
+
+
             cell1.appendChild(name);
             cell2.appendChild(maxper);
             cell3.appendChild(rezpricefullday);
@@ -51,7 +56,7 @@ fetch(requestURL)
             row.appendChild(cell4);
             row.appendChild(cell5);
             row.appendChild(cell6);
-    
+
 
             tblBody.appendChild(row);
         }
