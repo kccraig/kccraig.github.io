@@ -14,7 +14,7 @@ font-family: 'Merriweather', serif;
 
 
 body {
-background-color: rgb(52,160,170);
+    background-color: rgb(52, 160, 170);
 }
 
 
@@ -22,8 +22,9 @@ header {
     background-color: rgb(255, 246, 0);
     color: black;
 }
+
 header a:link {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .bigtitle {
@@ -40,6 +41,7 @@ text-decoration: none;
     margin: 5px;
     font-size: 3em;
 }
+
 h2 {
     font-family: 'Rubik', sans-serif;
 }
@@ -65,8 +67,8 @@ main {
 
 /* NAV AT TOP*/
 topnav {
-font-size: 1.5em;
-margin-top: 0;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 nav ul {
@@ -79,6 +81,7 @@ nav ul li {
     list-style-type: none;
     padding: 10px;
 }
+
 /* END OF NAV */
 
 /* FOOTER */
@@ -87,6 +90,7 @@ footer {
     background-color: rgb(8, 118, 190);
     color: #ffffff;
 }
+
 address {
     font-family: 'Merriweather', serif;
 }
@@ -102,23 +106,25 @@ address {
     display: table;
     clear: both;
 }
+
 /* END OF FOOTER */
 
 /* THANK YOU PAGE*/
 #thankyoubox {
-background-color: rgb(236,0,106);
-width: 50%;
-margin: 10px auto 20px auto;
-color: white;
-padding: 30px;
-text-align: center;
-border-radius: 10px;
+    background-color: rgb(236, 0, 106);
+    width: 50%;
+    margin: 10px auto 20px auto;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
 }
+
 /* END OF THANKS PAGE*/
 
 /* RESERVATIONS PAGE */
 .rezform {
-background-color: rgb(121,55,183);
+    background-color: rgb(121, 55, 183);
 }
 
 /* END OF REZ PAGE*/
@@ -126,62 +132,63 @@ background-color: rgb(121,55,183);
 
 /* RENTAL PAGE */
 .rentalrules {
-border: 2px dashed rgb(26,113,9);
-width: 200px;
-font-size: .75em;
-color: white;
+    border: 2px dashed rgb(26, 113, 9);
+    width: 200px;
+    font-size: .75em;
+    color: white;
 }
 
 #rentalchart {
-border: 5px solid rgb(121,55,183);
-width: 60%;
-background-color: white;
-color: rgb(121,55,183);
+    border: 5px solid rgb(121, 55, 183);
+    width: 60%;
+    background-color: white;
+    color: rgb(121, 55, 183);
 }
 
 .leftside {
-border: 3px solid yellow;
+    border: 3px solid yellow;
 }
+
 .rightside {
-border: 3px solid lightskyblue;
-width: 50%;
+    border: 3px solid lightskyblue;
+    width: 50%;
 }
+
 #fullcard {
-border: 4px dashed lightslategray;
-display: flex;
-width: 75%;
-text-align: center;
-margin: 10px auto 10px auto;
+    border: 4px dashed lightslategray;
+    display: flex;
+    width: 75%;
+    text-align: center;
+    margin: 10px auto 10px auto;
 }
 
 /* END OF RENTAL PAGE */
 
 /* CONTACT PAGE */
 .commentbox {
-height: 200px;
-border: 2px solid blue;
+    height: 200px;
+    border: 2px solid blue;
 }
+
 .contactform {
-border: 3px solid green;
-display: flex;
-flex-direction: column;
-width: 60%;
-margin: 20px auto 20px auto;
-padding: 20px;
-color: white;
-background-color: rgb(8,118,190);
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    color: white;
+    background-color: rgb(8, 118, 190);
 }
+
 .contact {
-text-align: center;
-margin-top: -2px;
-margin: -2px auto 2px auto;
-padding: 30px;
-border:3px solid blue;
-width: 75%;
-background-color:rgb(121,55,183)
-
-
-
+    text-align: center;
+    margin-top: -2px;
+    margin: -2px auto 2px auto;
+    padding: 30px;
+    border: 3px solid blue;
+    width: 75%;
+    background-color: rgb(121, 55, 183)
 }
 
 /* END OF CONTACT PAGE*/

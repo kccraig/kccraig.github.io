@@ -14,15 +14,52 @@ fetch(requestURL)
         var tbl = document.createElement('table');
         var tblBody = document.createElement('tbody');
 
-        var row = document.createElement('tr');
+        var row1 = document.createElement('tr');
+
+        var cella = document.createElement('td');
+        var  space= document.createTextNode("  ");
+        
+        var cellb= document.createElement('td');
+        var namev= document.createTextNode("Type of vehicle");
+
+        var cellc= document.createElement('td');
+        var maxp = document.createTextNode("Max People");
+
+        var celld= document.createElement('td');
+        var rez = document.createTextNode("Rezervation Fee");
+        var celle= document.createElement('td');
+        var space = document.createTextNode("  ");
+
+        var cellf= document.createElement('td');
+        var walk = document.createTextNode("Walk-In Fee");
+        var cellg= document.createElement('td');
+        var space = document.createTextNode("  ");
+
+        cella.appendChild(space);
+        cellb.appendChild(namev);
+        cellc.appendChild(maxp);
+        celld.appendChild(rez);
+        celle.appendChild(space);
+        cellf.appendChild(walk);
+        cellg.appendChild(space);
         
 
+        row1.appendChild(cella);
+        row1.appendChild(cellb);
+        row1.appendChild(cellc);
+        row1.appendChild(celld);
+        row1.appendChild(celle);
+        row1.appendChild(cellf);
+        row1.appendChild(cellg);
 
 
+        tblBody.appendChild(row1);
+        
+        var row1 = document.createElement('tr');
+
+       
         for (let i = 0; i < 6; i++) {
-            var td1 = document.createElement('td');
-            var headcell = document.createTextNode("letsgo ");
-
+            
 
             var row = document.createElement('tr');
 
@@ -44,15 +81,19 @@ fetch(requestURL)
             var cell6 = document.createElement('td');
             var walkinfullday = document.createTextNode(rentals[i].walkinfullday);
 
-            td1.appendChild(headcell);
+            
+            let image = document.createElement('img');
+            image.setAttribute('src', rentals[i].imageurl);
+            image.setAttribute('alt', rentals[i].name);
+            
+
             cell1.appendChild(name);
             cell2.appendChild(maxper);
             cell3.appendChild(rezpricefullday);
             cell4.appendChild(rezpricehalfday);
             cell5.appendChild(walkinhalfday);
             cell6.appendChild(walkinfullday);
-
-            row.appendChild(headcell);
+            row.appendChild(image);
             row.appendChild(cell1);
             row.appendChild(cell2);
             row.appendChild(cell3);
@@ -62,14 +103,17 @@ fetch(requestURL)
 
             tblBody.appendChild(row);
         }
-        // div.setAttribute('class', 'note');
-        // document.body.appendChild(div);
-        td1.setAttribute('class', 'head');
+   
         tbl.appendChild(tblBody);
         body.appendChild(tbl);
+        cella.setAttribute('class','double');
+        celld.setAttribute('class','double');
+        celle.setAttribute('class','double');
+        row1.setAttribute('class','double');
         tbl.setAttribute('class', 'pricetable');
         cell5.setAttribute('class', 'tdcell');
-        row.setAttribute('class', 'tablerow');
+       
+
         // KATHY YOU ARE GOING TO HAVE TO USE NTH CHILD TO STYLE THESE CELLS
 
 

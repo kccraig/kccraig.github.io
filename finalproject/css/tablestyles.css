@@ -1,12 +1,21 @@
-table, th, td {
-border: 1px solid black;
-}
-table {
-empty-cells: shows;
-background-color: lawngreen;
-height: 500px;
-}
+table,
+th,
 td {
-padding: 10px;
-text-align: center;
+    border: 1px solid black;
+}
+
+table {
+    empty-cells: shows;
+    background-color: lawngreen;
+    height: 500px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.double {
+    border-bottom: 5px solid red;
+    background-color: yellow;
 }
