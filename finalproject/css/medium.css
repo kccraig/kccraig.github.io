@@ -1,5 +1,36 @@
 @media only screen and (min-width: 35rem) {
 
+/* NAV BAR */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.primarynav ul {
+    flex-direction: row;
+}
+
+nav button {
+    display: none;
+}
+nav ul li a {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+nav ul.hide {
+    display: flex;
+}
+
+/* nav ul {
+    margin-left: 2%;
+    margin: 0;
+} */
+
+/*END OF NAV*/
+
     .footerdesign {
         display: flex;
 

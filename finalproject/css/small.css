@@ -69,17 +69,45 @@ main {
 topnav {
     font-size: 1.5em;
     margin-top: 0;
+	align-items: center;
+	font-size: 1.3em;
+	text-align: center;
+	width: 100%;
 }
 
 nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+	
+	justify-content: center;
+}
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: #3f2d05;
+	font-size: 1.6rem;
+	padding: 10px 10px;
+
 }
 
 nav ul li {
     list-style-type: none;
     padding: 10px;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+}
+nav ul.hide {
+	display: none;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /* END OF NAV */
@@ -98,6 +126,8 @@ address {
 .footerdesign {
     border: 2px solid purple;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
