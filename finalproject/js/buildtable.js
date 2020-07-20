@@ -15,11 +15,14 @@ fetch(requestURL)
         var tblBody = document.createElement('tbody');
 
         var row = document.createElement('tr');
-        var th1 = document.createElement('th');
-        th1.textContent = "header";
-        row.appendChild(th1);
+        
+
+
 
         for (let i = 0; i < 6; i++) {
+            var td1 = document.createElement('td');
+            var headcell = document.createTextNode("letsgo ");
+
 
             var row = document.createElement('tr');
 
@@ -41,7 +44,7 @@ fetch(requestURL)
             var cell6 = document.createElement('td');
             var walkinfullday = document.createTextNode(rentals[i].walkinfullday);
 
-
+            td1.appendChild(headcell);
             cell1.appendChild(name);
             cell2.appendChild(maxper);
             cell3.appendChild(rezpricefullday);
@@ -49,6 +52,7 @@ fetch(requestURL)
             cell5.appendChild(walkinhalfday);
             cell6.appendChild(walkinfullday);
 
+            row.appendChild(headcell);
             row.appendChild(cell1);
             row.appendChild(cell2);
             row.appendChild(cell3);
@@ -56,18 +60,18 @@ fetch(requestURL)
             row.appendChild(cell5);
             row.appendChild(cell6);
 
-            tblBody.appendChild(row); 
+            tblBody.appendChild(row);
         }
-         // div.setAttribute('class', 'note');
-            // document.body.appendChild(div);
-
+        // div.setAttribute('class', 'note');
+        // document.body.appendChild(div);
+        td1.setAttribute('class', 'head');
         tbl.appendChild(tblBody);
         body.appendChild(tbl);
         tbl.setAttribute('class', 'pricetable');
         cell5.setAttribute('class', 'tdcell');
-        row.setAttribute('class','tablerow');
-// KATHY YOU ARE GOING TO HAVE TO USE NTH CHILD TO STYLE THESE CELLS
+        row.setAttribute('class', 'tablerow');
+        // KATHY YOU ARE GOING TO HAVE TO USE NTH CHILD TO STYLE THESE CELLS
 
-        
+
 
     })
