@@ -15,9 +15,11 @@ font-family: 'Merriweather', serif;
 
 body {
     background-color: rgb(52, 160, 170);
+        font-family: 'Rubik', sans-serif;
+
 }
 
-
+/* HEADER */
 header {
     background-color: rgb(255, 246, 0);
     color: black;
@@ -41,6 +43,8 @@ header a:link {
     margin: 5px;
     font-size: 3em;
 }
+/* END OF HEADER */
+
 
 h2 {
     font-family: 'Rubik', sans-serif;
@@ -51,19 +55,19 @@ h1 {
     font-family: 'Galada', cursive;
 }
 
-body {
-    font-family: 'Rubik', sans-serif;
 
-}
 
 main {
     background-color: rgb(236, 0, 106);
 }
 
+/* INDEX PAGE */
 .currentweather {
     background-color: rgb(52, 160, 170);
     height: 100px;
 }
+/* END OF INDEX PAGE */
+
 
 /* NAV AT TOP*/
 topnav {
@@ -223,3 +227,10 @@ address {
 }
 
 /* END OF CONTACT PAGE*/
+
+/* THINGS TO DO */
+.thingstodo {
+background-color: white;
+} 
+
+/* END OF THINGS TO DO */
