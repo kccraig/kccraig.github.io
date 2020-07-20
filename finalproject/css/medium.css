@@ -33,6 +33,7 @@ nav ul.hide {
 
     .footerdesign {
         display: flex;
+        flex-direction: row;
 
     }
 
