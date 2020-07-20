@@ -109,7 +109,7 @@ fetch(requestURL)
         cella.setAttribute('class','double');
         celld.setAttribute('class','double');
         celle.setAttribute('class','double');
-        row1.setAttribute('class','double');
+
         tbl.setAttribute('class', 'pricetable');
         cell5.setAttribute('class', 'tdcell');
        
