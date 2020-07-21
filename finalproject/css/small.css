@@ -73,7 +73,7 @@ main {
 
 
 /* NAV AT TOP*/
-primarynav {
+/* primarynav {
     font-size: 1.5em;
     margin-top: 0;
     align-items: center;
@@ -81,7 +81,7 @@ primarynav {
     text-align: center;
     width: 100%;
     font-family: 'Merriweather', serif;
-}
+} */
 
 nav ul {
     display: flex;
