@@ -33,7 +33,7 @@ header a:link {
 .bigtitle {
     text-align: start;
     margin: 5px auto 10px 40px;
-    color: rgb(8,118,190);
+    color: rgb(8, 118, 190);
 }
 
 .bigtitle h1 {
@@ -96,12 +96,12 @@ nav ul {
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
-    border: 3px solid rgb(121,55,183);
+    border: 3px solid rgb(121, 55, 183);
     color: #3f2d05;
     font-size: 1.6rem;
     padding: 10px 10px;
     width: 100%;
-  
+
 }
 
 nav ul li {
@@ -118,6 +118,22 @@ nav ul li {
 
 nav ul.hide {
     display: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(236, 0, 106);
+    color: white;
+    border-radius: 10px;
+}
+
+/* nav ul li a:active {
+    background-color: rgb(52, 160, 170);
+    color: rgb(255, 246, 0);
+} */
+
+.active {
+    background-color: rgb(52, 160, 170);
+    color: rgb(255, 246, 0);
 }
 
 .clearfix:after {
@@ -146,33 +162,41 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(27,166,0, .5);
-
+    background-color: rgb(27, 166, 0, .5);
 }
+
+footer nav ul li a {
+    text-decoration: none;
+}
+
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .bottomtitle {
-text-align: left;
-padding-top: 10px;
+    text-align: left;
+    padding-top: 10px;
 }
+
 .bottomtitle h2 {
     font-family: 'Galada', cursive;
     font-size: 3em;
 
 }
+
 .socialmedia {
-display: flex;
-justify-content: center;
-padding: 20px;
-align-content: space-around;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-content: space-around;
 }
+
 .socialmedia img {
-padding-left: 10px;
-padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* END OF FOOTER */
@@ -249,6 +273,7 @@ padding-right: 10px;
     background-color: rgb(8, 118, 190);
 }
 
+
 .contact {
     text-align: center;
     margin-top: -2px;
@@ -256,8 +281,9 @@ padding-right: 10px;
     padding: 30px;
     border: 3px solid blue;
     width: 75%;
-    background-color: rgb(121, 55, 183)
+    background-color: rgb(121, 55, 183) height: 50px;
 }
+
 
 /* END OF CONTACT PAGE*/
 
@@ -271,10 +297,11 @@ padding-right: 10px;
     justify-content: center;
     text-align: center;
 }
+
 .thingstodo p a {
-text-decoration: none;
-font-style: italic;
-color: rgb(3,40,64);
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(3, 40, 64);
 }
 
 .thingspic {
@@ -299,6 +326,7 @@ color: rgb(3,40,64);
     font-family: 'Merriweather', serif;
     line-height: 1.75;
 }
+
 #thingstodomain {
     margin-left: auto;
     margin-right: auto;
