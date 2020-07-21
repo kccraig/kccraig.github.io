@@ -133,16 +133,18 @@ footer {
     color: #ffffff;
 }
 
-address {
+.footeraddress {
     font-family: 'Merriweather', serif;
+    padding: 15px;
 }
 
 .footerdesign {
-    border: 2px solid purple;
+    border: .5px solid white;
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* background-color: white; */
+    padding: 20px;
+    background-color: rgb(27,166,0, .5);
 
 }
 

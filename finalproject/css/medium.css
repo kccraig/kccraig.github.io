@@ -38,28 +38,31 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-content: center;
 
     }
 
     .footleft {
         display: flex;
         flex-direction: row;
-        border: 2px solid lawngreen;
+        border: 2px solid white;
         text-align: left;
         padding: 5px;
         margin: 10px;
         justify-content: space-evenly;
+        align-content: flex-start;
 
     }
 
     .footright {
         display: flex;
         flex-direction: row;
-        border: 2px solid yellow;
+        border: 2px solid white;
         padding: 5px;
         text-align: left;
         margin-left: 5px;
         justify-content: flex-end;
+        align-content: center;
     }
 
     footer {
