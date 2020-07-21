@@ -102,6 +102,14 @@
 
     /*END OF FLOWERS ON THANKS HTML*/
 
+    /* INDEX CURRENT WEATHER BOX */
+.cweatherbox {
+width: 300px;
+background-color: white;
+border: 3px solid rgb(52,160,170);
+}
+    /*
+
     /* THINGS TO DO */
     #thingstodomain {
         width: 75%;
@@ -121,10 +129,32 @@
         font-size: 1.25em;
     }
 
+    .bigpicture {
+        border: 4px solid ;
+        text-align: center;
+        background-color: rgb(8,118,190);
+
+    }
+
+    #calltoaction {
+        position: absolute;
+        margin-left: 200px;
+        font-size: 8em;
+        color: white;
+        font-family: 'Rowdies', cursive;
+        transform: rotate(deg);
+        text-shadow: 2px 2px 2px rgb(8,118,190);        ;
+        /* letter-spacing: 15px; */
+
+
+
+
+    }
+
 
 
 
     /* END OF THINGS TO DO */
- 
+
 
 }
