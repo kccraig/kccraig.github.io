@@ -83,11 +83,13 @@
     /* THINGS TO DO */
     #thingstodomain {
         width: 75%;
+        
         margin-left: auto;
         margin-right: auto;
+        padding: 20px;
     }
     .thingstodo {
-        
+        padding: 25px;
     }
 
   

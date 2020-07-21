@@ -238,32 +238,43 @@ address {
     /* background-color: white;*/
     display: flex;
     flex-direction: column;
-    background-color: rgb(8,118,190);
+    background-color: rgb(8, 118, 190);
     border: 4px solid black;
     justify-content: center;
     text-align: center;
-    
 }
+.thingstodo p a {
+text-decoration: none;
+font-style: italic;
+color: rgb(3,40,64);
+}
+
 .thingspic {
-margin-right: auto;
-margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #shopping img {
     border: 3px solid yellow;
 }
+
 #thingstodomain {
-text-align: center;
-color: white;
+    text-align: center;
+    color: white;
 }
+
 #thingstodomain h2 {
     font-family: 'Galada', cursive;
 }
+
 #thingstodomain p {
     font-family: 'Merriweather', serif;
-   line-height: 1.75;
-
-    
+    line-height: 1.75;
+}
+#thingstodomain {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 
