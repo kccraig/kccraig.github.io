@@ -31,6 +31,16 @@
 
     /*END OF NAV*/
 
+/* HEADER LOGO */
+.bigtitle {
+display: flex;
+flex-direction: row;
+align-content: center;
+}
+
+/* END OF HEADER*/
+
+
     .footerdesign {
         display: flex;
         flex-direction: row;
