@@ -35,7 +35,12 @@
     <main>
         <section class="bigpicture">
             <h1>This is a big picture</h1>
-            <!-- <img src="images/Greenseaturtlelaban.jpg" alt="sea turtle"> -->
+            <!-- <img src="images/Greenseaturtlelaban960.jpg" alt="sea turtle"> -->
+            <picture>
+                <source media="(min-width:650px)" srcset="images/Greenseaturtlelaban960.jpg">
+                <source media="(min-width:465px)" srcset="images/Greenseaturtle500.jpg">
+                <img src="images/Greenseaturtle300.jpg" alt="sea turtle" style="width:auto;">
+              </picture>
         </section>
         <section>
             <div class="cweatherbox">
