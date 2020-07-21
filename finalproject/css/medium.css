@@ -9,7 +9,7 @@
 
     #primarynav ul {
         flex-direction: row;
-        
+
     }
 
     nav button {
@@ -31,14 +31,14 @@
 
     /*END OF NAV*/
 
-/* HEADER LOGO */
-.bigtitle {
-display: flex;
-flex-direction: row;
-align-content: center;
-}
+    /* HEADER LOGO */
+    .bigtitle {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
 
-/* END OF HEADER*/
+    /* END OF HEADER*/
 
 
     .footerdesign {
@@ -75,14 +75,15 @@ align-content: center;
     footer {
         margin: 5px;
     }
+
     .bottomtitle {
         display: flex;
         flex-direction: row;
         text-align: left;
         padding-top: 10px;
         margin-left: 100px;
-        align-items: center;        
-        }
+        align-items: center;
+    }
 
     /* FLOWERS ON THANKS.HTML*/
     .moveit20 {
@@ -98,19 +99,22 @@ align-content: center;
         margin-left: 500px;
         position: relative;
     }
+
     /*END OF FLOWERS ON THANKS HTML*/
 
     /* THINGS TO DO */
     #thingstodomain {
         width: 75%;
-        
+
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
     }
+
     .thingstodo {
         padding: 25px;
     }
+
     #thingstodomain p {
         font-family: 'Merriweather', serif;
         line-height: 1.75;
@@ -118,16 +122,9 @@ align-content: center;
     }
 
 
-  
+
 
     /* END OF THINGS TO DO */
-
-    /* body {
-    background-image: url(images/atvblack.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
+ 
 
 }
