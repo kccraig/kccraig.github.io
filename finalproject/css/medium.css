@@ -27,10 +27,7 @@
         display: flex;
     }
 
-    /* nav ul {
-    margin-left: 2%;
-    margin: 0;
-} */
+
 
     /*END OF NAV*/
 
@@ -68,6 +65,12 @@
     footer {
         margin: 5px;
     }
+    .bottomtitle {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        padding-top: 10px;
+        }
 
     /* FLOWERS ON THANKS.HTML*/
     .moveit20 {

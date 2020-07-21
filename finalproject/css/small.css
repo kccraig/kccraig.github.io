@@ -112,7 +112,7 @@ nav ul li {
     justify-content: center;
     padding: 5px;
     font-size: 1.25em;
-    font-family: 'Merriweather', serif;
+    font-weight: 600;
 }
 
 nav ul.hide {
@@ -155,11 +155,13 @@ footer {
     clear: both;
 }
 .bottomtitle {
-text-align: center;
+text-align: left;
 padding-top: 10px;
 }
 .bottomtitle h2 {
     font-family: 'Galada', cursive;
+    font-size: 3em;
+
 }
 .socialmedia {
 display: flex;
