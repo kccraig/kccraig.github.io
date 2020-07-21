@@ -151,6 +151,23 @@ address {
     display: table;
     clear: both;
 }
+.bottomtitle {
+text-align: center;
+padding-top: 10px;
+}
+.bottomtitle h2 {
+    font-family: 'Galada', cursive;
+}
+.socialmedia {
+display: flex;
+justify-content: center;
+padding: 20px;
+align-content: space-around;
+}
+.socialmedia img {
+padding-left: 10px;
+padding-right: 10px;
+}
 
 /* END OF FOOTER */
 
