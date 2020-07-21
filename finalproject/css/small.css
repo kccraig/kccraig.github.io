@@ -80,7 +80,7 @@ main {
     font-size: 1.3em;
     text-align: center;
     width: 100%;
-    font-family: 'Merriweather', serif;
+    
 } */
 
 nav ul {
@@ -101,8 +101,6 @@ nav button {
     padding: 10px 10px;
     width: 100%;
   
-   
-
 }
 
 nav ul li {
@@ -111,7 +109,9 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
+    font-size: 1.25em;
+    font-family: 'Merriweather', serif;
 }
 
 nav ul.hide {

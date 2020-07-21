@@ -9,6 +9,7 @@
 
     .primarynav ul {
         flex-direction: row;
+        
     }
 
     nav button {
@@ -36,6 +37,7 @@
     .footerdesign {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
 
     }
 
