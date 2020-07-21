@@ -70,6 +70,8 @@
         flex-direction: row;
         text-align: left;
         padding-top: 10px;
+        margin-left: 100px;
+        align-items: center;        
         }
 
     /* FLOWERS ON THANKS.HTML*/

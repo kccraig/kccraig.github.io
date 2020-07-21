@@ -9,13 +9,13 @@ original green rgb(27,166,0)
 font-family: 'Rubik', sans-serif;
 font-family: 'Galada', cursive;
 font-family: 'Merriweather', serif;
-
+font-family: 'Nunito', sans-serif;
 */
 
 
 body {
     background-color: rgb(52, 160, 170);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -113,6 +113,7 @@ nav ul li {
     padding: 5px;
     font-size: 1.25em;
     font-weight: 600;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav ul.hide {
