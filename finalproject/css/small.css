@@ -33,6 +33,7 @@ header a:link {
 .bigtitle {
     text-align: start;
     margin: 5px auto 10px 40px;
+    color: rgb(8,118,190);
 }
 
 .bigtitle h1 {
