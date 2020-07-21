@@ -23,6 +23,7 @@ body {
 header {
     background-color: rgb(255, 246, 0);
     color: black;
+    margin-top: 0;
 }
 
 header a:link {
@@ -72,13 +73,14 @@ main {
 
 
 /* NAV AT TOP*/
-topnav {
+primarynav {
     font-size: 1.5em;
     margin-top: 0;
     align-items: center;
     font-size: 1.3em;
     text-align: center;
     width: 100%;
+    font-family: 'Merriweather', serif;
 }
 
 nav ul {
@@ -93,10 +95,13 @@ nav ul {
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
-    border: none;
+    border: 3px solid rgb(121,55,183);
     color: #3f2d05;
     font-size: 1.6rem;
     padding: 10px 10px;
+    width: 100%;
+  
+   
 
 }
 
