@@ -246,13 +246,15 @@ fieldset label {
 
 }
 fieldset input {
-width: 50%;
+width: 100%;
 display: block;
-padding: 4px;
+padding: 5px;
 
 }
+
 #submitbutton {
-border: 5x solid yellow;
+   background-color: rgb(255,246,0);
+   color: rgb(121,55,183);
 }
 
 
