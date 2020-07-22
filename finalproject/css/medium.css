@@ -119,15 +119,26 @@
     /* INDEX CURRENT WEATHER BOX */
     .cweatherbox {
         width: 300px;
-
     }
 
     #fullcard {
+        background-image: url("images/hibiscus300blue.png");
         flex-direction: row;
-    
     }
 
-   
+    .leftside {
+        padding: 10px;
+    }
+
+    .rightside {
+        /* width: 50%; */
+        padding: 10px;
+    }
+
+  
+
+
+
 
     /* THINGS TO DO */
     #thingstodomain {

@@ -89,7 +89,7 @@ main {
 .bigpicture {
     background-color: rgb(8, 118, 190);
     text-align: center;
-    s
+    
 }
 
 /* END OF INDEX PAGE */
@@ -129,7 +129,8 @@ nav ul li {
 }
 
 .bottomnav {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottomnav li {
@@ -300,8 +301,9 @@ fieldset input {
     padding: 10px;
 }
 
+
 .rightside {
-    width: 50%;
+    /* width: 50%; */
     padding: 10px;
 }
 
