@@ -66,8 +66,9 @@ main {
 
 /* INDEX PAGE */
 .cweatherbox {
-    background-color: rgb(52, 160, 170);
-
+    width: 300px;
+    background-color: white;
+    border: 3px solid rgb(52, 160, 170);
 }
 
 #calltoaction {
