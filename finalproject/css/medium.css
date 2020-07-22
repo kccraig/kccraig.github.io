@@ -152,10 +152,7 @@
         font-size: 8em;
         color: white;
         font-family: 'Rowdies', cursive;
-        transform: rotate(deg);
         text-shadow: 2px 2px 2px rgb(8, 118, 190);
-        ;
-        /* letter-spacing: 15px; */
     }
 
     /* BIGTITLE */
