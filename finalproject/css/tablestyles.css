@@ -8,6 +8,7 @@ table {
     empty-cells: shows;
     background-color: lawngreen;
     height: 500px;
+    width: 75%;
 }
 
 td {
