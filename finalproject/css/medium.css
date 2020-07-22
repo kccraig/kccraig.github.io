@@ -121,12 +121,12 @@
         width: 300px;
 
     }
-
-    .fullcard {
+    
+    #fullcard {
         flex-direction: row;
     }
 
-    /*
+   
 
     /* THINGS TO DO */
     #thingstodomain {
