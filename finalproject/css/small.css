@@ -74,7 +74,7 @@ main {
 #calltoaction {
     /* position: absolute; */
     display: inline;
-    font-size: 4em;
+    font-size: 1.5em;
     color: white;
     font-family: 'Rowdies', cursive;
     text-shadow: 2px 2px 2px rgb(8, 118, 190);
