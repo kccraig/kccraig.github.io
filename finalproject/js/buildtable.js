@@ -15,7 +15,6 @@ fetch(requestURL)
         var tblBody = document.createElement('tbody');
 
         var row1 = document.createElement('tr');
-
         var cella = document.createElement('td');
         var  space= document.createTextNode("  ");
         
@@ -26,22 +25,25 @@ fetch(requestURL)
         var maxp = document.createTextNode("Max People");
 
         var celld= document.createElement('td');
-        var rez = document.createTextNode("Rezervation Fee");
+        var rez = document.createTextNode("Rezervation Whole Day");
         var celle= document.createElement('td');
-        var space = document.createTextNode("  ");
+        var space1 = document.createTextNode("Reservation Half Day");
 
         var cellf= document.createElement('td');
-        var walk = document.createTextNode("Walk-In Fee");
+        var walk = document.createTextNode("Walk-In Whole Day");
         var cellg= document.createElement('td');
-        var space = document.createTextNode("  ");
+        var space2 = document.createTextNode("Walk-In Half Day");
+        var emptyspace = document.createTextNode(" ");
 
-        cella.appendChild(space);
+
+        cella.appendChild(emptyspace);
         cellb.appendChild(namev);
         cellc.appendChild(maxp);
         celld.appendChild(rez);
-        celle.appendChild(space);
+        celle.appendChild(space1);
+        celle.appendChild(space2);
         cellf.appendChild(walk);
-        cellg.appendChild(space);
+        cellg.appendChild(space2);
         
 
         row1.appendChild(cella);
@@ -52,10 +54,9 @@ fetch(requestURL)
         row1.appendChild(cellf);
         row1.appendChild(cellg);
 
-
         tblBody.appendChild(row1);
+
         
-        var row1 = document.createElement('tr');
 
        
         for (let i = 0; i < 6; i++) {

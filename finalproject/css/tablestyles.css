@@ -1,11 +1,14 @@
 table,
 th,
-td {
-    border: 1px solid black;
+td 
+{
+    border: 3px solid  rgb(121,55,183);
+    border-collapse: collapse;
+    font-family: 'Rowdies', cursive;
 }
 
 table {
-    empty-cells: shows;
+    empty-cells: show;
     background-color: white;
     height: 300px;
     width: 75%;
@@ -16,7 +19,7 @@ td {
     text-align: center;
 }
 
-.double {
+/* .double {
     border-bottom: 5px solid red;
     background-color: yellow;
-}
+} */
