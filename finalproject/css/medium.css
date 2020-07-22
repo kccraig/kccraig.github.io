@@ -86,12 +86,15 @@
         padding: 10px;
         align-items: center;
     }
-    .bottomtitle > h2 {
-     padding-left: 10px;
+
+    .bottomtitle>h2 {
+        padding-left: 10px;
     }
+
     h4:nth-child(3) {
         padding-left: 10px;
     }
+
     p:nth-child(4) {
         padding-left: 10px;
     }
@@ -117,6 +120,10 @@
     .cweatherbox {
         width: 300px;
 
+    }
+
+    .fullcard {
+        flex-direction: row;
     }
 
     /*
@@ -147,7 +154,7 @@
 
     #calltoaction {
         position: absolute;
-        margin-left:50px;
+        margin-left: 50px;
         font-size: 4em;
         color: white;
         font-family: 'Rowdies', cursive;

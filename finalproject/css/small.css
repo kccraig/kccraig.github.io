@@ -285,17 +285,19 @@ fieldset input {
 }
 
 .leftside {
+    
 }
 
 .rightside {
- 
-    width: 45%;
+    width: 50%;
 }
 
 #fullcard {
     display: flex;
+    flex-direction: column;
     width: 75%;
-    text-align: center;
+    border: 4px solid yellow;
+    /* text-align: center; */
     margin: 10px auto 10px auto;
 }
 
