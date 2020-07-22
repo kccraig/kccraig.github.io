@@ -106,14 +106,17 @@ nav ul li {
     font-weight: 600;
     font-family: 'Nunito', sans-serif;
 }
+
 .bottomnav {
-display: none;
+    display: none;
 }
+
 .bottomnav li {
     font-size: .75em;
     padding: 2px;
     background-color: rgb(121, 55, 183);
 }
+
 .bottomnav a {
     color: white;
 }
@@ -221,10 +224,35 @@ footer nav ul li a {
     background-color: rgb(121, 55, 183);
     display: flex;
     flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 20px;
+    text-shadow: 2 2 rgb(8,118,190);
     
 }
+
 fieldset {
-padding: 50xp;
+    padding: 20xp;
+    width: 50%;
+    /* text-align: center;
+     */
+}
+
+fieldset label {
+    padding: 10px;
+    font-weight: 600;
+
+}
+fieldset input {
+width: 50%;
+display: block;
+padding: 4px;
+
+}
+#submitbutton {
+border: 5x solid yellow;
 }
 
 
