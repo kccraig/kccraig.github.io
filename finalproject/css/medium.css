@@ -147,8 +147,8 @@
 
     #calltoaction {
         position: absolute;
-        margin-left: 200px;
-        font-size: 8em;
+        margin-left:50px;
+        font-size: 4em;
         color: white;
         font-family: 'Rowdies', cursive;
         text-shadow: 2px 2px 2px rgb(8, 118, 190);
