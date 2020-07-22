@@ -73,7 +73,7 @@ main {
 
 #calltoaction {
     /* position: absolute; */
-    display: inline;
+    /* display: inline; */
     font-size: 1.5em;
     color: white;
     font-family: 'Rowdies', cursive;
@@ -285,11 +285,12 @@ fieldset input {
 }
 
 .leftside {
-    
+    padding: 10px;
 }
 
 .rightside {
     width: 50%;
+    padding: 10px;
 }
 
 #fullcard {

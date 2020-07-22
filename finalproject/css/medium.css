@@ -148,14 +148,13 @@
     }
 
     .bigpicture {
-
-        text-align: center;
         background-color: rgb(8, 118, 190);
+        justify-content: center;
     }
 
     #calltoaction {
         position: absolute;
-        margin-left: 50px;
+        /* margin-left: 50px; */
         font-size: 4em;
         color: white;
         font-family: 'Rowdies', cursive;
