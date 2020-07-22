@@ -273,7 +273,8 @@ fieldset input {
     border: 2px dashed rgb(26, 113, 9);
     width: 200px;
     font-size: .75em;
-    color: white;
+    color: rgb(85,170,199);
+    background-color: white;
 }
 
 #rentalchart {
@@ -284,16 +285,14 @@ fieldset input {
 }
 
 .leftside {
-    border: 3px solid yellow;
 }
 
 .rightside {
-    border: 3px solid lightskyblue;
-    width: 50%;
+ 
+    width: 45%;
 }
 
 #fullcard {
-    border: 4px dashed lightslategray;
     display: flex;
     width: 75%;
     text-align: center;
