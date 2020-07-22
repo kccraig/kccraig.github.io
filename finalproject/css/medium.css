@@ -121,9 +121,10 @@
         width: 300px;
 
     }
-    
+
     #fullcard {
         flex-direction: row;
+    
     }
 
    
@@ -147,7 +148,7 @@
     }
 
     .bigpicture {
-        border: 4px solid;
+
         text-align: center;
         background-color: rgb(8, 118, 190);
     }
