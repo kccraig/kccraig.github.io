@@ -15,6 +15,11 @@
     nav button {
         display: none;
     }
+    .bottomnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 
     nav ul li a {
         display: flex;
@@ -145,16 +150,23 @@ border: 3px solid rgb(52,160,170);
         transform: rotate(deg);
         text-shadow: 2px 2px 2px rgb(8,118,190);        ;
         /* letter-spacing: 15px; */
-
-
-
-
     }
 
-
-
-
-    /* END OF THINGS TO DO */
-
+    /* BIGTITLE */
+    .bigtitle {
+        text-align: start;
+        margin: 5px auto 10px 40px;
+        color: rgb(8, 118, 190);
+    }
+    
+    .bigtitle h1 {
+        font-size: 5em;
+        margin: 5px;
+    }
+    
+    .bigtitle h2 {
+        margin: 5px;
+        font-size: 3em;
+    }
 
 }
