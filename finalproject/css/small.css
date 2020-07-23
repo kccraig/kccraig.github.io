@@ -434,8 +434,26 @@ fieldset input {
 .allweather {
     font-family: 'Sriracha', cursive;
 }
-.tablecell {
-background-color: yellow;
+table,
+th,
+td 
+{
+    border: 3px solid  rgb(121,55,183);
+    border-collapse: collapse;
+    font-family: 'Rowdies', cursive;
 }
+
+table {
+    empty-cells: show;
+    background-color: white;
+    height: 300px;
+    width: 75%;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
 
 /* END OF THINGS TO DO */
