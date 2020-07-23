@@ -131,11 +131,6 @@
         padding: 10px;
     }
 
-  
-
-
-
-
     /* THINGS TO DO */
     #thingstodomain {
         width: 75%;
@@ -198,4 +193,5 @@
         justify-content: space-around;
         font-size: 1em;
         }
+      
 }

@@ -288,6 +288,10 @@ fieldset input {
 #submitbutton {
     background-color: rgb(255, 246, 0);
     color: rgb(121, 55, 183);
+    height: 50px;
+    width: 400px;
+    margin: 10px auto 10px auto;
+    font-size: 1.75em;
 }
 
 
