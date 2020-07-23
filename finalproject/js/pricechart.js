@@ -31,7 +31,7 @@ fetch(requestURL)
             maxpeep.textContent = "Maximum Riders " + rentals[i].maxpersons;
             rezpricehalfday.textContent = "Half Day: $" + rentals[i].rezpricehalfday;
             h2.textContent = rentals[i].name;
-            rezprice.textContent = "Rezervation Prices: ";
+            rezprice.textContent = "Reservation Prices: ";
             walkprice.textContent= "Walk-in Prices: ";
             rezpricefullday.textContent = "Full Day $" + rentals[i].rezpricefullday;
             walkinhalfday.textContent = "Half Day: $" + rentals[i].walkinhalfday;
