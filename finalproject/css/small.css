@@ -309,9 +309,8 @@ fieldset input {
 }
 
 #rentalchart {
-    border: 5px solid rgb(121, 55, 183);
+    border: 1px solid rgb(121, 55, 183);
     width: 60%;
-    background-color: white;
     color: rgb(121, 55, 183);
 }
 
@@ -433,6 +432,9 @@ fieldset input {
 
 .allweather {
     font-family: 'Sriracha', cursive;
+}
+.tablecell {
+background-color: yellow;
 }
 
 /* END OF THINGS TO DO */

@@ -107,9 +107,8 @@ fetch(requestURL)
    
         tbl.appendChild(tblBody);
         body.appendChild(tbl);
-        cella.setAttribute('class','double');
-        celld.setAttribute('class','double');
-        celle.setAttribute('class','double');
+       
+        td.setAttribute('class', 'tablecell');
 
         tbl.setAttribute('class', 'pricetable');
         cell5.setAttribute('class', 'tdcell');
