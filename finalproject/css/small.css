@@ -316,6 +316,7 @@ fieldset input {
     margin: 10px auto 10px auto;
     background-color: white;
     justify-content: space-evenly;
+    padding: 30px;
 }
 #indexfleetchart {
     background-color: rgb(52,160,170);
