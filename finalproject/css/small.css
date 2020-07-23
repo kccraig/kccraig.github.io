@@ -368,7 +368,8 @@ fieldset input {
     padding: 30px;
     border: 3px solid blue;
     width: 75%;
-    background-color: rgb(121, 55, 183) height: 50px;
+    background-color: rgb(121, 55, 183) ;
+    height: 50px;
 }
 
 
