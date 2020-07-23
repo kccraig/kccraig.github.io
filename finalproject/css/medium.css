@@ -21,7 +21,7 @@
         justify-content: flex-end;
         border-radius: 5px;
         margin-top: 0;
-       
+
     }
 
     nav ul li a {
@@ -179,6 +179,7 @@
         margin: 5px;
         font-size: 3em;
     }
+
     #fullcard {
         display: flex;
         flex-direction: row;
@@ -186,18 +187,21 @@
         margin: 10px auto 10px auto;
         background-color: white;
     }
+
     .allweather {
         display: flex;
         flex-direction: row;
         font-size: 1em;
-        }
-        .ftable td {
-            border: 2px solid rgb(8,118,190);
-            height: 50px;
-            padding: 10px;
-           
-        }
-        .ftabel {
-            border-collapse: collapse;
-        }
+    }
+
+    .ftable td {
+        border: 2px solid rgb(8, 118, 190);
+        height: 50px;
+        padding: 10px;
+
+    }
+
+    .ftabel {
+        border-collapse: collapse;
+    }
 }
