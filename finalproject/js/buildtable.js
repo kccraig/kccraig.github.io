@@ -115,7 +115,6 @@ fetch(requestURL)
         cell5.setAttribute('class', 'tdcell');
        
 
-        // KATHY YOU ARE GOING TO HAVE TO USE NTH CHILD TO STYLE THESE CELLS
 
 
 
