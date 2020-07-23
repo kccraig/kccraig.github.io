@@ -299,22 +299,27 @@ fieldset input {
 
 .leftside {
     padding: 10px;
+    margin-top: 40px;
 }
 
 
 .rightside {
     /* width: 50%; */
     padding: 10px;
+    text-align: center;
 }
 
 #fullcard {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 4px solid yellow;
-    /* text-align: center; */
     margin: 10px auto 10px auto;
     background-color: white;
+    justify-content: space-evenly;
+}
+#indexfleetchart {
+    background-color: rgb(52,160,170);
+    margin: 10px auto 10px auto;
 }
 
 /* END OF RENTAL PAGE */

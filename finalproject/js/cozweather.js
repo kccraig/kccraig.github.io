@@ -19,7 +19,7 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 var n = weekday[x.getDay()];
 var d = x.getDay() + 1;
-alert(d);
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=3530103&APPID=1f7a3d0a7558f9b813673ce6add7859a&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())

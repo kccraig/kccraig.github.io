@@ -183,5 +183,12 @@
         margin: 5px;
         font-size: 3em;
     }
+    #fullcard {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        /* margin: 10px auto 10px auto; */
+        background-color: white;
+    }
 
 }
