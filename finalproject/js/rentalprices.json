@@ -6,7 +6,7 @@
             "rezpricefullday": 30,
             "walkinhalfday": 25,
             "walkinfullday": 35,
-            "imageurl": "images/bluemetro.jpg"
+            "imageurl": "images/bluemetro200.jpg"
         },
 
         {
@@ -16,7 +16,7 @@
             "rezpricefullday": 40,
             "walkinhalfday": 35,
             "walkinfullday": 45,
-            "imageurl": "images/dioblack.jpg"
+            "imageurl": "images/dioblack200.jpg"
         },
 
         {
@@ -26,7 +26,7 @@
             "rezpricefullday": 50,
             "walkinhalfday": 45,
             "walkinfullday": 55,
-            "imageurl":"images/pcx150.jpg"
+            "imageurl":"images/pcx150_200.jpg"
 
         },
 
@@ -37,7 +37,7 @@
             "rezpricefullday": 70,
             "walkinhalfday": 60,
             "walkinfullday": 80,
-            "imageurl":"images/atvred.jpg"
+            "imageurl":"images/atvred200.jpg"
 
         },
 
@@ -48,7 +48,7 @@
             "rezpricefullday": 100,
             "walkinhalfday": 85,
             "walkinfullday": 125,
-            "imageurl":"images/jeep4door.jpg"
+            "imageurl":"images/jeep4door200.jpg"
 
         },
 
@@ -59,7 +59,7 @@
             "rezpricefullday": 85,
             "walkinhalfday": 70,
             "walkinfullday": 90,
-            "imageurl":"images/white2doorjeep.jpg"
+            "imageurl":"images/white2doorjeep200.jpg"
 
         }
     ]
