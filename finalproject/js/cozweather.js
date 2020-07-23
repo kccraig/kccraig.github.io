@@ -32,6 +32,7 @@ fetch(apiURL)
 
     const humidity = document.querySelector('.humidity');
     humidity.textContent = Math.round(cozinfo.list[0].main.humidity);
+
     
     const fiveday = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
     console.log(fiveday);
@@ -50,7 +51,7 @@ fetch(apiURL)
       }
       document.getElementsByClassName('nextday')[i].textContent = weekday[d];
       d++;
-      document.getElementsByClassName('nowtemp')[i].textContent = fiveday[i].main.temp;
+      document.getElementsByClassName('nowtemp')[i].textContent = Math.round(fiveday[i].main.temp);
     }
 
 })

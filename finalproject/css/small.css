@@ -69,9 +69,11 @@ main {
     width: 300px;
     background-color: white;
     border: 3px solid rgb(52, 160, 170);
+    margin: auto;
+    padding: 5px;
 }
 
-#calltoaction {
+.calltoaction {
     text-align: center;
 
     /* display: inline; */
@@ -89,7 +91,16 @@ main {
 .bigpicture {
     background-color: rgb(8, 118, 190);
     text-align: center;
-    
+
+}
+
+.allweather {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftable td {
+    border: 2px solid rgb(8,118,190);
 }
 
 /* END OF INDEX PAGE */
@@ -131,12 +142,14 @@ nav ul li {
 .bottomnav {
     display: flex;
     flex-direction: column;
+    
 }
 
 .bottomnav li {
     font-size: .75em;
     padding: 2px;
     background-color: rgb(121, 55, 183);
+    
 }
 
 .bottomnav a {
@@ -318,8 +331,9 @@ fieldset input {
     justify-content: space-evenly;
     padding: 30px;
 }
+
 #indexfleetchart {
-    background-color: rgb(52,160,170);
+    background-color: rgb(52, 160, 170);
     margin: 10px auto 10px auto;
 }
 
@@ -401,15 +415,21 @@ fieldset input {
     margin-right: auto;
     padding: 20px;
 }
+
 .popcorn {
-border: 4px solid yellow;
-margin-left: auto;
-margin-right: auto;
+    border: 4px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .pricetable {
     border: 4px solid purple;
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
+}
+
+.allweather {
+    font-family: 'Sriracha', cursive;
 }
 
 /* END OF THINGS TO DO */

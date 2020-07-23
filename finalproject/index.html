@@ -41,14 +41,14 @@
     </header>
     <main>
         <section class="bigpicture">
+            <h2 class="calltoaction">Rent your Cozumel fun now!</h2>
             <picture id="heropic">
                 <source media="(min-width:650px)" srcset="images/CozumelMexico900.jpg">
                 <source media="(min-width:465px)" srcset="images/CozumelMexico500.jpg">
                 <img src="images/CozumelMexico300.jpg" alt="sea turtle" style="width:auto;">
             </picture>
         </section>
-
-        <section>
+        <section class="allweather">
             <div class="cweatherbox">
                 <h4>Current Weather on Cozumel</h4>
                 <ul>
@@ -57,44 +57,39 @@
                     <li>Feels Like: <span class='feelslike'></span>&deg; F</li>
                 </ul>
             </div>
+            <div id="forecastbackground">
+                <h3>Your Five Day Weather Forecast</h3>
+                <table class="ftable">
+               
+                    <tr>
+                        <td><span class="nextday"></span></td>
+                        <td><span class="nextday"></span></td>
+                        <td><span class="nextday"></span></td>
+                        <td><span class="nextday"></span></td>
+                        <td><span class="nextday"></span></td>
+                    </tr>
+                    <tr>
+                        <td><img class="ticon"></td>
+                        <td><img class="ticon"></td>
+                        <td><img class="ticon"></td>
+                        <td><img class="ticon"></td>
+                        <td><img class="ticon"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+                        <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+                        <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+                        <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+                        <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
+                    </tr>
+                   
+                </table>
+            </div>
         </section>
-        <div id="forecastbackground">
-             <h3>Your Five Day Weather Forecast</h3>
-            <table class="ftable">
-                <tr>
-                    <td><span class="foretemp"></span></td>
-                    <td><span class="foretemp"></span></td>
-                    <td><span class="foretemp"></span></td>
-                    <td><span class="foretemp"></span></td>
-                    <td><span class="foretemp"></span></td>
-                </tr>
-                <tr>
-                    <td><span class="nextday"></span></td>
-                    <td><span class="nextday"></span></td>
-                    <td><span class="nextday"></span></td>
-                    <td><span class="nextday"></span></td>
-                    <td><span class="nextday"></span></td>
-                </tr>
-                <tr>
-                    <td><img class="ticon"></td>
-                    <td><img class="ticon"></td>
-                    <td><img class="ticon"></td>
-                    <td><img class="ticon"></td>
-                    <td><img class="ticon"></td>
-                </tr>
-                <tr>
-                    <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
-                    <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
-                    <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
-                    <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
-                    <td><span class="nowtemp">Temp Goes Here</span>&#176;</td>
-                </tr>
-            </table>
-        </div>
         <div id="indexfleetchart">
-        <h2>Select from our fleet of fun and fast vehicles!</h2>
-        <div class="rentalpricechart"></div>
-    </div>
+            <h2>Select from our fleet of fun and fast vehicles!</h2>
+            <div class="rentalpricechart"></div>
+        </div>
     </main>
     <footer>
         <h3>Scoots</h3>
