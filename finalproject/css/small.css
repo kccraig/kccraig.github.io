@@ -346,15 +346,15 @@ fieldset input {
 /* CONTACT PAGE */
 .commentbox {
     height: 200px;
-    border: 2px solid blue;
+
 }
 
 .contactform {
-    border: 3px solid green;
+   
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: 20px auto 20px auto;
+    margin: 20px auto 50px auto;
     padding: 20px;
     color: white;
     background-color: rgb(8, 118, 190);
@@ -363,13 +363,13 @@ fieldset input {
 
 .contact {
     text-align: center;
-    margin-top: -2px;
     margin: -2px auto 2px auto;
     padding: 30px;
     border: 3px solid blue;
     width: 75%;
     background-color: rgb(121, 55, 183) ;
     height: 50px;
+
 }
 
 
@@ -435,6 +435,16 @@ fieldset input {
     font-family: 'Sriracha', cursive;
 }
 
-
+.contact {
+    height: 400px;
+}
+.thanksforwriting {
+height: 300px;
+text-align: center;
+padding-top: 50px;
+color: white;
+font-family: 'Rowdies', cursive;
+border-radius: 10px;
+}
 
 /* END OF THINGS TO DO */
